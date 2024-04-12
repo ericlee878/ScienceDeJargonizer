@@ -7,9 +7,10 @@ import arxiv
 import time 
 import requests
 from bs4 import BeautifulSoup
+import json
 
 ## array that holds all the abstracts of the articles
-abstracts = []
+id_to_texts_map = {}
 
 
 
@@ -28,7 +29,9 @@ dl = soup.find_all('dl')
 # Find all <dt> elements in the <dl> element
 dt_list = dl[0].find_all('dt') 
 # dt = dt_list[0]
+id = 0
 for dt in dt_list:
+    first_run = True
     # Find all <a> tags within this <dt> that have an 'href' attribute
     a_tags = dt.find_all('a', href=True)
     # Finds the <a> tag with link to paper
@@ -55,24 +58,18 @@ for dt in dt_list:
         # Finds all <div> elements with the class '
         p_list = html_soup.find_all('p', class_='ltx_p')
         for p in p_list:
-            print(p.get_text())
-            abstracts.append(p.get_text())
-            print("----------------------------------")
-    
+            if first_run:
+                id_to_texts_map[id] = p.get_text()
+            else:
+                id_to_texts_map[id] = id_to_texts_map[id] + p.get_text()
+            first_run = False
+        id = id + 1
 
-        # # Find the <p> tag by its class (if needed)
-        # p_tags = html_soup.findAll('p', class_='ltx_p')
-        # print(len(p_tags))
-        # for p_tag in p_tags:
-        #     text = p_tag.string
-        #     print(text)
 
-        ##abstract = p_tags.get_text()
-        ##abstracts.append(abstract)
+# Writing to sample.json
+with open("id_to_text_raw.json", "w") as outfile:
+    json.dump(id_to_texts_map, outfile, indent=4)
 
-        # Finds all <div> elements with the class '
-        ##div_elements = soup.find_all('div', class_='ltx_page_content')
-        ##print(len(div_elements))
 
 ## how articles have paragraphs organized:
 ## - ltx_p
