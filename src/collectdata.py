@@ -48,7 +48,7 @@ for dt in dt_list:
         html_href = paper_a_tag['href']
         # Send HTTP request to the URL
         html_response = requests.get(html_href)
-        print(html_href)
+        ##print(html_href)
         # Parse the HTML content
         html_soup = BeautifulSoup(html_response.text, 'html.parser')
 
@@ -59,7 +59,6 @@ for dt in dt_list:
             abstracts.append(p.get_text())
             print("----------------------------------")
     
-print(abstracts[0])
 
         # # Find the <p> tag by its class (if needed)
         # p_tags = html_soup.findAll('p', class_='ltx_p')
