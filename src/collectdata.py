@@ -62,6 +62,7 @@ for id in arxiv_ids:
 
     # ADD TO DICTIONARY
     if title is not None and len(authors) > 0: ## if there is a title and author
+        ### Could also add if comments say paper has been published here ###
         article['title'] = title
         article['authors'] = authors
         article['comments'] = comments
