@@ -57,7 +57,7 @@ def get_arxiv_ids(start, end):
     return arxiv_ids_to_mine
 
 
-def mine_arxiv_metadata(arxiv_ids_to_mine, start, end):
+def mine_arxiv_metadata(arxiv_ids_to_mine, start=0, end=0):
 
     '''
     Uses the arXiv API to get the full paper metadata (excluding fulltext). 
