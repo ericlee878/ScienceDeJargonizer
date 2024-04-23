@@ -1,17 +1,48 @@
-## main file for collecting data ##
+### ArXiv Metadata Collection ###
 
+# Imports
 import time 
 import random
 import requests
 from bs4 import BeautifulSoup
 import json
-from old_utils import *
+from src.utils import get_arxiv_ids
+from pathlib import Path
+import argparse
 
-# dictionary that stores the metadata
+# Get basic directory
+home_dir = Path.cwd()
+
+############################################################
+###################### ACCEPT INPUTS #######################
+############################################################
+
+# Create parser for time range
+parser = argparse.ArgumentParser(
+    description="Mine article metadata from arXiv CS + some specific sub-categories.")
+parser.add_argument("start", type=str, help="Start Date for arXiv publications: YYYY-MM-DD format.")
+parser.add_argument("end", type=str, help="End Date for arXiv publications: YYYY-MM-DD format.")
+args = parser.parse_args()
+
+# Desired time range
+start = args.start
+end = args.end
+
+# Double check the date
+assert start<end, "Re-enter dates such that start date is before the end date."
+
+# Generate a filename for all metadata files from start and end date
+template_filename = "".join(start[2:].split('-')) + '_' + "".join(end[2:].split('-'))
+
+############################################################
+######################## GET DATA ##########################
+############################################################
+
+# dictionary that stores the arXiv metadata
 metadatas = {}
 
-# gets the ids of the articles in specific dateframe
-arxiv_ids = get_arxiv_ids("2024-03-01", "2024-03-01")
+# gets the ids of the articles in specific timeframe
+arxiv_ids = get_arxiv_ids(start, end)
 
 # iterates through all article links
 for id in arxiv_ids:
@@ -74,17 +105,13 @@ for id in arxiv_ids:
     # Sleep for the random interval between 0 and 0.1
     time.sleep(random.random() / 10)
 
-# Writing metadata to metadata_raw.json
-with open('raw_metadata.json', 'w') as json_file:
+############################################################
+######################## WRITE DATA ########################
+############################################################
+
+# Writing metadata out
+arxiv_filepath = home_dir / 'data' / 'raw' / (template_filename+'_arxiv_metadata.json')
+with open(arxiv_filepath, 'w') as json_file:
     json.dump(metadatas, json_file, indent=4)
-    
-
-        
-            
-
-
-
-
-
 
 
