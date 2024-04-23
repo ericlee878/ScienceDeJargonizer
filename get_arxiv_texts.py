@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 import argparse
-from utils import is_peer_reviwed
+from utils import is_peer_reviewed
 
 # Get basic directory
 home_dir = Path.cwd()

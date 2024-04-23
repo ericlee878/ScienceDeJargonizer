@@ -53,7 +53,7 @@ def get_arxiv_ids(start, end):
     return arxiv_ids_to_mine
 
 
-def is_peer_reviwed(comment):
+def is_peer_reviewed(comment):
 
     '''
     Parameters:
