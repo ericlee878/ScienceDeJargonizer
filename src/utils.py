@@ -3,6 +3,8 @@ import pandas as pd
 import arxivscraper
 import arxiv
 import time 
+import re 
+import urllib.request
 
 def get_arxiv_ids(start, end):
 
@@ -52,7 +54,6 @@ def get_arxiv_ids(start, end):
 
     return arxiv_ids_to_mine
 
-
 def is_peer_reviewed(comment):
 
     '''
@@ -74,4 +75,19 @@ def is_peer_reviewed(comment):
     # If a match is found, return True, otherwise return False
     return bool(match)
 
-
+def download_pdf(arxiv_id, output_folder):
+    # Construct the URL for the PDF + where it will be saved
+    pdf_url = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
+    pdf_filepath = output_folder / f"{arxiv_id}.pdf"
+    try:
+        # Open the URL
+        with urllib.request.urlopen(pdf_url) as response:
+            # Open a file to write the PDF contents
+            with open(pdf_filepath, 'wb') as f:
+                # Read the response content and write it to the file
+                f.write(response.read())
+            # Print a success message if the PDF is downloaded successfully
+            print(f"PDF downloaded for arXiv ID: {arxiv_id}")
+    except Exception as e:
+        # Print an error message if there is any exception during the download process
+        print(f"Error downloading PDF for arXiv ID: {arxiv_id}. Error: {e}")
