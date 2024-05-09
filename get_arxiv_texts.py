@@ -21,7 +21,7 @@ arxiv_daterange = "240301_240305"
 arxiv_metadata_filepath = home_dir / 'data' / 'arxiv_metadata' / 'all' / (arxiv_daterange + '_all_arxiv_metadata.json')
 
 # Mkdir for pdf output
-output_folder = home_dir / 'data' / 'arxiv_metadata' / 'arxiv_pdfs' / arxiv_daterange 
+output_folder = home_dir / 'data' / 'arxiv_pdfs' / arxiv_daterange 
 output_folder.mkdir(parents=True, exist_ok=True) 
 
 ############################################################

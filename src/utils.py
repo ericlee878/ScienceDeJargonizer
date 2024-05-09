@@ -36,6 +36,8 @@ def get_arxiv_ids(start, end):
 
     print("Initial bulk of arXiv CS articles in date range discovered - includes publications and updates.\n\n")
 
+    # Cannot use this as is because it does not collect comments + makes a bunch of lower-casing and formatting decisions
+
     # Filter the outputs to get articles only in desired sub-categories
     arxiv_ids_to_mine = []
 
