@@ -16,11 +16,11 @@ def get_arxiv_ids(start, end):
     Returns list of arXiv IDs. 
     '''
 
-    # Desired fields
-    desired_fields = [
-        'cs.ai', 'cs.cl', 'cs.cv', 'cs.cy', 'cs.hc', 
-        'cs.ir', 'cs.lg', 'cs.ni', 'cs.ro', 'cs.si', 
-    ]
+    # # Desired fields
+    # desired_fields = [
+    #     'cs.ai', 'cs.cl', 'cs.cv', 'cs.cy', 'cs.hc', 
+    #     'cs.ir', 'cs.lg', 'cs.ni', 'cs.ro', 'cs.si', 
+    # ]
 
     # Create scraper to get all article IDs in our desired time range - 
     # Collected articles include submissions and resubmissions
@@ -39,18 +39,21 @@ def get_arxiv_ids(start, end):
     # Filter the outputs to get articles only in desired sub-categories
     arxiv_ids_to_mine = []
 
-    # Iterate and run category check
+    # Iterate over outputs and append the ids to a list -- initially we were filtering out categories here but now we've decided to do it later.
     for time_range_article in scraper_output:
-        
-        # List of all categories should be a subset of the desired fields list 
-        cat_list = time_range_article['categories'].split(' ')
-        
-        # All author-assigned categories should be present in our list of desied categories
-        if set(cat_list).issubset(set(desired_fields)):
-            arxiv_ids_to_mine.append(time_range_article['id'])
 
-    print("Initial bulk of CS articles in date range filtered by categories!")
-    print("Articles to mine using arXiv API, post filtering: "+str(len(arxiv_ids_to_mine))+"\n\n")
+        # Just append
+        arxiv_ids_to_mine.append(time_range_article['id'])
+        
+        # # List of all categories should be a subset of the desired fields list 
+        # cat_list = time_range_article['categories'].split(' ')
+        
+        # # All author-assigned categories should be present in our list of desied categories
+        # if set(cat_list).issubset(set(desired_fields)):
+        #     arxiv_ids_to_mine.append(time_range_article['id'])
+
+    # print("Initial bulk of CS articles in date range filtered by categories!")
+    print("Articles to mine using arXiv API, post filtering on CS category and dates: "+str(len(arxiv_ids_to_mine))+"\n\n")
 
     return arxiv_ids_to_mine
 
@@ -74,6 +77,20 @@ def is_peer_reviewed(comment):
     
     # If a match is found, return True, otherwise return False
     return bool(match)
+
+def is_in_HC_CY(primary_category):
+    '''
+    Parameters:
+    ----------------
+    primary_category: String, names the primary category of the work
+
+    Returns:
+    ----------------
+    in_HC_CY: Boolean, True or False, depending on the primary_category
+    '''
+
+    return primary_category in ["cs.CY", "cs.HC"]
+
 
 def download_pdf(arxiv_id, output_folder):
     # Construct the URL for the PDF + where it will be saved
