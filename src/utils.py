@@ -4,25 +4,29 @@ import arxivscraper
 import arxiv
 import time 
 import re 
-import urllib.request
+import urllib, urllib.request
+import random
+import requests
+import xml.etree.ElementTree as ET
 
-def get_arxiv_ids(start, end):
+def get_arxiv_ids(start, end, primary_cats=[]):
 
     '''
-    Get the arXiv IDs of CS papers that were either published or updated in the specified
-    time range, and belong to our desired list of categories. Uses external, unofficial 
-    arxivscraper to obtain IDs in the date range.
+    Parameters:
+    ----------------
+    start: String, the start date for papers desired
+    end: String, the end date for papers desired
+    primary_cats: List, optional, primary categories for desired papers. E.g., ['cs.ai', 'cs.cl', 'cs.cv', 'cs.cy',]
 
-    Returns list of arXiv IDs. 
+    Uses arxivscraper to obtain IDs in the date range.
+
+    Returns:
+    ----------------
+    arxiv_ids_to_mine: arXiv IDs of CS papers that were either published or updated in the specified
+    time range, and belong to a desired list of primary categories. 
     '''
 
-    # # Desired fields
-    # desired_fields = [
-    #     'cs.ai', 'cs.cl', 'cs.cv', 'cs.cy', 'cs.hc', 
-    #     'cs.ir', 'cs.lg', 'cs.ni', 'cs.ro', 'cs.si', 
-    # ]
-
-    # Create scraper to get all article IDs in our desired time range - 
+    # Create scraper object to get all article IDs in desired time range - 
     # Collected articles include submissions and resubmissions
     scraper = arxivscraper.Scraper(
         category='cs', 
@@ -36,28 +40,126 @@ def get_arxiv_ids(start, end):
 
     print("Initial bulk of arXiv CS articles in date range discovered - includes publications and updates.\n\n")
 
-    # Cannot use this as is because it does not collect comments + makes a bunch of lower-casing and formatting decisions
+    # Cannot use this output as is because it does not collect comments + makes a bunch of lower-casing and formatting decisions that I would avoid. 
+    # Just that it preconfigures the search and the date stuff very well.
 
     # Filter the outputs to get articles only in desired sub-categories
-    arxiv_ids_to_mine = []
-
-    # Iterate over outputs and append the ids to a list -- initially we were filtering out categories here but now we've decided to do it later.
-    for time_range_article in scraper_output:
-
-        # Just append
-        arxiv_ids_to_mine.append(time_range_article['id'])
-        
-        # # List of all categories should be a subset of the desired fields list 
-        # cat_list = time_range_article['categories'].split(' ')
-        
-        # # All author-assigned categories should be present in our list of desied categories
-        # if set(cat_list).issubset(set(desired_fields)):
-        #     arxiv_ids_to_mine.append(time_range_article['id'])
+    arxiv_ids_to_mine = [
+        article['id']
+        for article in scraper_output
+        if not primary_cats or article['categories'].split(' ')[0] in primary_cats
+    ]
 
     # print("Initial bulk of CS articles in date range filtered by categories!")
     print("Articles to mine using arXiv API, post filtering on CS category and dates: "+str(len(arxiv_ids_to_mine))+"\n\n")
 
     return arxiv_ids_to_mine
+
+def get_arxiv_metadata(arxiv_ids_to_mine):
+
+    '''
+    Parameters:
+    ----------------
+    arxiv_ids_to_mine: List, arXiv ids that need to be mined
+
+    Uses arXiv API to access metadata of arXiv articles.
+
+    Returns:
+    ----------------
+    arxiv_metadatas: Dict, contains sub-dicts that list off articles and their metadata.
+    '''
+
+    # Split arxiv_ids into more managable chunks, and turn into strings
+    arxiv_id_chunks = []
+    curr_list = []
+    for i in range(len(arxiv_ids_to_mine)):
+        if i % 500 == 0 and i != 0:
+            # turn arxiv_id into string 
+            comma_delimited_list = ",".join(curr_list)
+            arxiv_id_chunks.append(comma_delimited_list)
+            curr_list = []
+            curr_list.append(arxiv_ids_to_mine[i])
+        else:
+            curr_list.append(arxiv_ids_to_mine[i])
+
+    # turn last arxiv_id list into string and add
+    comma_delimited_list = ",".join(curr_list)
+    arxiv_id_chunks.append(comma_delimited_list)
+
+    # Dictionary to store metadata
+    arxiv_metadatas = {}
+
+    # Iterate over the chunks
+    for id_list in arxiv_id_chunks:
+
+        print("Getting upto 500 article metadatas ...")
+        url = 'http://export.arxiv.org/api/query?start=0&sortBy=lastUpdatedDate'
+        url = url + "&id_list=" + id_list
+
+        data = urllib.request.urlopen(url)
+        ## print(data.read().decode('utf-8'))
+        response = requests.get(url)
+        # root = ET.fromstring(data)
+
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Parse the content of the response
+            data = response.content  # This gets the bytes content
+            # or, if the content is text and not bytes:
+            # data = response.text
+
+            # Parse the XML data
+            root = ET.fromstring(data)
+
+        else:
+            print(response.content)
+
+        for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
+            
+            article_dict = {}
+            article_dict['url'] = entry.find('{http://www.w3.org/2005/Atom}id').text
+            article_dict['title'] = entry.find('{http://www.w3.org/2005/Atom}title').text
+            article_dict['summary'] = entry.find('{http://www.w3.org/2005/Atom}summary').text.strip()
+            article_dict['updated'] = entry.find('{http://www.w3.org/2005/Atom}updated').text
+            article_dict['published'] = entry.find('{http://www.w3.org/2005/Atom}published').text
+
+            # Authors
+            authors = []
+            for author in entry.findall('{http://www.w3.org/2005/Atom}author'):
+                authors.append(author.find('{http://www.w3.org/2005/Atom}name').text)
+            article_dict['authors'] = authors
+
+            # Comments
+            comment = entry.find('{http://arxiv.org/schemas/atom}comment')
+            if comment is not None:
+                article_dict['comments'] = comment.text
+
+            # Categories
+            categories = []
+            for category in entry.findall('{http://www.w3.org/2005/Atom}category'):
+                categories.append(category.attrib['term'])
+            article_dict['categories'] = categories
+
+            # Primary category
+            primary_category = entry.find('{http://arxiv.org/schemas/atom}primary_category')
+            if primary_category is not None:
+                article_dict['primary_category'] = primary_category.attrib['term']
+
+            # DOI and Journal references
+            doi = entry.find('{http://arxiv.org/schemas/atom}doi')
+            if doi is not None:
+                article_dict['doi'] = doi.text
+
+            journal_ref = entry.find('{http://arxiv.org/schemas/atom}journal_ref')
+            if journal_ref is not None:
+                article_dict['journal_ref'] = journal_ref.text
+
+            arxiv_metadatas[article_dict['id']] = article_dict
+
+            # print("Got article " + str(article_dict['id']))
+
+    return arxiv_metadatas
+
 
 def is_peer_reviewed(comment):
 
@@ -79,19 +181,6 @@ def is_peer_reviewed(comment):
     
     # If a match is found, return True, otherwise return False
     return bool(match)
-
-def is_in_HC_CY(primary_category):
-    '''
-    Parameters:
-    ----------------
-    primary_category: String, names the primary category of the work
-
-    Returns:
-    ----------------
-    in_HC_CY: Boolean, True or False, depending on the primary_category
-    '''
-
-    return primary_category in ["cs.CY", "cs.HC"]
 
 
 def download_pdf(arxiv_id, output_folder):
