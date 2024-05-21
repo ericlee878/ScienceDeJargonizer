@@ -51,6 +51,21 @@ def get_arxiv_ids(start, end, primary_cats=[]):
 
     return arxiv_ids_to_mine
 
+# def get_arxiv_metadata(arxiv_ids_to_mine):
+
+#     '''
+#     Parameters:
+#     ----------------
+#     arxiv_ids_to_mine: List, arXiv ids that need to be mined
+
+#     Uses arXiv API to access metadata of arXiv articles.
+
+#     Returns:
+#     ----------------
+#     arxiv_metadatas: Dict, contains sub-dicts that list off articles and their metadata.
+#     '''
+
+
 def get_arxiv_metadata(arxiv_ids_to_mine):
 
     '''
@@ -65,11 +80,11 @@ def get_arxiv_metadata(arxiv_ids_to_mine):
     arxiv_metadatas: Dict, contains sub-dicts that list off articles and their metadata.
     '''
 
-    # Split arxiv_ids into more managable chunks, and turn into strings
+    # Split arxiv_ids into more managable chunks (size=10, removes need for pagination), and turn into strings
     arxiv_id_chunks = []
     curr_list = []
     for i in range(len(arxiv_ids_to_mine)):
-        if i % 500 == 0 and i != 0:
+        if i % 10 == 0 and i != 0:
             # turn arxiv_id into string 
             comma_delimited_list = ",".join(curr_list)
             arxiv_id_chunks.append(comma_delimited_list)
@@ -88,7 +103,6 @@ def get_arxiv_metadata(arxiv_ids_to_mine):
     # Iterate over the chunks
     for id_list in arxiv_id_chunks:
 
-        print("Getting upto 500 article metadatas ...")
         url = 'http://export.arxiv.org/api/query?start=0&sortBy=lastUpdatedDate'
         url = url + "&id_list=" + id_list
 
@@ -153,17 +167,15 @@ def get_arxiv_metadata(arxiv_ids_to_mine):
 
             arxiv_metadatas[article_id] = article_dict
 
-            # print("Got article " + str(article_dict['id']))
-
     return arxiv_metadatas
 
 
-def is_peer_reviewed(comment):
+def is_peer_reviewed(comments):
 
     '''
     Parameters:
     ----------------
-    comment: String, contains any author comments posted along with the arXiv metadata
+    comments: String, contains any author comments posted along with the arXiv metadata
 
     Returns:
     ----------------
@@ -174,7 +186,7 @@ def is_peer_reviewed(comment):
     pattern = r'(accept.*|publish.*|present.*|2023|2024|2025)'
     
     # Use re.search to find if the pattern matches anywhere in the text
-    match = re.search(pattern, comment, re.IGNORECASE)
+    match = re.search(pattern, comments, re.IGNORECASE)
     
     # If a match is found, return True, otherwise return False
     return bool(match)

@@ -1,0 +1,4 @@
+2024-05-21 09:53:46,766 - Logfile created: /Users/sjn0164/Library/CloudStorage/OneDrive-NorthwesternUniversity/projects_work/ScienceDeJargonizer/logs/get_arxiv_metadata_logfile_20240521_095346.log
+2024-05-21 09:53:46,766 - Collecting arXiv metadata in time range: 2024-03-10 to 2024-03-20
+2024-05-21 09:53:46,766 - Collecting arXiv metadata with primary categories: []
+2024-05-21 10:06:55,781 - Saved dataset!

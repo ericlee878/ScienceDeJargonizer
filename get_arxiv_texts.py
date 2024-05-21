@@ -59,8 +59,8 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
         # Submit each download task to the executor and store the future object
         futures.append(executor.submit(download_pdf, arxiv_id, output_folder))
 
-        # Sleep for the random interval between 0 and 0.2s
-        time.sleep(random.random() / 5)
+        # Sleep for the random interval between 0 and 1s
+        time.sleep(random.random())
 
     # Wait for all tasks to complete and gather the results
     for future in concurrent.futures.as_completed(futures):
