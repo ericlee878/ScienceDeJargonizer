@@ -1,0 +1,133 @@
+2024-05-21 17:40:46,478 - Logfile created: /Users/sjn0164/Library/CloudStorage/OneDrive-NorthwesternUniversity/projects_work/ScienceDeJargonizer/logs/get_arxiv_texts_logfile_20240521_174046.log
+2024-05-21 17:40:46,478 - ArXiv metadata filepath: /Users/sjn0164/Library/CloudStorage/OneDrive-NorthwesternUniversity/projects_work/ScienceDeJargonizer/data/arxiv_metadata/filtered/march_2024_ai_hc_cy_peer_reviewed_sampled.json
+2024-05-21 17:40:46,480 - Count of papers in dataset: 64
+2024-05-21 17:40:46,489 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.16190v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:46,765 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2307.05300v4&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:46,842 - Got first page: 1 of 1 total results
+2024-05-21 17:40:46,926 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.16750v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:47,066 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2311.10112v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:47,103 - Got first page: 1 of 1 total results
+2024-05-21 17:40:47,170 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2310.08992v3&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:47,269 - Got first page: 1 of 1 total results
+2024-05-21 17:40:47,421 - Got first page: 1 of 1 total results
+2024-05-21 17:40:47,473 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2402.09565v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:47,503 - Got first page: 1 of 1 total results
+2024-05-21 17:40:47,508 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2007.00714v4&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:47,812 - Got first page: 1 of 1 total results
+2024-05-21 17:40:47,846 - Got first page: 1 of 1 total results
+2024-05-21 17:40:48,436 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2311.02760v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:48,618 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.17358v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:48,836 - Got first page: 1 of 1 total results
+2024-05-21 17:40:48,880 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.04124v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:48,962 - Got first page: 1 of 1 total results
+2024-05-21 17:40:49,217 - Got first page: 1 of 1 total results
+2024-05-21 17:40:49,320 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2402.07398v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:49,656 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2309.03685v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:49,672 - Got first page: 1 of 1 total results
+2024-05-21 17:40:50,003 - Got first page: 1 of 1 total results
+2024-05-21 17:40:50,416 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2301.13755v3&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:50,475 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2312.14106v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:50,772 - Got first page: 1 of 1 total results
+2024-05-21 17:40:50,832 - Got first page: 1 of 1 total results
+2024-05-21 17:40:50,964 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2312.00812v4&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:51,311 - Got first page: 1 of 1 total results
+2024-05-21 17:40:51,400 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.04732v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:51,758 - Got first page: 1 of 1 total results
+2024-05-21 17:40:52,101 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2307.03067v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:52,453 - Got first page: 1 of 1 total results
+2024-05-21 17:40:52,807 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.17873v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:52,894 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.15875v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:53,149 - Got first page: 1 of 1 total results
+2024-05-21 17:40:53,234 - Got first page: 1 of 1 total results
+2024-05-21 17:40:53,317 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.16508v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:53,699 - Got first page: 1 of 1 total results
+2024-05-21 17:40:53,759 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.16289v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:54,110 - Got first page: 1 of 1 total results
+2024-05-21 17:40:54,284 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.17419v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:54,639 - Got first page: 1 of 1 total results
+2024-05-21 17:40:54,650 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2402.01786v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:54,919 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.10112v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:55,005 - Got first page: 1 of 1 total results
+2024-05-21 17:40:55,149 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.07131v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:55,274 - Got first page: 1 of 1 total results
+2024-05-21 17:40:55,558 - Got first page: 1 of 1 total results
+2024-05-21 17:40:55,745 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.05112v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:56,113 - Got first page: 1 of 1 total results
+2024-05-21 17:40:56,433 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.00431v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:56,636 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.17911v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:56,778 - Got first page: 1 of 1 total results
+2024-05-21 17:40:56,977 - Got first page: 1 of 1 total results
+2024-05-21 17:40:57,484 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.11952v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:57,812 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.08451v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:57,931 - Got first page: 1 of 1 total results
+2024-05-21 17:40:58,282 - Got first page: 1 of 1 total results
+2024-05-21 17:40:58,645 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.14686v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:59,327 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.07082v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:59,344 - Got first page: 1 of 1 total results
+2024-05-21 17:40:59,752 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2401.09210v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:40:59,771 - Got first page: 1 of 1 total results
+2024-05-21 17:40:59,856 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2308.10148v3&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:00,204 - Got first page: 1 of 1 total results
+2024-05-21 17:41:00,300 - Got first page: 1 of 1 total results
+2024-05-21 17:41:00,851 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.02908v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:01,315 - Got first page: 1 of 1 total results
+2024-05-21 17:41:01,705 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2310.06155v3&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:01,874 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.01783v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:02,152 - Got first page: 1 of 1 total results
+2024-05-21 17:41:02,318 - Got first page: 1 of 1 total results
+2024-05-21 17:41:02,361 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.08940v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:02,803 - Got first page: 1 of 1 total results
+2024-05-21 17:41:02,821 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.10851v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:02,836 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.04760v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:03,269 - Got first page: 1 of 1 total results
+2024-05-21 17:41:03,280 - Got first page: 1 of 1 total results
+2024-05-21 17:41:03,602 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.09308v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:04,048 - Got first page: 1 of 1 total results
+2024-05-21 17:41:04,582 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.02928v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:05,054 - Got first page: 1 of 1 total results
+2024-05-21 17:41:05,553 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.07997v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:05,561 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06267v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:05,999 - Got first page: 1 of 1 total results
+2024-05-21 17:41:06,010 - Got first page: 1 of 1 total results
+2024-05-21 17:41:06,461 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06039v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:06,909 - Got first page: 1 of 1 total results
+2024-05-21 17:41:07,209 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06823v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:07,528 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2402.09494v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:07,649 - Got first page: 1 of 1 total results
+2024-05-21 17:41:07,989 - Got first page: 1 of 1 total results
+2024-05-21 17:41:08,056 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06431v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:08,478 - Got first page: 1 of 1 total results
+2024-05-21 17:41:08,736 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06034v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:09,145 - Got first page: 1 of 1 total results
+2024-05-21 17:41:09,148 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.06651v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:09,534 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.08041v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:09,564 - Got first page: 1 of 1 total results
+2024-05-21 17:41:09,942 - Got first page: 1 of 1 total results
+2024-05-21 17:41:10,054 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.12344v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:10,209 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.19436v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:10,487 - Got first page: 1 of 1 total results
+2024-05-21 17:41:10,632 - Got first page: 1 of 1 total results
+2024-05-21 17:41:11,126 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2401.10838v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:11,556 - Got first page: 1 of 1 total results
+2024-05-21 17:41:11,973 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.16018v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:12,013 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.03822v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:12,396 - Got first page: 1 of 1 total results
+2024-05-21 17:41:12,430 - Got first page: 1 of 1 total results
+2024-05-21 17:41:12,503 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.08057v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:12,919 - Got first page: 1 of 1 total results
+2024-05-21 17:41:12,982 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.12730v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:13,391 - Got first page: 1 of 1 total results
+2024-05-21 17:41:13,863 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.18173v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:14,201 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.01697v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:14,269 - Got first page: 1 of 1 total results
+2024-05-21 17:41:14,599 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.01055v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:14,620 - Got first page: 1 of 1 total results
+2024-05-21 17:41:15,034 - Got first page: 1 of 1 total results
+2024-05-21 17:41:15,251 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2305.11927v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:15,914 - Got first page: 1 of 1 total results
+2024-05-21 17:41:16,235 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2403.00632v1&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:16,655 - Got first page: 1 of 1 total results
+2024-05-21 17:41:16,709 - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2309.15723v2&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-05-21 17:41:17,118 - Got first page: 1 of 1 total results
+2024-05-21 17:42:03,942 - Download process completed for 64 papers.
+2024-05-21 17:42:03,943 - PDFs saved to: /Users/sjn0164/Library/CloudStorage/OneDrive-NorthwesternUniversity/projects_work/ScienceDeJargonizer/data/arxiv_pdfs/march_2024_ai_hc_cy_peer_reviewed_sampled

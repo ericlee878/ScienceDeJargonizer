@@ -12,20 +12,55 @@ import urllib.request
 import concurrent.futures
 import time
 import random
+import logging
+from datetime import datetime
 
 # Get basic directory
 home_dir = Path.cwd()
 
-# Setup the right dates for input
-arxiv_daterange = "240301_240305"
-arxiv_metadata_filepath = home_dir / 'data' / 'arxiv_metadata' / 'all' / (arxiv_daterange + '_all_arxiv_metadata.json')
+############################################################
+###################### SETUP LOGGING #######################
+############################################################
 
-# Mkdir for pdf output
-output_folder = home_dir / 'data' / 'arxiv_pdfs' / arxiv_daterange 
-output_folder.mkdir(parents=True, exist_ok=True) 
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+log_filename = home_dir / "logs" / f"get_arxiv_texts_logfile_{timestamp}.log"
+logging.basicConfig(
+    filename=log_filename,
+    level=logging.INFO,
+    format='%(asctime)s - %(message)s'
+)
 
 ############################################################
 ###################### ACCEPT INPUTS #######################
+############################################################
+
+# Ask for the filepath to the arXiv metadata for which to download fulltexts
+
+# Create parser 
+parser = argparse.ArgumentParser(
+    description="Mine fulltexts from arXiv CS.")
+parser.add_argument(
+    "arxiv_metadata_filepath",
+    type=str, 
+    help="Absolute filepath to the arXiv metadata JSON file.")
+args = parser.parse_args()
+
+# Extract args
+arxiv_metadata_filepath = Path(args.arxiv_metadata_filepath)
+
+# Check that the file exists
+assert arxiv_metadata_filepath.exists(), "File does not exist. Please enter a valid filepath."
+
+# Create a folder for the output PDFs
+output_folder = home_dir / 'data' / 'arxiv_pdfs' / arxiv_metadata_filepath.stem
+output_folder.mkdir(parents=True, exist_ok=True)
+
+# Log the logfile and the arXiv metadata filepath
+logging.info(f"Logfile created: {log_filename}")
+logging.info(f"ArXiv metadata filepath: {arxiv_metadata_filepath}")
+
+############################################################
+######################## GET DATA ##########################
 ############################################################
 
 # Read in arXiv metadata
@@ -35,19 +70,9 @@ with open(arxiv_metadata_filepath) as json_data:
 
 # Convert JSON to DataFrame
 metadata_df = pd.DataFrame.from_dict(metadata, orient='index')
-metadata_df.index.name = 'arxiv_id'
-metadata_df = metadata_df.reset_index()
-print(f"Papers in dataset filtered by date range (of publication/update): {metadata_df.shape[0]}")
+logging.info(f"Count of papers in dataset: {metadata_df.shape[0]}")
 
-# Filter by peer-review for the scrape of fulltext
-metadata_df['peer_reviewed'] = metadata_df['comments'].apply(is_peer_reviewed)
-metadata_df = metadata_df.loc[metadata_df['peer_reviewed']].reset_index(drop=True)
-print(f"Papers in dataset filtered by date range + have been peer-reviewed: {metadata_df.shape[0]}")
-
-# Filter by sub-categories: cs.CY or cs.HC
-metadata_df["in_HC_CY"] = metadata_df["primary_category"].apply(is_in_HC_CY)
-metadata_df = metadata_df.loc[metadata_df["in_HC_CY"]].reset_index(drop=True)
-print(f"Papers in dataset filtered by date range + have been peer-reviewed + in desired primary categories: {metadata_df.shape[0]}")
+print(metadata_df.head())
 
 # Use ThreadPoolExecutor to create a pool of threads for parallel execution
 with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -71,14 +96,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
             # Print information about any exceptions that occurred during the download process
             print(f"Exception occurred: {e}")
         
-        
-
-# Implement logging for this
-
-# Save this df in an output folder as well
-metadata_df.set_index("arxiv_id", inplace=True)
-metadata_df.to_json(
-    home_dir / 'data' / 'arxiv_metadata' / 'filtered' / (arxiv_daterange + '_arxiv_metadata_for_pdfs.json'), 
-    orient="index", 
-    indent=4
-)
+# Log the completion of the download process
+logging.info(f"Download process completed for {metadata_df.shape[0]} papers.")
+# Log the directory where they are saved
+logging.info(f"PDFs saved to: {output_folder}")
