@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 import argparse
-from src.utils import is_peer_reviewed, is_in_HC_CY, download_pdf
+from src.utils import is_peer_reviewed, download_pdf
 import pandas as pd
 import re
 import arxiv

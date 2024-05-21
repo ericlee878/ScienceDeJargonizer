@@ -1,14 +1,10 @@
 ### arXiv Metadata Collection ###
 
 # Imports
-import time 
-import random
-import requests
 import json
 from src.utils import get_arxiv_ids, get_arxiv_metadata
 from pathlib import Path
 import argparse
-import re
 import logging
 from datetime import datetime
 
@@ -67,8 +63,6 @@ assert start<end, "Re-enter dates such that start date is before the end date."
 filename_date = "".join(start[2:].split('-')) + '_' + "".join(end[2:].split('-'))
 filename_cats = "filtered_cats" if primary_cats else "all_cats"
 
-print(filename_cats)
-
 # Log the chosen categories and the generated filename
 logging.info(f"Logfile created: {log_filename}")
 logging.info(f"Collecting arXiv metadata in time range: {start} to {end}")
@@ -80,14 +74,14 @@ logging.info(f"Collecting arXiv metadata with primary categories: {primary_cats}
 
 # Gets the arXiv IDs based on date, time, primary categories
 arxiv_ids_to_mine = get_arxiv_ids(start, end, primary_cats=primary_cats)
-arxiv_metadatas = get_arxiv_metadata(arxiv_ids_to_mine[:5])
+arxiv_metadatas = get_arxiv_metadata(arxiv_ids_to_mine)
 
 # ############################################################
 # ######################## WRITE DATA ########################
 # ############################################################
 
 # Writing metadata out
-arxiv_filepath = home_dir / 'data' / 'arxiv_metadata' / (template_filename+filename_cats+'_arxiv_metadata.json')
+arxiv_filepath = home_dir / 'data' / 'arxiv_metadata' / (filename_date+'_'+filename_cats+'_arxiv_metadata.json')
 
 print(f"Saving dataset at: {arxiv_filepath}")
 

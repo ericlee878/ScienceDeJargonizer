@@ -1,13 +1,10 @@
-import datetime
 import pandas as pd
 import arxivscraper
-import arxiv
-import time 
 import re 
 import urllib, urllib.request
-import random
 import requests
 import xml.etree.ElementTree as ET
+import arxiv
 
 def get_arxiv_ids(start, end, primary_cats=[]):
 
@@ -44,11 +41,10 @@ def get_arxiv_ids(start, end, primary_cats=[]):
     # Just that it preconfigures the search and the date stuff very well.
 
     # Filter the outputs to get articles only in desired sub-categories
-    arxiv_ids_to_mine = [
-        article['id']
-        for article in scraper_output
-        if not primary_cats or article['categories'].split(' ')[0] in primary_cats
-    ]
+    arxiv_ids_to_mine = []
+    for article in scraper_output:
+        if not primary_cats or article['categories'].split(' ')[0] in primary_cats:
+            arxiv_ids_to_mine.append(article['id'])
 
     # print("Initial bulk of CS articles in date range filtered by categories!")
     print("Articles to mine using arXiv API, post filtering on CS category and dates: "+str(len(arxiv_ids_to_mine))+"\n\n")
@@ -117,6 +113,7 @@ def get_arxiv_metadata(arxiv_ids_to_mine):
         for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
             
             article_dict = {}
+            article_id = entry.find('{http://www.w3.org/2005/Atom}id').text.split('/abs/')[-1]
             article_dict['url'] = entry.find('{http://www.w3.org/2005/Atom}id').text
             article_dict['title'] = entry.find('{http://www.w3.org/2005/Atom}title').text
             article_dict['summary'] = entry.find('{http://www.w3.org/2005/Atom}summary').text.strip()
@@ -154,7 +151,7 @@ def get_arxiv_metadata(arxiv_ids_to_mine):
             if journal_ref is not None:
                 article_dict['journal_ref'] = journal_ref.text
 
-            arxiv_metadatas[article_dict['id']] = article_dict
+            arxiv_metadatas[article_id] = article_dict
 
             # print("Got article " + str(article_dict['id']))
 
@@ -184,18 +181,47 @@ def is_peer_reviewed(comment):
 
 
 def download_pdf(arxiv_id, output_folder):
-    # Construct the URL for the PDF + where it will be saved
-    pdf_url = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
-    pdf_filepath = output_folder / f"{arxiv_id}.pdf"
+
+    '''
+    Parameters:
+    ----------------
+    arxiv_id: String, arXiv ID of the article
+    output_folder: Path, the folder where the PDFs will be saved
+
+    Downloads the PDFs of the arXiv articles.
+
+    Returns:
+    ----------------
+    None
+    '''
+
+    # Use the arXiv wrapper to get the paper
+    paper = next(arxiv.Client().results(arxiv.Search(id_list=[arxiv_id])))
+
+    # Download the PDF to a specified directory with a custom filename
     try:
-        # Open the URL
-        with urllib.request.urlopen(pdf_url) as response:
-            # Open a file to write the PDF contents
-            with open(pdf_filepath, 'wb') as f:
-                # Read the response content and write it to the file
-                f.write(response.read())
-            # Print a success message if the PDF is downloaded successfully
-            print(f"PDF downloaded for arXiv ID: {arxiv_id}")
+        paper.download_pdf(
+            dirpath=output_folder, 
+            filename=f"{arxiv_id}.pdf"
+        )
+    
     except Exception as e:
-        # Print an error message if there is any exception during the download process
         print(f"Error downloading PDF for arXiv ID: {arxiv_id}. Error: {e}")
+
+
+    # Old code -- used requests, switching to arXiv wrapper
+    # # Construct the URL for the PDF + where it will be saved
+    # pdf_url = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
+    # pdf_filepath = output_folder / f"{arxiv_id}.pdf"
+    # try:
+    #     # Open the URL
+    #     with urllib.request.urlopen(pdf_url) as response:
+    #         # Open a file to write the PDF contents
+    #         with open(pdf_filepath, 'wb') as f:
+    #             # Read the response content and write it to the file
+    #             f.write(response.read())
+    #         # Print a success message if the PDF is downloaded successfully
+    #         print(f"PDF downloaded for arXiv ID: {arxiv_id}")
+    # except Exception as e:
+    #     # Print an error message if there is any exception during the download process
+    #     print(f"Error downloading PDF for arXiv ID: {arxiv_id}. Error: {e}")
