@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
 import articlesData from './240301_240310_all_cats_arxiv_metadata.json';
 import Latex from 'react-latex-next';
+import Login from './Login'; // Import the Login component
+import SignUp from './SignUp'; // Import the SignUp component
+import UserInfo from './UserInfo'; // Import the UserInfo component
 
 const JargonDefinitions = ({ terms }) => (
   <div className="jargon-definitions">
@@ -31,6 +35,36 @@ const Article = ({ title, author, date, link, summary, terms }) => (
     </div>
   </div>
 );
+
+function MainPage({ articles, searchQuery, setSearchQuery, handleSearch, filteredArticles }) {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Search..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        <button type="button" onClick={handleSearch}>Submit</button>
+        <button
+          type="button"
+          className="login-button"
+          onClick={() => navigate('/login')}
+        >
+          Login
+        </button>
+      </div>
+      <main>
+        {filteredArticles.map(article => (
+          <Article key={article.id} {...article} />
+        ))}
+      </main>
+    </>
+  );
+}
 
 function App() {
   const [articles, setArticles] = useState([]);
@@ -75,25 +109,27 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Science Dejargonizer</h1>
-      </header>
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        <button type="button" onClick={handleSearch}>Submit</button>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>Science Dejargonizer</h1>
+        </header>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/userinfo" element={<UserInfo />} />
+          <Route path="/" element={
+            <MainPage
+              articles={articles}
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              handleSearch={handleSearch}
+              filteredArticles={filteredArticles}
+            />
+          } />
+        </Routes>
       </div>
-      <main>
-        {filteredArticles.map(article => (
-          <Article key={article.id} {...article} />
-        ))}
-      </main>
-    </div>
+    </Router>
   );
 }
 

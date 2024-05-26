@@ -1,0 +1,56 @@
+/* UserInfo.css */
+
+.user-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .user-info-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .user-info-box h2 {
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .user-info-box input,
+  .user-info-box select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-info-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #800000;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .user-info-box button:hover {
+    background-color: #a00000;
+  }
+  
+  .topic-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  

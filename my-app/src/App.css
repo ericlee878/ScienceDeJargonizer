@@ -16,12 +16,29 @@ body {
   background-color: #800000;
   padding: 20px;
   color: white;
+  position: relative; /* Added for positioning the login button */
 }
 
 .App-header h1 {
   margin: 0;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1258a5;
 }
 
 .search-bar {
@@ -100,14 +117,6 @@ main {
 
 .article-footer a:hover {
   text-decoration: underline;
-}
-
-/* Additional styles to enhance the modern look */
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
 }
 
 @media (max-width: 600px) {

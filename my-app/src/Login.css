@@ -1,0 +1,81 @@
+/* Login.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .login-box input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #800000;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add margin to the bottom of each button */
+  }
+  
+  .login-box button:hover {
+    background-color: #a00000;
+  }
+  
+  .forgot-password-button {
+    background: none;
+    color: #1a73e8;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Add margin to the bottom of the forgot password button */
+  }
+  
+  .forgot-password-button:hover {
+    color: #1258a5;
+  }
+  
+  .sign-up-button {
+    background-color: #1a73e8;
+    margin-top: 20px;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #1258a5;
+  }
+  
