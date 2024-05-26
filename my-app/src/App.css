@@ -1,0 +1,121 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #800000;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.search-bar {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #800000;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #a00000;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.article h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.article a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+.author-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.article-footer a {
+  font-size: 0.9rem;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.article-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles to enhance the modern look */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .article {
+    padding: 15px;
+  }
+
+  .article h2 {
+    font-size: 1.2rem;
+  }
+}
