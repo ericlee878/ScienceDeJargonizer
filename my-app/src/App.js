@@ -73,47 +73,51 @@ function MainPage({ articles, searchQuery, setSearchQuery, handleSearch, filtere
   }, [articles, searchQuery, selectedCategories, setFilteredArticles]);
 
   return (
-    <>
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        <button type="button" onClick={handleSearch}>Submit</button>
-        <button type="button" className="filters-button" onClick={() => setShowFilters(!showFilters)}>
-          Filters
-        </button>
-        {showFilters && (
-          <div className="checkbox-group">
-            {categoryOptions.map(option => (
-              <label key={option.value} className="checkbox-label">
-                <input
-                  type="checkbox"
-                  value={option.value}
-                  checked={selectedCategories.includes(option.value)}
-                  onChange={handleCategoryChange}
-                />
-                {option.label}
-              </label>
-            ))}
-          </div>
-        )}
-        <button
-          type="button"
-          className="login-button"
-          onClick={() => navigate('/login')}
-        >
-          Login
-        </button>
+    <div className="main-page">
+      <div className="sidebar">
+        <div className="search-bar">
+          <input
+            type="text"
+            placeholder="Search..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <button type="button" onClick={handleSearch}>Submit</button>
+          <button type="button" className="filters-button" onClick={() => setShowFilters(!showFilters)}>
+            Filters
+          </button>
+          {showFilters && (
+            <div className="checkbox-group">
+              {categoryOptions.map(option => (
+                <label key={option.value} className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    value={option.value}
+                    checked={selectedCategories.includes(option.value)}
+                    onChange={handleCategoryChange}
+                  />
+                  {option.label}
+                </label>
+              ))}
+            </div>
+          )}
+          <button
+            type="button"
+            className="login-button"
+            onClick={() => navigate('/login')}
+          >
+            Login
+          </button>
+        </div>
       </div>
-      <main>
-        {filteredArticles.map(article => (
-          <Article key={article.id} {...article} />
-        ))}
-      </main>
-    </>
+      <div className="content">
+        <main>
+          {filteredArticles.map(article => (
+            <Article key={article.id} {...article} />
+          ))}
+        </main>
+      </div>
+    </div>
   );
 }
 
