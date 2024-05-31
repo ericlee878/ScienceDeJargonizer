@@ -16,13 +16,21 @@ body {
   background-color: #800000;
   padding: 20px;
   color: white;
-  position: relative; /* Added for positioning the login button */
+  position: relative;
 }
 
 .App-header h1 {
   margin: 0;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.app-description {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .login-button {
@@ -35,6 +43,7 @@ body {
   border-radius: 4px;
   color: white;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .login-button:hover {
@@ -44,6 +53,10 @@ body {
 .search-bar {
   margin: 20px 0;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .search-bar input {
@@ -61,10 +74,54 @@ body {
   background-color: #800000;
   color: white;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .search-bar button:hover {
   background-color: #a00000;
+}
+
+.filters-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters-button:hover {
+  background-color: #1258a5;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  width: 100px; /* Adjust this value to make the checkboxes narrower */
+  justify-content: center; /* Center the content */
+}
+
+.checkbox-label:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #f0f0f0;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
 }
 
 main {
@@ -80,6 +137,11 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.article:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .article h2 {
@@ -103,6 +165,10 @@ main {
   margin-bottom: 15px;
 }
 
+.article-meta {
+  margin: 10px 0;
+}
+
 .article-footer {
   display: flex;
   justify-content: space-between;
@@ -119,6 +185,24 @@ main {
   text-decoration: underline;
 }
 
+.jargon-definitions {
+  margin-top: 20px;
+}
+
+.jargon-definitions h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.jargon-definitions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jargon-definitions li {
+  margin-bottom: 5px;
+}
+
 @media (max-width: 600px) {
   .article {
     padding: 15px;
@@ -126,5 +210,10 @@ main {
 
   .article h2 {
     font-size: 1.2rem;
+  }
+
+  .checkbox-group {
+    flex-direction: column;
+    align-items: start;
   }
 }
