@@ -52,9 +52,9 @@ We retained the default system prompt from ```llama-index``` for both the RAG-ba
 The query prompt for the RAG-based system:
 
 > Context information is below:
-> ---------------------
-> `CONTEXT FROM RETRIEVAL STEP`
-> ---------------------
+> 
+>  `CONTEXT FROM RETRIEVAL STEP`
+> 
 > Given the context information and not prior knowledge, answer the query.
 > Query: Please use 1-2 sentences to explain the following term so that even a reader without deep scientific and technical knowledge can understand it easily: `JARGON TERM`
 > Answer:
