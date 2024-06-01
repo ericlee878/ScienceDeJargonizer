@@ -57,9 +57,9 @@ The codebase is organized into files where some files are used to pull data from
 
 ## Contact
 
-- **Project Maintainers**:
+- **Project Maintainers**: 
+  - Sachita Nishal: nishal@u.northwestern.edu 
   - Eric Lee: ericlee2026@u.northwestern.edu
-  - Sachita Nishal: sachita@example.com
 
 ## Acknowledgements
 
