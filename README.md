@@ -1,8 +1,8 @@
-# ScienceDeJargonizer
+# Science De-jargonizer
 
 ## About
 
-We built a little system and wrote a short paper about it to submit to the Computation+Journalism Symposium 2024: **ScienceDeJargonizer** can simplify scientific jargon for journalists without scientific backgrounds, using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). This tool transforms complex terms into clear explanations, aiding accurate and accessible science reporting. It is a prototype, intended as a roof-of-concept to demonstrate the potential benefits and drawbacks of such an application. Here's our codebase for the study, with all our data collection code, data analysis, prompts, and datasets.
+We built a little system and wrote a short paper about it to submit to the Computation+Journalism Symposium 2024: the **Science De-jargonizer** can simplify scientific jargon for journalists without scientific backgrounds, using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). This tool transforms complex terms into clear explanations, aiding accurate and accessible science reporting. It is a prototype, intended as a roof-of-concept to demonstrate the potential benefits and drawbacks of such an application. Here's our codebase for the study, with all our data collection code, data analysis, prompts, and datasets.
 
 ## Features
 
@@ -26,7 +26,6 @@ The interface displays the jargon identified by one of our annotators, as well a
 cd my-app
 npm start
 ```
-
 
 ## Prompts we used
 
