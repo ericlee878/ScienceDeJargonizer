@@ -1,46 +1,68 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
-import articlesData from './240301_240310_all_cats_arxiv_metadata.json';
-import Latex from 'react-latex-next';
+import articlesData from './data_for_display_lists.json'; //'./240301_240310_all_cats_arxiv_metadata.json';
 import Login from './Login';
 import SignUp from './SignUp';
 import UserInfo from './UserInfo';
 
-const JargonDefinitions = ({ terms }) => (
-  <div className="jargon-definitions">
-    <h3>Jargon Terms</h3>
-    <ul>
-      {terms.map((term, index) => (
-        <li key={index}>
-          <strong>{term.word}:</strong> {term.definition}
-        </li>
-      ))}
-    </ul>
-  </div>
-);
+const JargonDefinitions = ({ terms }) => {
+  const [showAll, setShowAll] = useState(false);
+  const displayedTerms = showAll ? terms : terms.slice(0, 2);
 
-const Article = ({ title, author, date, link, summary, terms, categories, comments }) => (
-  <div className="article">
-    <h2>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {title}
-      </a>
-    </h2>
-    <p className="author-date">By {author} on {new Date(date).toLocaleDateString()}</p>
-    <Latex>{summary}</Latex>
-    <div className="article-meta">
-      <p>
-        <strong>Subjects:</strong> <strong>{categories[0]}</strong>{categories.length > 1 ? `, ${categories.slice(1).join(', ')}` : ''}
-      </p>
-      {comments && <p><strong>Comments:</strong> {comments}</p>}
+  return (
+    <div className="jargon-definitions">
+      <h3>Jargon Terms</h3>
+      <ul>
+        {displayedTerms.map((term, index) => (
+          <li key={index}>
+            <strong>{term.word}:</strong> {term.definition}
+          </li>
+        ))}
+      </ul>
+      {terms.length > 2 && (
+        <button onClick={() => setShowAll(!showAll)}>
+          {showAll ? 'Show Less' : 'Show More'}
+        </button>
+      )}
     </div>
-    <JargonDefinitions terms={terms} />
-    <div className="article-footer">
-      <a href={link} target="_blank" rel="noopener noreferrer">Read more</a>
+  );
+};
+
+const underlineJargonTerms = (summary, terms) => {
+  let updatedSummary = summary;
+  terms.forEach(term => {
+    const tooltip = `<span class="tooltip">${term.definition}</span>`;
+    const regex = new RegExp(`\\b${term.word}\\b`, 'gi');
+    updatedSummary = updatedSummary.replace(regex, `<u>${term.word}${tooltip}</u>`);
+  });
+  return updatedSummary;
+};
+
+const Article = ({ title, author, date, link, summary, terms, categories, comments }) => {
+  const updatedSummary = underlineJargonTerms(summary, terms);
+  return (
+    <div className="article">
+      <h2>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      </h2>
+      <p className="author-date">By {author} on {new Date(date).toLocaleDateString()}</p>
+      <p dangerouslySetInnerHTML={{ __html: updatedSummary }}></p>
+      <div className="article-meta">
+        <p>
+          <strong>Subjects:</strong> <strong>{categories[0]}</strong>{categories.length > 1 ? `, ${categories.slice(1).join(', ')}` : ''}
+        </p>
+        {comments && <p><strong>Comments:</strong> {comments}</p>}
+      </div>
+      <JargonDefinitions terms={terms} />
+      <div className="article-footer">
+        <a href={link} target="_blank" rel="noopener noreferrer">Read more</a>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 function MainPage({ articles, searchQuery, setSearchQuery, handleSearch, filteredArticles, setFilteredArticles, selectedCategories, setSelectedCategories }) {
   const [showFilters, setShowFilters] = useState(false);
@@ -128,27 +150,32 @@ function App() {
   const [selectedCategories, setSelectedCategories] = useState([]);
 
   useEffect(() => {
-    const articles = Object.values(articlesData).map((article, index) => ({
-      id: index + 1,
-      title: article.title,
-      author: article.authors.join(', '),
-      date: article.updated,
-      link: article.url,
-      summary: article.summary,
-      categories: article.categories,
-      comments: article.comments,
-      terms: extractJargonTerms(article.summary),
-    }));
+    const articles = Object.values(articlesData).map((article, index) => {
+      const terms = extractJargonTerms(article);
+      return {
+        id: index + 1,
+        title: article.title,
+        author: article.authors.join(', '),
+        date: article.updated,
+        link: article.url,
+        summary: article.summary,
+        categories: article.categories,
+        comments: article.comments,
+        terms: terms,
+      };
+    });
     setArticles(articles);
     setFilteredArticles(articles);
   }, []);
 
-  const extractJargonTerms = (summary) => {
-    const terms = [
-      { word: 'Graph', definition: 'A structure amounting to a set of objects in which some pairs of the objects are in some sense "related".' },
-      { word: 'Algorithm', definition: 'A process or set of rules to be followed in calculations or other problem-solving operations.' },
-    ];
-    return terms;
+  const extractJargonTerms = (article) => {
+    if (!article.human_jargon_term || !article.definition_text) {
+      return [];
+    }
+    return article.human_jargon_term.map((term, index) => ({
+      word: term,
+      definition: article.definition_text[index]
+    }));
   };
 
   const handleSearch = () => {
