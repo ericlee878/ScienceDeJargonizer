@@ -1,0 +1,2144 @@
+[
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "correctness",
+        "definition_text": "Correctness refers to the degree to which something (like a theory, method, or practice) accurately adheres to its intended design and reliably achieves the expected results without errors. In computing, it specifically means that a program or algorithm correctly performs and produces the expected outcome according to its specifications."
+    },
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "minimality",
+        "definition_text": "Minimality refers to the concept of using the simplest or smallest set of elements needed to achieve a desired outcome or maintain a particular condition. It involves stripping away any extras to focus on what is truly essential, ensuring efficiency and clarity in various contexts like design, processes, or systems."
+    },
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Anchors",
+        "definition_text": "Anchors are devices used to hold objects in place, typically by being attached to a larger structure or sunk into a surface like soil or rock. For example, a boat anchor prevents the boat from drifting away by securing it to the seabed."
+    },
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "reject option strategy",
+        "definition_text": "The reject option strategy is a method used in decision-making processes where a decision-maker reserves the right to not make a decision if the available information is insufficient or unclear. This approach ensures that decisions are only made confidently when adequate and reliable information is available, preventing uncertain or potentially risky outcomes."
+    },
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Anchors",
+        "definition_text": "Anchors are devices or objects used to hold something else securely in place. For example, a ship's anchor is a heavy, metal object that is dropped into the water to prevent the ship from drifting away due to currents or wind."
+    },
+    {
+        "arxiv_id": "2403.16190v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "heuristic algorithm",
+        "definition_text": "A heuristic algorithm is a problem-solving method that uses practical shortcuts and rules of thumb to generate solutions that are good enough for the situation, although they might not be perfect. This approach is especially useful when tackling complex problems where finding the best solution might be too time-consuming or difficult."
+    },
+    {
+        "arxiv_id": "2307.05300v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "multi-turn",
+        "definition_text": "\"Multi-turn\" refers to interactions or conversations where information is exchanged back and forth multiple times, similar to a dialogue. This term is often used in technology and computing to describe systems, such as chatbots, that can engage in ongoing and coherent conversations over several series of exchanges, rather than responding to each user input independently."
+    },
+    {
+        "arxiv_id": "2307.05300v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "persona",
+        "definition_text": "A persona is a fictional character that represents a specific group of users of a product, service, or website, detailing their behaviors, goals, and motivations. It's like creating an imaginary friend whose needs and preferences help designers and developers create more user-friendly products."
+    },
+    {
+        "arxiv_id": "2307.05300v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "Solo Performance Prompting",
+        "definition_text": "Solo Performance Prompting is a method often used in teaching and learning, where an individual (the learner) is given prompts, cues, or hints to help them perform a task or solve a problem on their own. This technique helps build independence and confidence as the learner practices and improves their skills without direct assistance."
+    },
+    {
+        "arxiv_id": "2307.05300v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-turn",
+        "definition_text": "\"Multi-turn\" refers to interactions or conversations where information is exchanged back and forth multiple times, similar to having a dialogue where each person speaks more than once. This concept is often used in contexts like customer service or technology development, where ongoing communication is needed to fully resolve a question or issue."
+    },
+    {
+        "arxiv_id": "2307.05300v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "Chain-of-Thought",
+        "definition_text": "\"Chain-of-Thought\" refers to the process of logically linking one idea to another to reach a conclusion. It\u2019s like following a trail of breadcrumbs in your mind from one thought to the next to solve a problem or understand a concept."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "common weakeness enumerations",
+        "definition_text": "Common Weakness Enumeration (CWE) is a list of common security flaws found in software and hardware systems. This list helps developers and security professionals identify, understand, and prevent vulnerabilities that attackers could exploit."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "SystemVerilog",
+        "definition_text": "SystemVerilog is a programming language used primarily for designing and verifying electronic systems, such as computer chips. It enhances the capabilities of the original Verilog language by adding features that make it easier to model more complex behaviors and to ensure that these designs function correctly."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Regenrative Artificial Intelligence",
+        "definition_text": "Regenerative Artificial Intelligence refers to a type of AI that can improve and update itself over time, learning from its experiences and adapting to new situations without human intervention. This advanced form of AI has the potential to continuously evolve and refine its capabilities, becoming more efficient and effective at performing tasks."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "formal verification",
+        "definition_text": "Formal verification is a process used in fields like computer science and engineering to prove or ensure that a system (like a software program, circuit, or security protocol) behaves exactly as intended. It uses mathematical methods to check that the system meets specific specifications, preventing errors or issues from occurring."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Register Transfer Level (RTL) code",
+        "definition_text": "Register Transfer Level (RTL) code is a type of programming used in designing digital circuits, where the code describes how data moves between the circuit's registers and what operations are performed on that data at each step of a process. It's like writing a detailed guide that tells a circuit exactly how to perform a task step-by-step."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "CWE-prone hardware designs",
+        "definition_text": "CWE-prone hardware designs refer to the design of electronic components, such as computer chips or circuit boards, that contain weaknesses or errors making them susceptible to security vulnerabilities. These vulnerabilities can potentially be exploited by attackers, leading to various security issues in the devices that use these components."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Common Weakness Enumerations",
+        "definition_text": "Common Weakness Enumerations (CWE) is a list of common security flaws found in software and hardware systems. It provides a standardized way to identify, describe, and categorize these weaknesses to help organizations improve their security measures and protect their systems from potential threats."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "SystemVerilog",
+        "definition_text": "SystemVerilog is a programming language used primarily for designing and verifying electronic systems, such as computer chips. It expands on the capabilities of the Verilog language by adding features that make it easier to model more complex behaviors and to ensure that these designs function correctly."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Regenerative Artificial\nIntelligence",
+        "definition_text": "Regenerative Artificial Intelligence refers to a type of AI that can learn, adapt, and modify its own algorithms in response to changing environments or new information, much like how living organisms adapt and regenerate. This allows the AI to improve itself over time without human intervention, making it more efficient and effective at handling tasks."
+    },
+    {
+        "arxiv_id": "2403.16750v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "SystemVerilog Register Transfer Level",
+        "definition_text": "SystemVerilog Register Transfer Level (RTL) is a way of writing computer code that describes how data moves and is processed within a digital circuit, such as those found in smartphones and computers. This code is written using SystemVerilog, a programming language used specifically for designing and modeling electronic systems."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "temporal knowledge graphs",
+        "definition_text": "Temporal knowledge graphs are a type of database that not only stores facts and information about different entities (like people, places, and things) and their relationships, but also includes the time aspect, meaning it records when these relationships and properties are valid or occur. This allows us to track how relationships and characteristics of entities change over time."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "embedding-based TKGF methods",
+        "definition_text": "Embedding-based TKGF (Temporal Knowledge Graph Forecasting) methods involve converting elements (like events, time, and entities) of knowledge graphs\u2014databases that use a graphical representation to store interconnected descriptions of objects\u2014into numerical representations or vectors. These embeddings capture the relationships and properties of the elements in a simpler form, making it easier for computers to predict future connections or changes in the knowledge graph based on past data."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "TKG forecasting",
+        "definition_text": "TKG forecasting, or Three-Key Generator forecasting, is a method used in weather prediction and climate modeling that uses data about atmospheric, oceanic, and terrestrial systems. This approach integrates information from these three key environmental areas to create more accurate and comprehensive forecasts."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "temporal knowledge graphs",
+        "definition_text": "Temporal knowledge graphs are a type of database that not only stores facts and information about different entities (like people, places, and things) and their relationships, but also includes the time aspect, meaning it records when these relationships and properties are valid or occur. This allows us to track how relationships and characteristics of entities change over time."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "embedding-based",
+        "definition_text": "\"Embedding-based\" refers to methods or techniques that convert complex data, like text, images, or sounds, into a simpler, numerical format known as an \"embedding.\" This numerical format helps computers and algorithms easily analyze and understand the data, making it useful for tasks like search recommendations or identifying patterns."
+    },
+    {
+        "arxiv_id": "2311.10112v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "zero-shot relations",
+        "definition_text": "Zero-shot relations refer to the ability of a model, like an AI, to recognize and understand relationships or associations between items it has never specifically been trained on before. This means the model can draw connections and make inferences about new data without prior examples, using its learned knowledge and patterns."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "pass@1",
+        "definition_text": "Pass@1, often referred to as \"pass at rank 1,\" is a metric used to evaluate the accuracy of search systems, like search engines or recommendation systems. It measures whether the very top result (the first one) returned by a search matches the user's query or intention accurately."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "APPS",
+        "definition_text": "APPS generally refers to applications, commonly known as apps, which are software programs designed to perform specific tasks. They are used on various devices like smartphones, tablets, and computers, and can range from mobile games and social media platforms to productivity tools and educational resources."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "CodeContests",
+        "definition_text": "CodeContests are competitive events where participants, often programmers and developers, engage in solving computer programming challenges within a certain time frame, aiming to demonstrate skill and creativity in coding. These contests provide an opportunity for coders to test their abilities, learn new programming techniques, and sometimes win prizes or gain recognition in the programming community."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "HumanEval",
+        "definition_text": "HumanEval is a dataset used to evaluate the problem-solving abilities of AI models, particularly in writing and testing code. It consists of programming tasks and questions that require the AI to not only generate code but also provide a detailed explanation of how it works."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "MBPP",
+        "definition_text": "MBBC stands for \"Model-Based Product Profiling,\" a method used by companies to analyze and optimize products throughout their lifecycle. By creating detailed models of products, businesses can predict performance, enhance designs, manage quality, and achieve better compliance with regulatory standards."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "monolithic",
+        "definition_text": "\"Monolithic\" refers to something made out of a single, large block of material, or that is solid and uniform throughout its structure. It can also describe projects, systems, or objects that are large, undivided, and often rigid or inflexible."
+    },
+    {
+        "arxiv_id": "2310.08992v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "modularized code",
+        "definition_text": "Modularized code refers to a programming technique where code is divided into separate, smaller sections, or \"modules,\" each of which handles a specific part of the functionality. This makes the overall program easier to understand, maintain, and update, as each module can be developed and tested independently."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "background nodes",
+        "definition_text": "Background nodes refer to the elements within a network or system that provide necessary support and connectivity but do not perform any of the primary functions or tasks directly. Think of them like the frame of a building, important for overall structure and function, but not part of the visible, main features like doors or windows."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "massive background nodes compression",
+        "definition_text": "\"Massive background nodes compression\" often refers to a technique used in data processing where the less relevant or less important pieces of data (background nodes) are compressed or simplified. This helps in reducing the amount of data that needs to be processed, stored, or transmitted, making it easier and faster to handle large networks or datasets."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "structural connectivity",
+        "definition_text": "Structural connectivity refers to the physical and tangible connections between different parts of the brain, primarily through nerve fibers that allow these regions to communicate. It's much like the wiring that connects different components in an electronic system, enabling them to work together efficiently."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "taget-background local structures",
+        "definition_text": "\"Target-background local structures\" refer to the small-scale details and patterns in an image that distinguish the main object of interest (the target) from its surrounding area (the background). These structures are important in tasks like image analysis, where distinguishing the target from the background accurately is crucial for effective processing and interpretation."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "background nodes",
+        "definition_text": "Background nodes refer to the elements within a network or system that provide necessary support and connectivity but do not perform any of the primary functions or tasks directly. Think of them like the frame of a building, important for overall structure and function, but not part of the visible features like windows or doors."
+    },
+    {
+        "arxiv_id": "2402.09565v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "MAG240M dataset",
+        "definition_text": "The MAG240M dataset is a large collection of academic papers and their citation relationships, designed to assist researchers and computers in studying and analyzing how scientific knowledge evolves and spreads. It contains information on about 240 million papers, including their titles, publication years, and references, making it a valuable resource for developing and testing new methods in data science and machine learning related to large-scale graph processing and network analysis."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "structure-preserving interventions",
+        "definition_text": "Structure-preserving interventions are actions or policies that maintain the existing characteristics and functions of a system or environment while implementing changes. For example, in eco-friendly construction, these interventions ensure that new developments do not harm the local ecosystem's balance."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "relabelling nodes",
+        "definition_text": "Relabelling nodes refers to the process of changing the labels or names of the nodes (points or positions) in a network, like renaming cities on a map. This can help simplify understanding the network or adjust it for different analysis tasks without altering the actual connections between the nodes."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "Shapley based symmetrization",
+        "definition_text": "Shapley-based symmetrization is a method used in fields like economics and data science to ensure fairness and balance when attributing values or contributions across different members or factors in a group. It's based on the Shapley value, a concept from cooperative game theory that calculates the average contribution of each participant by considering all possible coalitions they can be part of."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "target node",
+        "definition_text": "A target node typically refers to the specific point or end location in a network that receives data or information sent from other parts of the network. It can be thought of as the destination within a communication or data transfer system where messages or packets are aimed to be delivered."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "DAG",
+        "definition_text": "A DAG, or Directed Acyclic Graph, is a type of diagram where points, called nodes, are connected by lines called edges that go in only one direction and do not loop back on themselves. This structure is often used in situations where it is important to demonstrate processes that cannot repeat or go backwards, such as scheduling tasks or organizing steps in a project."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "upstream noise terms",
+        "definition_text": "\"Upstream noise terms\" refer to disturbances or interference that occur earlier in a process or system, affecting the data or signals before they reach the point of observation or measurement. In simpler terms, these are the unwanted variations or errors that are introduced in the earlier stages of a process, which can alter the results or outputs you later observe or record."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "structure-preserving interventions",
+        "definition_text": "Structure-preserving interventions refer to changes or actions taken to maintain the essential characteristics, elements, or organization of something while making improvements or addressing issues. For example, in an ecosystem, a structure-preserving intervention might involve actions that enhance the health of the ecosystem without altering its natural composition or function."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "perturb",
+        "definition_text": "To \"perturb\" something means to disturb or alter it slightly. For instance, if you perturb a system or process, you are causing a small change that might affect how it operates or behaves."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "joint distribution",
+        "definition_text": "A joint distribution is a statistical term used to describe the relationship and probabilities between two or more random variables at the same time. It enables someone to see how the occurrence of different combinations of variables\u2019 outcomes happen together and how often."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "Shapley based symmetrization",
+        "definition_text": "Shapley-based symmetrization is a method used in fields like economics and data science to ensure fairness and balance when attributing values or contributions across different factors or participants. It involves using the Shapley value, a concept from cooperative game theory, to evenly distribute the total effect or outcome among all contributors, ensuring that each gets credit proportional to their impact, regardless of the order in which they are considered."
+    },
+    {
+        "arxiv_id": "2007.00714v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "ANOVA",
+        "definition_text": "ANOVA, or Analysis of Variance, is a statistical method used to compare the means of three or more groups to see if they are significantly different from each other. It helps determine if any differences in averages across these groups are likely due to chance or indicate a real effect."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "relations' provenance data",
+        "definition_text": "Relations' provenance data refers to the information that traces the origins and background of relationships among data items. This helps users understand where the data comes from, how it is connected, and the processes it has undergone, enhancing transparency and trust in the data they use."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "large action spaces",
+        "definition_text": "Large action spaces in the context of decision-making or artificial intelligence refer to situations where there are many possible actions to choose from at any given point. This can make it challenging to decide the best action to take, as evaluating every option can be complex and time-consuming."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "sparse rewards",
+        "definition_text": "Sparse rewards refer to a scenario in reinforcement learning where rewards, which guide the learning process, are given infrequently. This makes it challenging for the learning agent to understand which actions are beneficial, because feedback on performance is rarely received."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "causality graph",
+        "definition_text": "A causality graph is a visual representation, often in the form of a diagram, that shows how different events or variables influence one another. Specifically, it highlights which factors cause certain effects, helping to understand the relationships and dependencies between different elements in a system."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "provenance data",
+        "definition_text": "Provenance data refers to the information that records the origin and history of an object or piece of data, detailing where it came from, how it was created, and any changes it has undergone. This helps in verifying the authenticity and ensuring the integrity of the data or object."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "reinforcement learning",
+        "definition_text": "Reinforcement learning is a type of machine learning where an algorithm learns to make decisions by trying different actions and evaluating the outcomes to see which actions lead to the best results. It's similar to training a pet: rewarding desired behaviors encourages repetition of those behaviors, while undesirable actions are not rewarded, guiding the algorithm to improve over time."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "knowledge graph tasks",
+        "definition_text": "Knowledge graph tasks involve working with a large network that connects information using nodes and edges, where nodes represent entities (like people, places, and objects) and edges describe the relationships between them. These tasks can include building, updating, and querying this network to make sense of complex data and uncover insights about the relationships and networks within the data."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "link prediction",
+        "definition_text": "Link prediction is a technique used in network science to predict the likelihood of a future relationship or connection between two entities (such as people, products, or nodes in a network) based on their existing connections and interactions. This method helps in understanding how networks evolve over time and can be used in various applications like recommending friends on social media or suggesting products in online shopping."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "supervised learning procedure",
+        "definition_text": "Supervised learning is a type of machine learning where a computer is taught to make decisions by being given examples of data that already have the correct answers. By analyzing these examples, the computer learns patterns and can apply them to new, similar data to make its own predictions or decisions."
+    },
+    {
+        "arxiv_id": "2311.02760v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "ablation study",
+        "definition_text": "An ablation study is a method used in research, particularly in fields like artificial intelligence and medicine, where specific components of a system or parts of a treatment are systematically removed or deactivated. This process helps to understand the impact of each component on the system's overall performance or the treatment's effectiveness by observing what changes occur when each part is missing."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Lagrangian-guided Monte Carlo tree search",
+        "definition_text": "Lagrangian-guided Monte Carlo tree search is a method used primarily in artificial intelligence and robotics. It combines principles from physics (Lagrangian mechanics, which predicts the behavior of a system) with a decision-making algorithm (Monte Carlo tree search) to efficiently solve complex, dynamic problems by simulating different actions and evaluating their results to determine the best course of action."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "global dual ascent",
+        "definition_text": "Global dual ascent is a mathematical optimization method often used in solving problems where an objective needs to be maximally improved while respecting multiple, possibly conflicting constraints. This technique divides the problem into smaller, more manageable components, solves them individually, and then combines these solutions in a way that gradually improves the overall objective."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "large constrained partially observable Markov decision\nprocesses (CPOMDPs)",
+        "definition_text": "Large constrained partially observable Markov decision processes (CPOMDPs) are a type of complex decision-making model used in situations where decisions must be made with incomplete information and certain rules or constraints must be followed. Essentially, they help figure out the best course of action when you don't have a full view of everything that's happening and there are specific limitations or requirements you need to adhere to."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "myopic action selection",
+        "definition_text": "Myopic action selection refers to the process of making decisions based on immediate, short-term gains rather than considering the long-term consequences. It's like focusing on what\u2019s right in front of you and ignoring what lies far ahead, which can sometimes lead to less optimal or negative outcomes in the future."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "recursive dual ascent",
+        "definition_text": "Recursive dual ascent is a method used in mathematics and computer science where a problem is solved by repeatedly breaking it down into smaller parts, solving each one, and then combining the solutions. Think of it as climbing a mountain by first dividing the path into sections, conquering each section one by one, and then linking them for the final ascent to the summit."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Lagrangian-guided Monte Carlo tree search",
+        "definition_text": "Lagrangian-guided Monte Carlo tree search is a method used primarily in robotics and artificial intelligence, where a robot or computer program makes decisions by exploring different potential actions and predicting their outcomes. It combines rules from physics (Lagrangian mechanics) to ensure the actions are feasible, with a decision-making process (Monte Carlo tree search) that tries to find the best possible action by simulating various possibilities and choosing the one that leads to the most favorable outcome."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "global dual ascent",
+        "definition_text": "Global dual ascent is a mathematical optimization method often used in solving problems where an objective needs to be maximally improved under given constraints by breaking the problem into smaller, linked problems. This method simplifies tackling complex problems by iteratively improving each sub-problem's solution based on the overall objective, fostering efficiency and better results."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Markov decision\nprocesses",
+        "definition_text": "Markov decision processes (MDPs) are mathematical frameworks used to help make decisions that are the best on average, over time, when outcomes are partly random and partly under the control of a decision-maker. They are used in situations where decisions must be made sequentially and the outcome of each decision influences the next one."
+    },
+    {
+        "arxiv_id": "2403.17358v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "myopic action selection",
+        "definition_text": "Myopic action selection refers to the process of making decisions based solely on immediate benefits or outcomes, without considering the long-term effects or the bigger picture. This approach often leads to quick, short-sighted choices that might not be the best in the long run."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "generalization degradation",
+        "definition_text": "Generalization degradation refers to the phenomenon where a model, after being trained on a specific set of data, performs well on that data but poorly on new, unseen data. This typically happens because the model has learned to recognize patterns specific to the training data, rather than understanding broader concepts that apply to all data."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "appropriate weight flatness",
+        "definition_text": "Appropriate weight flatness refers to ensuring that the weights or importance given to different elements or factors are even and balanced, so that no single element disproportionately influences the outcome. This concept is often used in fields like machine learning to keep a model from overly focusing on a few features at the expense of others."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "perturbation-aware\nmin-max optimization",
+        "definition_text": "Perturbation-aware min-max optimization is a strategy used in decision making that prepares for the worst-case scenario by considering possible disruptions or changes (perturbations). It seeks the best possible solution that minimizes negative impacts in the most challenging situation predicted."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "flatness-guided sparse prefix-tuning",
+        "definition_text": "Flatness-guided sparse prefix-tuning is a method used in artificial intelligence to modify a small part of a large AI model so that it learns specific tasks more efficiently. This technique focuses on changing only certain \"prefixes\" or initial settings of the model, guided by the principle of \"flatness,\" which seeks stable areas in the model's performance to ensure that these small changes are effective and don't disrupt the model's overall ability."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "weight knowledge distillation",
+        "definition_text": "Weight knowledge distillation is a technique in artificial intelligence where the knowledge from a large, complex model (teacher) is transferred into a smaller, simpler model (student) by directly aligning the parameters (weights) that define how each model processes information. This process helps the smaller model to perform tasks nearly as well as the larger model, but with less computational expense."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "privacy budget",
+        "definition_text": "A privacy budget is a tool used in data privacy to manage and limit the amount of personal information that can be revealed while analyzing large sets of data. Think of it like an allowance: once you use up your privacy budget, you can't give away any more personal details without risking people's privacy."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Differential Privacy",
+        "definition_text": "Differential privacy is a technique used to protect individual privacy when sharing or analyzing data. It ensures that adding or removing a single person's data does not significantly affect the outcome of an analysis, making it difficult to identify any individual's information within a dataset."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "generalization degradation",
+        "definition_text": "Generalization degradation refers to the phenomenon where a model, after being trained on a specific set of data, performs poorly when applied to new, unseen data. This often happens because the model is too closely tailored to the training data, and not capable of adapting well to different scenarios or broader contexts."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "flatness",
+        "definition_text": "Flatness refers to how smooth and even a surface is, with no bumps, dips, or curves. It's a measure of how closely a surface approaches a perfectly flat plane."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "coarse-to-grained",
+        "definition_text": "\"Coarse-to-grained\" often refers to a method used in various scientific and technical fields where a system or material is simplified by focusing on larger, more general features, rather than on fine, detailed structures. This approach helps in making complex systems more understandable and manageable by reducing the amount of detail that needs to be considered."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "perturbation-aware",
+        "definition_text": "The term \"perturbation-aware\" refers to the quality of being sensitive and responsive to disturbances or changes in the environment. In a scientific or engineering context, a perturbation-aware system can adjust its behavior to compensate for or minimize the impact of these changes, ensuring stability and performance."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "min-max optimization",
+        "definition_text": "Min-max optimization is a strategy used in decision-making and game theory where one tries to minimize the possible maximum loss. This approach is especially useful in situations where there is competition or conflict, helping to ensure that the worst-case scenario is as good as possible."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "prefix-tuning",
+        "definition_text": "Prefix-tuning is a method used in machine learning, specifically in refining language models, where instead of adjusting the entire model\u2019s parameters, only a small set of extra parameters called a \"prefix\" is added and tuned. This approach helps improve the model's performance on specific tasks while keeping the majority of the model unchanged, which saves computation resources and maintains the general abilities of the model."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "weight knowledge distillation",
+        "definition_text": "Weight knowledge distillation is a technique in artificial intelligence where the knowledge from a large, complex model (teacher) is transferred into a smaller, simpler model (student) by directly aligning the important parameters, or \"weights,\" of the smaller model to match those of the larger model. This process helps the smaller model perform effectively while being more efficient and faster to use."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "black-box and white-box scenarios",
+        "definition_text": "Black-box scenarios refer to situations where the inner workings of a system, process, or model are not known or visible to the user; only the inputs and outputs can be observed. In contrast, white-box scenarios are those in which the internal mechanics are fully accessible and transparent, allowing users to see how inputs are processed to produce outputs."
+    },
+    {
+        "arxiv_id": "2403.04124v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "QNLI",
+        "definition_text": "QNLI stands for \"Question-answering Natural Language Inference,\" which is a type of task used in artificial intelligence, particularly in developing systems that understand human language. In QNLI, a machine is given a statement and a question, and it must determine whether the answer to the question can be inferred from the statement."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "visual feature extraction modules",
+        "definition_text": "Visual feature extraction modules are parts of computer systems, such as those in cameras or smartphones, that analyze images to identify and isolate important details like edges, colors, or shapes. This information is then used to help the system recognize objects, understand scenes, or process images more effectively."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "TextVQA",
+        "definition_text": "TextVWA refers to a task in computer vision and natural language processing where an AI model must read and understand text within images, then answer questions based on that text. For example, if an image has a street sign, the AI might be asked what the sign says, and it needs to recognize and interpret the text correctly to answer."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "HatefulMemes",
+        "definition_text": "\"HatefulMemes\" refers to a dataset used in the field of artificial intelligence and machine learning that contains text and images, designed specifically to help researchers train algorithms to better identify and understand hateful content in multimedia formats. This dataset includes various examples of memes with offensive or discriminatory messages, which AI systems learn to detect and possibly moderate in digital platforms."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Multi-Modal Language Models",
+        "definition_text": "Multi-modal language models are advanced computer programs designed to understand and generate information not just from text, but from multiple forms of data like images, audio, and text simultaneously. This allows them to provide more accurate and relevant responses by interpreting the combined information from different sources, similar to how humans process and understand the world through multiple senses."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "zero-shot learning",
+        "definition_text": "Zero-shot learning is a type of machine learning where a system learns to recognize objects, images, or text that it has never seen during its training. Instead of being taught with examples of every category it has to recognize, it's capable of identifying new items based on descriptions or attributes it has learned from other categories."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "zero-shot abilities",
+        "definition_text": "Zero-shot abilities refer to the capability of a model, like an AI, to handle tasks that it has not been explicitly programmed or trained to perform. This means it can understand and execute new tasks using only its pre-existing knowledge and understanding, without needing specific examples or guidance on the new tasks."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-modal",
+        "definition_text": "\"Multi-modal\" refers to something that involves or uses several different modes, methods, or forms. For example, in the context of transportation, it means using different methods like buses, trains, and bikes to complete a journey, while in the context of technology, it might involve a device that can operate in various ways, such as a smartphone that can be used to call, text, and browse the internet."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "In-Context Learning",
+        "definition_text": "In-context learning refers to the ability of artificial intelligence, particularly large language models, to understand and generate appropriate responses based on the context it is given in a particular task. This method relies on the information presented in the immediate input without needing prior training specific to the task, allowing the model to adapt its responses based on the provided examples or surrounding text."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "visual perception",
+        "definition_text": "Visual perception is the ability of your brain to interpret and make sense of what your eyes see, turning light into recognizable objects and scenes so you can understand and interact with the world around you. It involves processes like identifying colors, shapes, and movements, allowing us to navigate our environment and perform daily activities."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "linguistic\nexpression",
+        "definition_text": "A linguistic expression is a phrase or a combination of words that conveys an idea, feeling, or information in a specific language, following the rules of grammar and syntax. Examples include sentences, phrases, or even single words that effectively communicate meaning to others."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "FlanT5",
+        "definition_text": "FlanT5 is a type of artificial intelligence model that combines aspects of two powerful AI models, Flan and T5, to perform language-related tasks such as summarizing text, answering questions, and generating content. It is designed to understand and generate human-like text by being trained on a diverse range of internet text."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Vicuna",
+        "definition_text": "A vicuna is a wild South American mammal that is closely related to the llama and alpaca. Known for its fine, luxurious wool, the vicuna is smaller than its relatives and lives in the high alpine areas of the Andes."
+    },
+    {
+        "arxiv_id": "2402.07398v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "TextVQA and HatefulMemes datasets",
+        "definition_text": "The TextVQA dataset is a collection of images designed to help develop computer models that can understand and answer questions about text in images, such as reading signs or labels. The HatefulMemes dataset is used to train algorithms to detect hateful content in memes by combining visual and textual analysis, helping to identify and prevent the spread of harmful content online."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "description logic (DL) reasoner",
+        "definition_text": "A description logic (DL) reasoner is a software tool designed to work with a specialized form of logic used primarily in artificial intelligence for organizing information. It analyzes sets of rules and facts to help determine whether certain statements are true, enabling systems to make intelligent decisions or infer new knowledge automatically."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Knowledge graphs",
+        "definition_text": "Knowledge graphs are a way of organizing and representing information that shows the relationships between different pieces of data. These graphs visually link concepts like people, places, and things, making it easy to see how they are connected and to understand complex relationships and dependencies."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "schema",
+        "definition_text": "A schema is a mental framework that helps organize and interpret information, allowing an individual to understand new experiences by relating them to prior knowledge. It acts like a blueprint in our minds, guiding our expectations and understanding of various concepts and situations."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "PyGraft",
+        "definition_text": "PyGraft is a tool designed for computer programming, specifically using the Python language, that helps developers modify or add new features to existing software without altering the original source code. This makes it easier to update a program while keeping its core structure intact."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "domain-agnostic",
+        "definition_text": "The term \"domain-agnostic\" refers to a tool, technology, or method that can be applied across various fields or disciplines, without being specialized for any particular area. This means it is versatile and can be used in different settings without needing modifications specific to each field."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "RDFS and OWL constructs",
+        "definition_text": "RDFS (RDF Schema) and OWL (Web Ontology Language) are frameworks used in the field of data and knowledge management to structure and define the relationships between different pieces of information on the web. RDFS provides basic elements for describing properties and classes of RDF resources, while OWL offers more advanced tools for richer classification and relationships, enabling machines to process the semantics, or meanings, of information more effectively."
+    },
+    {
+        "arxiv_id": "2309.03685v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "description logic (DL) reasoner",
+        "definition_text": "A description logic (DL) reasoner is a software tool designed to work with a specialized form of logic, helping to process and make sense of structured sets of concepts and relationships. It can analyze and reason about the various properties and relationships within a knowledge base, ensuring that the definitions and assertions made about them are consistent and logically sound."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "single-step reaction predictors",
+        "definition_text": "Single-step reaction predictors are tools used in chemistry to predict the outcome of a chemical reaction based on the initial starting materials and by applying only one step of transformation. Essentially, they help chemists understand what a product will look like after combining specific chemicals together in a single reaction stage."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "multi-step planners",
+        "definition_text": "Multi-step planners are tools used in robotics and artificial intelligence that help determine a sequence of actions needed to achieve a goal. They plan several steps ahead, considering future possibilities and constraints, to devise an effective strategy for reaching the desired outcome."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "tree-shaped MDP",
+        "definition_text": "A tree-shaped MDP (Markov Decision Process) is a model used in decision-making that resembles the shape of a tree, where each branch represents a possible choice and each leaf represents a possible outcome. This format helps in organizing various decision paths and their consequences, making it easier to analyze and make informed decisions."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "synthesizability",
+        "definition_text": "Synthesizability refers to how easily a chemical compound can be made or synthesized in a laboratory or industrial setting. It considers the availability of materials, the complexity of the necessary chemical reactions, and the overall practicality and cost-efficiency of producing the compound."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "synthesis routes",
+        "definition_text": "Synthesis routes are the various methods or steps used to create a chemical compound from simpler substances. Think of them like recipes that chemists follow to mix ingredients and cook up new materials, medicines, or chemicals."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "Retrosynthesis",
+        "definition_text": "Retrosynthesis is a technique used by chemists to break down the structure of a complex molecule into simpler building blocks. This method helps scientists figure out a step-by-step way to construct the molecule in a laboratory by reversing the typical thinking process, essentially starting from the final product and working backwards to simpler starting materials."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "single-step reaction predictors",
+        "definition_text": "Single-step reaction predictors are tools used in chemistry to predict the outcome of a chemical reaction based on the initial reactants and conditions, all in one go without needing to consider multiple intermediate steps. These predictors help chemists understand what products might be formed directly from the starting materials."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-step planners",
+        "definition_text": "Multi-step planners are tools used in tasks like robotics and software applications to figure out a sequence of actions that lead from a starting point to a desired goal. These planners analyze several steps ahead, considering possible future scenarios to decide the best course of action."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "single-step accuracy",
+        "definition_text": "Single-step accuracy refers to the precision or correctness of a result or measurement after just one phase or action in a process. It measures how close the outcome of that single step is to the expected or ideal result, helping to evaluate the efficiency or quality of that specific part of the process."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "reinforcement learning",
+        "definition_text": "Reinforcement learning is a type of artificial intelligence where a computer learns to make decisions by trying different actions and seeing which ones result in the best outcomes, much like how a person learns to do better by learning from their mistakes. It involves a system of rewards and penalties to encourage the computer to achieve its goals effectively."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "single-step predictor",
+        "definition_text": "A single-step predictor is a type of model used in forecasting where the goal is to predict the next value in a sequence based on previous observations. For example, it could predict tomorrow's temperature based on a series of past temperature recordings."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "tree-shaped MDP",
+        "definition_text": "A tree-shaped MDP (Markov Decision Process) is a type of decision-making model that resembles the shape of a tree, where each branch represents a possible choice and each leaf (end point) represents a potential outcome based on the choices made. It is used to help determine the best strategy by evaluating different sequences of decisions and their probable results."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "Planning with Dual Value Networks",
+        "definition_text": "Planning with Dual Value Networks is a method used in artificial intelligence where two separate systems work together to make decisions: one system predicts the potential benefits of different actions, and the other estimates the possible costs or risks. This approach helps in making more balanced and informed decisions, similar to weighing pros and wissen-cons before choosing a course of action."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "USPTO dataset",
+        "definition_text": "The USPTO dataset refers to a collection of information and records maintained by the United States Patent and Trademark Office, which includes details about patents and trademarks applied for and registered in the United States. This dataset is used for research, analysis, and tracking the history and current status of intellectual property rights."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "Retro*",
+        "definition_text": "\"Retro\" is a term used to describe anything that is stylistically reminiscent of or imitates trends, modes, fashions, or attitudes of the past. For example, vinyl record players and clothing styles from the 1960s can be considered retro because they reflect the design and culture of that era."
+    },
+    {
+        "arxiv_id": "2301.13755v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "RetroGraph",
+        "definition_text": "RetroGraph is a tool developed for studying how genetic changes influence the development of cancer. It analyzes large amounts of data to understand the relationships and networks between genes, helping researchers identify critical points where interventions can be made to treat or prevent cancer."
+    },
+    {
+        "arxiv_id": "2312.14106v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "domain shifts",
+        "definition_text": "Domain shifts refer to the scenario where the environment or conditions in which a model was originally developed change when it is used in the real world, leading to potential drops in performance. This means that the data the model encounters in actual use can be different from the data it was trained on, which might cause the model not to work as effectively."
+    },
+    {
+        "arxiv_id": "2312.14106v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "moral acceptability",
+        "definition_text": "Moral acceptability refers to the degree to which an action or decision is considered right or appropriate according to ethical standards and societal values. It involves assessing whether something aligns with commonly held moral beliefs and principles."
+    },
+    {
+        "arxiv_id": "2312.14106v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "ML agents",
+        "definition_text": "ML agents, short for Machine Learning agents, are computer programs that use algorithms to learn from and adapt to data without being explicitly programmed, enabling them to perform tasks, make decisions, and improve through experience. These agents can be used in various applications like video games, robotics, and automated trading systems to operate autonomously and efficiently in complex environments."
+    },
+    {
+        "arxiv_id": "2312.14106v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-armed bandit setting",
+        "definition_text": "The multi-armed bandit setting is a scenario often used to describe situations where you need to repeatedly make a choice among various options (like slot machines, each termed a \"bandit\"), balancing between trying new options and sticking with what has worked well in the past. This dilemma is crucial in decision-making processes where the goal is to maximize some type of reward or effectiveness, despite having incomplete information about the outcomes of each choice."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "safety verifier shield",
+        "definition_text": "A safety verifier shield is a tool or system used in various industries, especially in technology and manufacturing, to check and ensure that machinery, equipment, or software operates safely and according to predetermined standards. Its main job is to prevent accidents and protect both workers and the environment by catching potential risks before they cause harm."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "contextual safety learning",
+        "definition_text": "Contextual safety learning is the process where a person learns to recognize and react appropriately to the safety levels of different environments or situations by picking up on cues or indicators that signal safety or danger. For example, a person might learn that hearing a fire alarm or smelling smoke indicates potential danger, prompting a swift response to seek safety."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "Model Predictive Control (MPC)",
+        "definition_text": "Model Predictive Control (MPC) is a type of control system that uses a model of the process it is controlling to predict and optimize future actions. By continually updating its predictions based on new data, MPC can adjust its control strategies to achieve the best performance, such as maintaining the desired temperature in a building or the speed of a car."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid0",
+        "human_jargon_term": "behavior planning scheme",
+        "definition_text": "A behavior planning scheme is a method used in robotics and artificial intelligence to help machines decide the best actions to take in different situations, aiming to achieve specific goals effectively. This involves creating a set of rules or a plan that guides the machine on how to act based on various inputs or circumstances it encounters."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "non-interpretability",
+        "definition_text": "Non-interpretability refers to the difficulty or impossibility of understanding exactly how a system, especially an artificial intelligence or machine learning model, arrives at its decisions or results. In simpler terms, it means that the processes or reasoning behind the outcomes of the system are not clear or transparent to users."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "generalization",
+        "definition_text": "Generalization refers to the ability of a model or system, such as those used in artificial intelligence, to apply what it has learned from specific examples to new and different situations effectively. In other words, it means that the knowledge gained from dealing with certain scenarios can be successfully used to handle new problems or scenarios that weren't encountered during its initial learning phase."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "deep neural networks",
+        "definition_text": "Deep neural networks are a type of artificial intelligence that mimics the way the human brain works, enabling computers to recognize patterns and solve complex problems. They are composed of layers of interconnected nodes, or \"neurons,\" that process input data, like images or sounds, to make decisions or predictions."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "out-of-distribution",
+        "definition_text": "\"Out-of-distribution\" refers to data or situations that a model encounters which are different from the data it was trained on. This can lead to unexpected behavior or errors, as the model may not know how to handle this new, unfamiliar information."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "uncertain data",
+        "definition_text": "Uncertain data refers to information that may not be completely accurate, precise, or reliable due to various factors such as errors in measurement, gaps in data, or changes over time. This uncertainty can impact the confidence in decisions or predictions made based on this data."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "behavioral\nplanning",
+        "definition_text": "Behavioral planning refers to the process of organizing and deciding how to act in different situations based on past experiences, current conditions, and future goals. It involves thinking about the consequences of different actions and choosing behaviors that are most likely to lead to desired outcomes."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "LLM-conditioned Model\nPredictive Control",
+        "definition_text": "LLM-conditioned Model Predictive Control refers to a method that uses advanced algorithms (LLM, or Large Language Models) to predict and adjust a system's behavior dynamically. This approach combines forecasting from language-based models with traditional control strategies to optimize a system\u2019s operations, adapting in real-time to changing conditions."
+    },
+    {
+        "arxiv_id": "2312.00812v4",
+        "reader_id": "rid1",
+        "human_jargon_term": "LLM-enabled interactive behavior planning scheme",
+        "definition_text": "The term \"LLM-enabled interactive behavior planning scheme\" refers to a method that uses large language models (LLMs) to help design plans or actions that interact effectively with humans or other systems. This involves using advanced AI to understand and predict how to behave in various scenarios to achieve specific goals through interaction."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "Raven's Progressiive Matrices (RPMs)",
+        "definition_text": "Raven's Progressive Matrices (RPMs) are a type of intelligence test that consists of visual puzzles which get progressively harder. In each puzzle, the participant is asked to identify the missing piece that completes a pattern, testing their ability to think logically and solve problems."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "multi-hop relational and deductive reasoning",
+        "definition_text": "Multi-hop relational and deductive reasoning refers to the process of making logical conclusions by connecting multiple pieces of information, even when they are not directly linked. It involves piecing together different clues or facts across various sources or steps to come up with a solution or answer."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "self-consistency",
+        "definition_text": "Self-consistency refers to the idea that elements or statements within a theory, argument, or system logically support each other and do not contain contradictions. It means that everything fits together properly in a way that makes sense and is coherent."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Vision-Language Models",
+        "definition_text": "Vision-language models are types of artificial intelligence that can understand and generate responses based on both images and text. They are designed to process and interpret visual information from images or videos alongside accompanying text, enabling interactions that combine elements from both visual and linguistic data."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "vision language",
+        "definition_text": "\"Vision language\" refers to the way computers interpret and understand visual information (like images and videos) and correlate it with textual data, enabling them to perform tasks such as describing pictures, recognizing objects, or even understanding scenes in a manner similar to how humans do. This integration allows computers to process and communicate about the visual world in a meaningful way."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "SOTA VLM",
+        "definition_text": "SOTA VLM stands for \"State of the Art Vision and Language Model.\" It refers to advanced computer systems that understand and process both images and text together, enabling them to perform complex tasks like identifying objects in pictures and understanding descriptions or questions about them. These models use cutting-edge technology to integrate and analyze visual and linguistic information in a way that mimics human understanding."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Raven's Progressive Matrices",
+        "definition_text": "Raven's Progressive Matrices is a type of intelligence test that uses visual puzzles to measure a person's reasoning ability and problem-solving skills. Participants are shown a series of images with a missing piece and must select the option that correctly completes the pattern from several choices."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-hop",
+        "definition_text": "\"Multi-hop\" refers to a method where a message or data packet travels through multiple intermediate devices, like routers or nodes, before reaching its final destination. This technique is commonly used in network communication to extend the coverage area and improve connectivity between devices that are not directly linked."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Chain-of-thoughts",
+        "definition_text": "\"Chain-of-thoughts\" refers to the process by which one thought naturally leads to another, creating a sequence or chain of connected ideas. This concept is often used to understand how people reason through problems or how they develop their ideas over time."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Mensa IQ test",
+        "definition_text": "The Mensa IQ test is a special examination designed to measure intelligence, specifically to identify individuals with high intellectual abilities. To join Mensa, an international society for people with high IQs, one must score in the top 2% of this test or another approved intelligence test."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "IntelligenceTest",
+        "definition_text": "An intelligence test is a tool designed to measure a person's intellectual abilities and potential. It typically consists of a series of tasks and questions that assess various cognitive skills, such as problem-solving, memory, and reasoning."
+    },
+    {
+        "arxiv_id": "2403.04732v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "RAVEN",
+        "definition_text": "RAVEN is a software tool developed by the U.S. Department of Energy to help analyze and manage risks associated with complex systems, such as nuclear power plants. Using advanced computational methods, RAVEN can predict potential problems and suggest ways to improve system reliability and safety."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "verbalisation",
+        "definition_text": "Verbalization is the process of putting thoughts, ideas, or feelings into words. This can happen silently inside your mind or out loud, enabling communication or clearer understanding of your own thoughts."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "normalisation",
+        "definition_text": "Normalization is a process used to adjust values measured on different scales to a common scale, often to give them equal importance. This technique is commonly used in data processing to ensure that each type of data is treated equally, helping in accurate analysis and comparison."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "projection",
+        "definition_text": "Projection is the process of displaying or presenting an image or a set of data from one surface or form onto another, typically using lights and lenses, like showing a movie on a screen. In a psychological context, it refers to the act of attributing one's own emotions, desires, or characteristics to someone else, often without realizing it."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "ontologies",
+        "definition_text": "Ontologies are structured frameworks for organizing information that describe the types and relationships among concepts within a particular domain, essentially like creating a detailed map of knowledge about a subject that allows both people and computers to understand and share that information more effectively. They are used in various fields, including computer science, where they help with tasks like data integration and artificial scale intelligence by providing a clear structure of how knowledge is interconnected."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "OWL API",
+        "definition_text": "The OWL API is a programming interface designed to allow software developers to create, manipulate, and manage OWL (Web Ontology Language) files easily. OWL is used for defining structured, web-based knowledge about topics, such as relationships between different categories of things, so computers can understand and process this information."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Jena",
+        "definition_text": "Jena is a city in central Germany known for its rich history in education and industry, particularly in optics and precision machinery. It is home to one of the oldest universities in Germany, Friedrich Schiller University, which has contributed greatly to the city's cultural and intellectual legacy."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "ontology\nprocessing features",
+        "definition_text": "\"Ontology processing features\" refer to the tools and methods used in artificial intelligence and data management to handle and manipulate ontologies, which are structured frameworks that organize information. These features help computers understand and process the relationships and properties within these frameworks, enabling more effective organization, retrieval, and analysis of data."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "downstream deep\nlearning-based applications",
+        "definition_text": "\"Downstream deep learning-based applications\" refers to the practical uses of deep learning models that are applied after the initial model has been trained. These applications utilize the trained model to perform specific tasks, such as image recognition, natural language processing, or predicting trends, based on new data they receive."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "ontology API",
+        "definition_text": "An ontology API is a tool that lets computer programs interact and work with ontologies, which are structured frameworks for organizing information. This enables software to access, manipulate, and utilize the structured data defined by the ontology, helping achieve tasks like data integration, search, and analysis more effectively."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "PyTorch",
+        "definition_text": "PyTorch is a programming tool widely used for developing and training artificial intelligence models, particularly those that are based on neural networks, which are systems that mimic the way the human brain operates. It's popular for its flexibility and ease of use, allowing researchers and developers to rapidly prototype and experiment with AI models."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Tensorflow",
+        "definition_text": "TensorFlow is a free, open-source software library developed by Google that helps computers learn and make decisions by themselves. It's like a brain-training tool that allows programmers to develop systems that can recognize patterns and perform tasks like identifying objects in images or making recommendations based on user behavior."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "DeepOnto",
+        "definition_text": "DeepOnto is a tool designed to automatically generate and refine ontologies, which are structured frameworks that organize information, by using advanced deep learning techniques. This tool helps to improve how systems understand and manage large and complex datasets by capturing and defining the relationships between different concepts more effectively."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "verbalisation",
+        "definition_text": "Verbalization is the process of putting thoughts, ideas, or data into words. This can involve explaining something aloud or turning written information into a spoken narrative, making it easier to understand or share with others."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "normalisation",
+        "definition_text": "Normalization is a process used to adjust values measured on different scales to a common scale, often to give them a sense of proportion and allow for meaningful comparison. This technique is commonly used in data analysis, statistics, and various scientific research fields to reduce complexity and ensure fairness in interpretations."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "taxonomy",
+        "definition_text": "Taxonomy is the scientific system of classifying and naming living things, such as plants, animals, and bacteria, into groups based on shared characteristics and natural relationships. This helps scientists communicate more precisely and organize vast amounts of biological information."
+    },
+    {
+        "arxiv_id": "2307.03067v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "projection",
+        "definition_text": "Projection is the process of displaying or presenting an image or a set of data from one surface or form onto another, typically using lights, lenses, or digital technology. For example, in a movie theater, projection refers to shining a film's images onto a large screen for the audience to see."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Social Transparency (ST) framework",
+        "definition_text": "The Social Transparency (ST) framework is a concept used in organizational behavior that encourages openness and the sharing of information among members of an organization. By making processes, decisions, and actions more visible, it aims to build trust, improve communication, and encourage more collaborative and accountable workplace environments."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "W-question",
+        "definition_text": "W-questions are questions that begin with the words who, what, where, when, why, or how, and are used to gather detailed information by asking for specifics rather than a simple yes or no answer. These questions are essential for getting a deeper understanding of any topic or situation."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Human-centered explainable AI",
+        "definition_text": "Human-centered explainable AI refers to artificial intelligence systems that not only make decisions or provide suggestions but also offer clear, understandable explanations for those decisions that are tailored to human users. This approach focuses on making AI more transparent and accessible, allowing people to understand how decisions are made and to feel confident in using AI systems."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Social\nTransparency (ST) framework",
+        "definition_text": "The Social Transparency (ST) framework is a concept used in organizational and behavioral studies to describe the extent to which an organization openly shares information about its operations, decisions, and actions to its members and the public. This framework facilitates trust and accountability by making the processes within a company more visible to outsiders and employees alike."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "social misattributions",
+        "definition_text": "Social misattributions occur when people mistakenly interpret the behaviors or intentions of others in social situations. For example, someone might wrongly assume that a friend's quietness is due to anger, when in fact the friend is simply tired."
+    },
+    {
+        "arxiv_id": "2403.17873v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "epistemic injustice",
+        "definition_text": "Epistemic injustice refers to a wrong done to someone specifically in their capacity as a knower or conveyer of knowledge, often because of prejudice or discrimination linked to their identity, such as gender, race, or social class. This can happen, for example, when people's words are taken less seriously or dismissed based on these biases, preventing them from fully participating in knowledge-sharing or decision-making processes."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "zero-shot time series (TS) classification",
+        "definition_text": "Zero-shot time series classification is a method where a system learns to recognize patterns or categories in data sequences, like fluctuating temperatures or stock prices, without ever having seen examples of those specific categories during training. It uses prior knowledge or general concepts it has learned to make accurate predictions on entirely new, unseen categories."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "UCR archive",
+        "definition_text": "The UCR Archive is a collection of over 50 datasets that are primarily used for testing and comparing different algorithms for time series classification. It provides a standard, widely recognized benchmark for researchers to evaluate the performance of their models in recognizing and predicting patterns over time series data, which are sequences of data points indexed in time order."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "feature representation capacity",
+        "definition_text": "Feature representation capacity refers to the ability of a system, such as a computer program, to accurately and effectively capture and organize the essential aspects and details of data (like images, text, or sounds). This capacity determines how well the system can understand and work with the data, affecting its performance in tasks like recognizing faces or translating languages."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "maximum input token threshold",
+        "definition_text": "The \"maximum input token threshold\" in a computational context refers to the highest number of individual pieces of information (tokens) that a system, such as a software application or a language model, can process or handle in a single operation or entry. Exceeding this threshold means the system might not be able to effectively process the input, potentially resulting in errors or incomplete processing."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "PLMs",
+        "definition_text": "PLMs, or periodic limb movements, refer to repetitive and involuntary movements that occur in the limbs, typically the legs, during sleep. These movements can cause disturbances in sleep patterns, leading to fatigue and other sleep-related issues."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "LanguAge Model with Prompt EngineeRing",
+        "definition_text": "LanguAge Model with Prompt EngineeRing, or LAMP, is a type of artificial intelligence system that enhances how language models, like those used in chatbots, understand and respond to user instructions. It does this by focusing on \"prompt engineering,\" which involves optimizing the prompts or questions given to the model to produce more accurate and relevant responses."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "pre-trained language models",
+        "definition_text": "Pre-trained language models are computer programs that have been taught how to understand and generate human-like text by analyzing large amounts of text data. This training allows them to perform language-related tasks, such as translating text or answering questions, without needing to be taught from scratch each time."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "zero-shot time series (TS) classification",
+        "definition_text": "Zero-shot time series classification is a method where a system learns to recognize patterns or categories in sequences of data (like temperature readings over time) without having been shown any examples of that specific category beforehand. It relies on understanding relationships from other data it has been trained on to make accurate classifications of new, unseen before sequences."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "univariate TS datasets",
+        "definition_text": "Univariate time series (TS) datasets are collections of data points that represent the values of a single variable recorded at different, equally spaced points in time. For example, a dataset recording the daily temperature of a city over a year is a unalterable time series dataset because it focuses on one variable (temperature) through time."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "UCR archive",
+        "definition_text": "The UCR Archive is a collection of time series datasets that is commonly used for benchmarking and testing algorithms designed for time series analysis, which involves examining sequences of data points that change over time. This resource helps researchers and developers to compare the effectiveness of different techniques in analyzing patterns and trends within data sequences."
+    },
+    {
+        "arxiv_id": "2403.15875v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "maximum input token threshold",
+        "definition_text": "The \"maximum input token threshold\" in a computational context refers to the upper limit of individual pieces of data (tokens) that a system, such  as a language processing model, can handle in a single operation or task. Exceeding this threshold can result in the system not being able to process the information effectively or at all."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "classical planners",
+        "definition_text": "Classical planners are tools used in artificial intelligence that help in finding a sequence of actions to achieve a specific goal, starting from a given situation. They organize and decide the steps necessary, similar to creating a to-do list, to efficiently reach the desired outcome in environments where everything is predictable and clear-cut."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "lifted planning tasks",
+        "definition_text": "Lifted planning tasks refer to problems in artificial intelligence where the goal is to determine a sequence of actions to achieve a desired outcome, and these actions are defined in a generalized form rather than being specific to a particular scenario. This allows the same planning method to be applied to a variety of situations without needing to tailor the plan to each specific case."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "WL algorithm",
+        "definition_text": "The WL algorithm, or Wang-Landau algorithm, is a method used in statistical physics and computational science to estimate the density of states of a system. This technique allows for an efficient calculation of the probabilities of a system's various possible states, which can be especially useful in understanding systems with a large number of possible states, such as polymers or proteins."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "FF heuristic",
+        "definition_text": "The FF heuristic is a strategy used in problem-solving that estimates the lowest cost path to reach a goal by counting the number of actions that need to be taken, without considering the actual cost of each action. This method is often used in artificial intelligence to help quickly make decisions or find solutions by simplifying complex problems."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "learning for planning model",
+        "definition_text": "A learning for planning model is a technique used in artificial intelligence where the system learns from past experiences to make future decisions and plan actions more effectively. Essentially, it helps machines predict the outcomes of actions and choose the best course of action based on what it has learned."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Description Logic Features",
+        "definition_text": "Description Logic features are tools used in computer systems to help categorize and reason about the relationships and properties of concepts and objects in a domain. Essentially, they enable a computer to understand and organize complex information in a logical way, similar to how a librarian categorizes books into different sections."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "classical planners",
+        "definition_text": "Classical planners are tools used in artificial intelligence that help in finding a sequence of actions to achieve a specific goal, starting from a given situation. They are used to solve problems where all aspects of the environment are known and predictable, such as in automated scheduling or game playing."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "graph representations",
+        "definition_text": "Graph representations are a way of organizing and visualizing information by arranging it into nodes (points) and edges (lines connecting the points), much like a map that connects different locations with paths. This method helps to easily understand relationships and structures within various kinds of data, such as social networks, transportation routes, or even internet networks."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "WL algorithm",
+        "definition_text": "The WL algorithm, or Wang-Landau algorithm, is a method used in statistical physics and computational chemistry to estimate the density of states of a system. This technique allows for an efficient exploration of the energy levels by adjusting the probability of visiting various states in a way that flattens the energy landscape, enabling the algorithm to access a wider range of states than typical methods."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "magnitude",
+        "definition_text": "In general, magnitude refers to the size or extent of something, often measured quantitatively. For example, in the context of earthquakes, magnitude is a measure of the energy released, indicating how strong the earthquake was."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "WL-GOOSE",
+        "definition_text": "WL-GOOSE, which stands for \"Wireless-Generic Object Oriented Substation Event,\" is a technology used in electrical power systems to help devices within a substation communicate wirelessly. This allows for a quicker and more flexible interaction between devices, enhancing their ability to monitor and manage the distribution of electricity efficiently."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "LAMA",
+        "definition_text": "LAMA stands for Long-Acting Muscarinic Antagonist, which is a type of medication primarily used to manage and treat conditions like chronic obstructive pulmonary disease (COPD) and asthma. These medications work by relaxing and opening up the airways in the lungs, making it easier to breathe."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "flavoured learning architectures",
+        "definition_text": "Flavoured learning architectures refer to machine learning frameworks that are tailored or customized to better handle specific types of data or problems, much like adding different flavors to a recipe to suit particular tastes. This approach allows the learning system to be more effective in specific tasks by leveraging techniques and structures that are best suited for the particular challenge it needs to solve."
+    },
+    {
+        "arxiv_id": "2403.16508v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Description Logic Features",
+        "definition_text": "Description Logic features are tools used in artificial intelligence to help computers understand and organize complex information about the world. They allow computers to define categories and subcategories and establish relationships between them, making it easier to process and analyze large amounts of data."
+    },
+    {
+        "arxiv_id": "2403.16289v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "requirement artifacts",
+        "definition_text": "Requirement artifacts are documents or pieces of information that describe what a software or system needs to do. They include details like user needs, system specifications, and conditions which must be met, and serve as reference points throughout a project to ensure all goals are achieved."
+    },
+    {
+        "arxiv_id": "2403.16289v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "decomposing requirements",
+        "definition_text": "Decomposing requirements involves breaking down complex requirements into simpler, smaller parts that are easier to understand and manage. This process helps ensure that every aspect of the requirement is addressed properly and can be more effectively implemented in a project."
+    },
+    {
+        "arxiv_id": "2403.16289v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "requirement dataset",
+        "definition_text": "A requirement dataset is a collection of data that specifies what is necessary or expected for a particular project, system, or product. It includes detailed information on what needs to be achieved, such as functionalities, features, and performance criteria, to ensure the end result meets the intended goals."
+    },
+    {
+        "arxiv_id": "2403.16289v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "SafetyOps",
+        "definition_text": "SafetyOps refers to the practice of continuously monitoring and improving the safety protocols and processes within an organization. It involves using data and technology to predict and prevent accidents, ensuring a safer workplace for everyone."
+    },
+    {
+        "arxiv_id": "2403.16289v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "HARA",
+        "definition_text": "HARA, which stands for Hazard and Risk Assessment, is a process used to identify and analyze potential risks and hazards in a particular environment or situation. This assessment helps in taking necessary precautions or making decisions to minimize the impact of those risks and hazards."
+    },
+    {
+        "arxiv_id": "2403.17419v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "AI safety",
+        "definition_text": "AI safety refers to the practice of ensuring that artificial intelligence systems operate as intended, without causing unintended harm to humans or the environment. It involves designing AI technologies that reliably behave in ways that align with human values and ethics."
+    },
+    {
+        "arxiv_id": "2403.17419v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "veneer",
+        "definition_text": "Veneer refers to a thin layer of decorative material, typically wood, that is applied to the surface of furniture, cabinets, or other objects to give them a more attractive appearance. This layer is usually glued onto a less expensive material underneath, making it a cost-effective way to achieve a high-end look."
+    },
+    {
+        "arxiv_id": "2402.01786v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "Courses of Action (COAs)",
+        "definition_text": "Courses of Action (COAs) are different plans or methods that can be followed to achieve a goal. They outline various ways to respond to a situation, allowing for a choice based on their likely effectiveness and feasibility."
+    },
+    {
+        "arxiv_id": "2402.01786v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Courses of Action",
+        "definition_text": "Courses of action are the various plans or methods that can be followed to achieve a specific goal. These are different strategies or steps that someone might consider and choose from to effectively solve a problem or handle a situation."
+    },
+    {
+        "arxiv_id": "2402.01786v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "COA-GPT",
+        "definition_text": "COA-GPT (Cyclic Oligoadenylate GPT) is a technology that uses a specific type of RNA molecule to trigger and guide enzymes to edit or modify the RNA inside cells. This method enables precise and targeted genetic changes, offering potential improvements in genetic therapies and research applications."
+    },
+    {
+        "arxiv_id": "2402.01786v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "commander feedback",
+        "definition_text": "Commander feedback refers to the responses and guidance provided by a leader or supervisor in a team setting, especially within military or organizational operations, to assess performance and encourage improvement. This feedback helps maintain clear communication and ensure that everyone is aligned with the goals and procedures necessary for the success of a mission or project."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "centralized problem",
+        "definition_text": "A centralized problem is an issue that arises within a system or organization where decisions, control, or information are concentrated in a single point or location, rather than being distributed across multiple areas. This setup can create vulnerabilities, as the whole system may suffer if that central point fails or becomes inefficient."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "legitimate agent",
+        "definition_text": "A \"legitimate agent\" refers to a person or entity that is officially authorized to act on behalf of another person or group. This means they have the legal rights or permissions necessary to perform actions or make decisions for someone else."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "decentralized problem",
+        "definition_text": "A decentralized problem is an issue that requires a solution involving multiple parts or agents that operate independently rather that through a single central point of control. This type of problem often emerges in systems where decisions need to be made locally by various components rather than centrally orchestrated."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "NeuroEvolution (NE)",
+        "definition_text": "NeuroEvolution (NE) is a method where algorithms inspired by the process of natural evolution are used to automatically develop and improve artificial neural networks, which are computing systems vaguely modeled on the human brain. This approach allows computers to learn and adapt to tasks by evolving their structures through a process of mutation and selection, similar to how organisms evolve over generations."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "collaborative multi-agent tasks",
+        "definition_text": "Collaborative multi-agent tasks involve a group of agents (which can be robots, software programs, or anything that can perform actions independently) working together to complete a specific job or solve a problem. These agents communicate and coordinate their actions to achieve a common goal more efficiently than they could individually."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "EAHT approaches",
+        "definition_text": "EAHT approaches, which stand for \"Ergodic Average Hitting Time\" approaches, are methods used in data science and network analysis to measure how quickly different parts of a network or system interact with each normally by analyzing the average time it takes for elements within the system to \"hit\" or reach each other. These approaches help in understanding the efficiency and connectivity of networks, such as how information flows through social media networks or how quickly diseases spread in populations."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "centralized and one decentralized problem",
+        "definition_text": "A centralized problem is one where a single main system or entity controls all the parts and decision-making processes. In contrast, a decentralized problem is spread out, with multiple parts or individuals operating independently, making their own decisions without a single controlling entity."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "single legitimate agent",
+        "definition_text": "A \"single legitimate agent\" refers to the only authorized or recognized entity that is permitted to take action or make decisions on behalf of someone else, such as a person, group, or organization. This means that in any given scenario, this agent is the sole party with the legal or official approval to represent the interests or intentions of the principal party."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "NeuroEvolution",
+        "definition_text": "NeuroEvolution is a type of artificial intelligence technique that combines neural networks (systems modeled on the human brain that help computers learn from observational data) with evolutionary algorithms (which mimic the process of natural selection) to create AI that can evolve and improve over time. Essentially, it involves evolving AI systems to better solve problems through a process similar to natural evolution."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "multi-agent tasks",
+        "definition_text": "Multi-agent tasks involve situations where multiple agents, which could be computers, robots, or people, work together to complete a specific goal or solve a problem. These tasks require coordination and communication among all involved agents to ensure they work effectively as a team."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "EAHT",
+        "definition_text": "EAHT, or Extended Adaptive Horizontal Transport, often refers to a method used in various applications, particularly climate modeling, where it describes a process to adjust or spread out information horizontally over a grid or area. This method helps in improving the accuracy of simulations by more realistically distributing effects, like temperature or moisture, across different regions."
+    },
+    {
+        "arxiv_id": "2403.10112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "wireless sensor networks",
+        "definition_text": "Wireless sensor networks (WSNs) are systems made up of numerous small devices, called sensors, that collect data about their environment, like temperature or humidity, and send this information wirelessly to a main location for processing. This allows for remote monitoring and data collection without the need for physical connections like wires."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Multi-Robot Task Allocation (MRTA) problems",
+        "definition_text": "Multi-Robot Task Allocation (MRTA) problems involve determining the most effective way to distribute tasks among a group of robots so that they can work together efficiently to complete a set of tasks. This process includes deciding which robot does what task and in what order, to maximize productivity and minimize time or energy spent."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Graph Reinforcement Learning (GRL) framework",
+        "definition_text": "The Graph Reinforcement Learning (GRL) framework is a method that combines graph theory and reinforcement learning to solve complex problems where data can be represented as nodes (points) and edges (lines connecting points). This framework is particularly useful in scenarios where relationships and interactions between different elements are crucial, such as recommending products based on user interactions or optimizing network traffic."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "bipartite graph matching approach",
+        "definition_text": "A bipartite graph matching approach is a method used in situations where you have two distinct groups and you want to pair up items from one group with items from the other in the best way possible. An example is when a school wants to match students (one group) with available teachers (the other group) based on who can best teach each student's required subjects."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Capsule Attention policy mode",
+        "definition_text": "Capsule Attention Policy Mode is a concept in artificial intelligence that combines the ideas of \"capsules\" \u2014 groups of neurons that process specific types of information together \u2014 with \"attention mechanisms,\" which help the system focus on the most relevant parts of the data. This approach enables AI to make more accurate decisions by effectively paying attention to important details while ignoring irrelevant information."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "robots' state graph",
+        "definition_text": "A robots' state graph is a visual representation, similar to a map, that shows all the possible states or conditions a robot can be in, and how it can move from one state to another based on different inputs or actions. This helps in planning and predicting how the robot will behave in various scenarios."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "positive bigraph weights",
+        "definition_text": "Positive bigraph weights refer to the assignment of positive numerical values to the edges in a bipartite graph. A bipartite graph is a type of graph where nodes are divided into two distinct groups, and edges can only connect nodes from different groups; the positive weights on these edges generally represent the strength or capacity of connections between these nodes."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "learned incentive policy",
+        "definition_text": "A learned incentive policy refers to a strategy or set of rules developed through experience or learning, that aims to motivate and guide people's behavior by offering rewards or incentives. This approach analyzes what types of rewards are effective in encouraging desired actions and uses this information to make better decisions about how to influence behaviors effectively."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "expert-specified incentive",
+        "definition_text": "An expert-specified incentive is a reward or motivation method designed by someone with specialized knowledge to encourage certain behaviors or actions. This approach is used to effectively achieve specific outcomes based on expert understanding of what drives people in particular situations."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Multi-Robot Task Allocation",
+        "definition_text": "Multi-Robot Task Allocation involves assigning different tasks to various robots in a group so that they work together efficiently. This method helps ensure each robot performs duties it\u2019s best suited for, improving both speed and results in tasks like manufacturing, cleaning, or rescue operations."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "heuristics-aided\nmethods",
+        "definition_text": "Heuristics-aided methods are techniques that use simple, practical rules or shortcuts to help solve complex problems more quickly and efficiently. These methods help streamline decision-making processes by focusing on the most relevant aspects of a problem, rather than analyzing every detail."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "genetic algorithms",
+        "definition_text": "Genetic algorithms are computer programs that solve problems by mimaking the process of natural evolution, using techniques like selection, crossover, and mutation. They start with a set of possible solutions, gradually evolving better solutions over time by combining and modifying them, much like how nature evolves species to be more adapted to their environments."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "auction-based methods",
+        "definition_text": "Auction-based methods are a way of making decisions or allocating resources where participants bid in an auction format, and the highest bidder wins the item or right in question. This approach ensures that the items are given to those who value them the most, as determined by how much they are willing to pay."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "bipartite graph matching methods",
+        "definition_text": "Bipartite graph matching methods are techniques used to pair elements from two separate groups in a way that matches them according to certain rules or preferences. Imagine trying to match job applicants to job openings where each applicant can only fill one opening and each job can only be filled by one applicant; bipartite graph matching helps find the best way to make these matches."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "neural network based policy",
+        "definition_text": "A neural network-based policy is a set of rules and instructions used in artificial intelligence that helps decide what actions to take in a given situation. It uses a neural network, a computer system inspired by the human brain that learns from large amounts of data, to make decisions based on patterns it has learned from past experiences."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Graph Reinforcement Learning (GRL) framework",
+        "definition_text": "The Graph Reinforcement Learning (GRL) framework is a method that combines graph theory and reinforcement learning to solve complex problems where data can be represented as nodes (points) and edges (lines connecting points). This framework is particularly useful in scenarios where relationships and interactions between different elements are crucial, such as social networks or molecule structures, helping machines to learn optimal actions based on the patterns and structures in the data."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "bipartite graph matching approach",
+        "definition_text": "A bipartite graph matching approach is a method used in situations where you have two distinct groups and you want to pair up items from one group with items from the other in the best way possible. An example is when a school wants to match students (one group) with available computers (another group), ensuring that each student gets the most suitable computer based on specific criteria, like the student\u2019s major or course requirements."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Capsule Attention policy model",
+        "definition_text": "The Capsule Attention policy model is a type of artificial intelligence that mimics how the human brain processes important information. It combines details from various sources, focuses on the most critical parts, and uses this to make decisions, similar to how our brains decide what to pay attention to in a complex environment."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "original capsule attention network architecture",
+        "definition_text": "The original capsule attention network architecture is a type of artificial intelligence that mimulates how the human brain processes visual information. It combines the concepts of capsules (small groups of neurons that specialize in recognizing specific visual entities) and attention mechanisms (which help the network focus on the most important parts of the data) to make decisions about images more effectively."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Multihead Attention based decoders",
+        "definition_text": "Multihead attention based decoders are components of some artificial intelligence models, particularly those that handle tasks like translating languages, that focus on different parts of an input sentence simultaneously. By doing so, they can better understand the context and subtleties of the input, leading to more accurate and coherent outputs."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "LogNormal distribution matrix",
+        "definition_text": "A log-normal distribution matrix is a type of matrix where each element is selected based on a log-normal distribution. This distribution describes variables that are positively skewed, often representing things that can't go below zero but can potentially stretch towards very high values, like prices or incomes, after taking the logarithm of the values which then appear normally distributed."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "positive bigraph weights",
+        "definition_text": "Positive bigraph weights refer to the assignment of positive numerical values to the edges in a bipartite graph. This assignment enables various calculations, such as determining the strength of connections between different nodes in the graph."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "GRL-derived incentive",
+        "definition_text": "A GRL-derived incentive refers to a reward or motivational system based on goals, rewards, and learning (GRL) principles. It is designed to encourage progress and achievement by aligning individual actions with specific objectives that promote continuous learning and improvement."
+    },
+    {
+        "arxiv_id": "2403.07131v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "expert-specified heuristics",
+        "definition_text": "Expert-specified heuristics are rules or guidelines created by knowledgeable individuals to help solve problems quickly and effectively, by focusing on the most relevant aspects of the problem. These heuristics simplify decision-making processes, enabling faster solutions without needing detailed analysis."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "reward shaping\ntechniques",
+        "definition_text": "Reward shaping techniques involve modifying the rewards given in a training process to make learning more efficient and effective. This technique is often used in artificial intelligence and machine learning to help systems or agents learn desired behaviors faster by providing extra feedback and incentives."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "initial stimulus values",
+        "definition_text": "Initial stimulus values are the starting levels or amounts of any factor or stimuli that affect a system or experiment before any changes are made or any reactions occur. These values serve as the baseline or reference point to measure and analyze how the factor or stimulus influences outcomes or responses in the system being observed."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Visual perimetry",
+        "definition_text": "Visual perimetry is a test that measures the entire field of vision, including the peripheral (side) vision. It is commonly used to detect and monitor vision problems, particularly those associated with the optic nerve and brain, such as in glaucoma."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "ocular or neurological conditions",
+        "definition_text": "Ocular conditions refer to health issues that affect the eyes, possibly impacting vision, such as cataracts or glaucoma. Neurological conditions are disorders related to the brain, spinal cord, or nerves that can lead to various symptoms, including headaches, memory problems, or changes in mood and movement."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "RLPeri",
+        "definition_text": "RLPeri, or Remote Lab Perimeter, is a technology used in scientific research and education that enables the secure management and monitoring of laboratory environments and experiments remotely. This allows researchers and students to conduct and access laboratory tasks from different locations, making labs more flexible and accessible."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "convolutional kernels",
+        "definition_text": "Convolutional kernels, also known as filters, are small grids of numbers used in image processing that slide over images to extract features, like edges or textures, by performing calculations on the pixel values they cover. This process, essential in various applications like photo editing and computer vision, helps in analyzing and processing images by highlighting important details and patterns."
+    },
+    {
+        "arxiv_id": "2403.05112v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "spatial features",
+        "definition_text": "Spatial features refer to the characteristics and aspects of objects and spaces that define their physical location, size, and shape. These features help in understanding how objects are arranged in a space, such as buildings on a map or furniture in a room."
+    },
+    {
+        "arxiv_id": "2403.00431v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "robotic process automation (RPA)",
+        "definition_text": "Robotic Process Automation (RPA) is a technology that allows businesses to automate routine tasks that are usually performed by humans, by using software robots to handle such repetitive work like filling out forms or processing transactions. This helps companies save time and reduce errors, making processes more efficient."
+    },
+    {
+        "arxiv_id": "2403.00431v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "contingency table analysis",
+        "definition_text": "Contingency table analysis is a statistical method used to examine the relationship between two categorical variables. It involves organizing data into a table, which shows the frequency at which different combinations of variables occur, and then analyzing it to see if there are significant associations between the variables."
+    },
+    {
+        "arxiv_id": "2403.00431v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "robotic process automation (RPA)",
+        "definition_text": "Robotic Process Automation (RPA) is a technology that allows businesses to automate routine tasks that are usually performed by humans, by using software robots to handle such repetitive and rule-based actions as filling out forms, processing transactions, or managing data. This helps to increase efficiency and reduce the need for manual intervention in mundane tasks."
+    },
+    {
+        "arxiv_id": "2403.00431v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Pearson's Chi-square Test of Independence",
+        "definition_text": "Pearson's Chi-square Test of Independence is a statistical method used to determine whether there is a significant relationship between two categorical variables in a population. Essentially, it helps to see if changes in one category are independent of changes in another, or if they are somehow connected."
+    },
+    {
+        "arxiv_id": "2403.11952v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Open Government Data (OGD)",
+        "definition_text": "Open Government Data (OGG) refers to the practice of making data collected by government agencies freely available to the public. This data is provided in a way that is easy for individuals and businesses to use, helping to increase transparency, spur innovation, and enhance citizen engagement with the government."
+    },
+    {
+        "arxiv_id": "2403.08451v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "open government data (OGD)",
+        "definition_text": "Open government data (OGD) refers to the practice of making data collected by government agencies freely available to the public, enabling everyone to access, use, and share it. This transparency promotes innovation, encourages informed decision-making, and facilitates public participation in government."
+    },
+    {
+        "arxiv_id": "2403.08451v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "European Union and Gulf Cooperation Council (GCC) countries",
+        "definition_text": "The European Union (EU) is a political and economic union consisting of 27 European countries, aiming to ensure economic cooperation, freedom of movement, and a single currency for many of its members. The Gulf Cooperation Council (GCC) is a regional political and economic union that includes six Middle Eastern countries: Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates, focusing on fostering economic, social, and cultural cooperation."
+    },
+    {
+        "arxiv_id": "2403.14686v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Bayesian network analysis",
+        "definition_text": "Bayesian network analysis is a statistical method that uses a network of variables connected by arrows to represent and analyze the dependencies among them, helping to predict the outcomes of various situations based on known information. Each arrow shows the direction of influence from one variable to another, and the strength of these influences is updated as new data becomes available."
+    },
+    {
+        "arxiv_id": "2403.14686v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "blended learning environments",
+        "definition_text": "Blended learning environments combine traditional classroom teaching with online educational materials and interactive activities, allowing students to learn both in-person and digitally, often at their own pace. This method integrates the benefits of face-to-fired instruction with the flexibility and accessibility of online learning tools."
+    },
+    {
+        "arxiv_id": "2403.14686v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "pedagogical",
+        "definition_text": "The term \"pedagogical\" relates to the methods and practices of teaching. It focuses on how educators can effectively deliver instruction and facilitate learning for their students."
+    },
+    {
+        "arxiv_id": "2403.14686v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Bayesian network analysis",
+        "definition_text": "Bayesian network analysis is a statistical method that uses a network of variables connected by arrows to represent and analyze the dependencies among these variables. It helps in making predictions or decisions by calculating probabilities based on the relationships and available data, incorporating new evidence as it becomes available."
+    },
+    {
+        "arxiv_id": "2403.14686v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Moodle activity logs",
+        "definition_text": "Moodle activity logs are records that track all the actions and activities performed by users in the Moodle learning platform, such as when students log in, submit assignments, or participate in forums. These logs help teachers monitor progress and participation, and provide insights into how students interact with the course material."
+    },
+    {
+        "arxiv_id": "2403.07082v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "(CSCL) environment",
+        "definition_text": "A CSCL (Computer-Supported Collaborative Learning) environment refers to a setting that uses computer technology as a tool to enhance the process of people learning together. This environment can include online forums, virtual classrooms, and interactive software, making it easier for students to collaborate, share information, and achieve educational goals regardless of their physical location."
+    },
+    {
+        "arxiv_id": "2403.07082v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "asynchronous group brainstorming session",
+        "definition_text": "An asynchronous group brainstorming session is a type of meeting where participants share and develop ideas at different times instead of gathering together at the same time. This allows team members to contribute on their own schedule, using tools like email, online forums, or shared documents to exchange thoughts and suggestions."
+    },
+    {
+        "arxiv_id": "2401.09210v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "moral narratives",
+        "definition_text": "Moral narratives are stories or explanations that illustrate right and wrong behaviors and often teach a lesson about ethics or morality. These narratives help people understand and discuss complex ethical issues by presenting them in a more relatable and simpler format."
+    },
+    {
+        "arxiv_id": "2401.09210v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "semantic\ncoherence",
+        "definition_text": "Semantic coherence refers to the way ideas in a text or speech are logically connected, making it easy for someone to understand the overall meaning and see how the different parts relate to each other. It's about ensuring that all the pieces of information fit together in a clear and meaningful way."
+    },
+    {
+        "arxiv_id": "2310.06155v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "breadth-first",
+        "definition_text": "\"Breadth-first\" refers to a method often used in searching or traversing structures, like trees or graphs, where it explores all options at one level before moving on to the next. It's like searching a family tree by getting to know all the children in one generation before moving on to their children."
+    },
+    {
+        "arxiv_id": "2310.06155v3",
+        "reader_id": "rid0",
+        "human_jargon_term": "depth-first RQ generation",
+        "definition_text": "Depth-first RQ generation refers to a method of creating and organizing research questions by exploring one main topic deeply before moving on to another. This approach involves starting with a broad question, then continuously asking more detailed questions about that subject, like digging deeper into the layers of a topic, before considering a different broad topic."
+    },
+    {
+        "arxiv_id": "2310.06155v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "research questions",
+        "definition_text": "Research questions are specific queries that guide a study or investigation, aiming to discover new information or understandings about a particular topic. They define the focus of the research, shaping what the researcher aims to explore and answer through their work."
+    },
+    {
+        "arxiv_id": "2310.06155v3",
+        "reader_id": "rid1",
+        "human_jargon_term": "breadth-first and depth-first RQ generation",
+        "definition_text": "Breadth-first and depth-first RQ generation refer to two methods used to explore and generate research questions (RQs) in a structured way. Breadheadth-first RQ generation method involves initially considering a wide range of topics broadly, slowly narrowing down to more specific areas as more is learned; while depth-first RQ generation begins with a deep, focused dive into a specific topic, gradually expanding to broader areas related to the initial topic as needed."
+    },
+    {
+        "arxiv_id": "2403.01783v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "diffractice analysis",
+        "definition_text": "Diffractive analysis is a method used in science to study structures by analyzing the patterns that are formed when waves, like light or sound, scatter upon encountering an obstacle. This analysis helps scientists understand the detailed architecture of materials and biological substances at the microscopic level."
+    },
+    {
+        "arxiv_id": "2403.01783v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "CHI community",
+        "definition_text": "The CHI community refers to a group of researchers, designers, and professionals who focus on Human-Computer Interaction (HCI), exploring how people interact with computers and designing technologies that improve this interaction. This community often shares knowledge, collaborates on projects, and meets at conferences to advance the field of HCI."
+    },
+    {
+        "arxiv_id": "2403.01783v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "diffractive analysis",
+        "definition_text": "Diffractive analysis is a method used in science to study patterns made when waves, typically light or X-rays, interact with an object and bend around or through it. By examining these patterns, scientists can understand the structure and properties of the object at a microscopic level."
+    },
+    {
+        "arxiv_id": "2403.01783v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Stable Diffusion",
+        "definition_text": "Stable Diffusion is a type of artificial intelligence model capable of generating high-quality images from textual descriptions. It achieves this by understanding and interpreting the text input, then creating images that match the description using a learned understanding of visual concepts and relationships."
+    },
+    {
+        "arxiv_id": "2403.01783v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "ideation",
+        "definition_text": "Ideation is the creative process of generating ideas, where you brainstorm and explore different possibilities to solve a problem or address a topic. It involves thinking both logically and imaginatively to come up with new and innovative solutions or concepts."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Additive manufacturing (AM)",
+        "definition_text": "Additive manufacturing, commonly known as 3D printing, is a process where materials are layered to create an object based on a digital design, allowing complex shapes to be made more efficiently and with less waste compared to traditional manufacturing methods. It's often used for prototypes, specialized tools, and even finished products, adapting easily to design changes."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "Nielsen's heuristics approach",
+        "definition_text": "Nielsen's heuristics approach refers to a set of general guidelines or principles developed by usability expert Jakob Nielsen, which are used to evaluate and enhance the user interface design of software and websites. These principles focus on making systems easy to use and learn, ensuring they provide a satisfying user experience."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Additive manufacturing",
+        "definition_text": "Additive manufacturing, often known as 3D printing, is a process of creating objects by layering materials based on a digital model, allowing for complex designs that are often difficult or impossible to achieve with traditional manufacturing methods. This technique builds objects by adding material layer by layer, which is different from traditional methods that often involve cutting away excess material."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "volumetric imaging",
+        "definition_text": "Volumetric imaging is a technique used in science and medicine where images of an object or area are captured from multiple angles to create a comprehensive, three-dimensional (3D) representation. This method allows for a detailed examination of the internal structure of the object or area, helping professionals like doctors or scientists see and analyze aspects that are not visible from the outside."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "collaborative virtual reality",
+        "definition_text": "Collaborative virtual reality is a technology that allows multiple users to interact and work together within a simulated, 3D environment, even if they are in different physical locations. This can be used for anything from virtual meetings and team projects, to playing games and exploring virtual worlds together."
+    },
+    {
+        "arxiv_id": "2403.08940v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Nielsen's heuristics approach",
+        "definition_text": "Nielsen's heuristics approach refers to a set of general guidelines or principles developed by usability expert Jakob Nielsen, which are used to evaluate and enhance the user interface design of software and websites. These principles focus on making systems easy to use and learn, ensuring they provide a satisfying user experience."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "gustosonic eating system",
+        "definition_text": "The \"gustosonic eating system\" refers to a fictional or conceptual idea that combines taste (gusto) and sound (sonic) to enhance the eating experience. It suggests using sound to influence or modify the flavors perceived while eating, potentially making the food taste better or more interesting through auditory stimuli."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "stimulation",
+        "definition_text": "Stimulation refers to the act of encouraging or prompting an activity, process, or reaction to occur, typically by providing an external influence or input. It can be applied in various contexts such as stimulating a muscle with an electrical pulse or stimulating the brain with sound or light to encourage a specific response."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "hedonism",
+        "definition_text": "Hedonism is the belief that pleasure or happiness is the most important goal in life. People who follow hedonism, called hedonists, strive to maximize their own pleasure and minimize their pain."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "reflexivity",
+        "definition_text": "Reflexivity refers to the idea that individuals or elements within a system can influence and modify the system based on their self-awareness and reactions. It suggests that our actions or observations can change the outcomes in both social and economic contexts, meaning that simply by participating or observing, we can alter the environment or situation itself."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "GustosonicSense",
+        "definition_text": "GustosonicSense refers to a technology that combines taste and sound to enhance the dining experience. It uses specific sounds to influence how the brain perceares flavors, potentially making food taste better or more intense."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "hedonism",
+        "definition_text": "Hedonism is the belief that pleasure or happiness is the most important goal in life. People who follow hedonism, called hedonists, strive to maximize their own pleasure and minimize their pain."
+    },
+    {
+        "arxiv_id": "2403.10851v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "reflexivity",
+        "definition_text": "Reflexivity is the concept that objects or people in a given system can influence and modify the system just by being aware of it and by making decisions based on that awareness. For example, in the stock market, a trader's actions based on their predictions can affect the market itself, changing the outcome of the very events they were anticipating."
+    },
+    {
+        "arxiv_id": "2403.04760v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "score provenance",
+        "definition_text": "Score provenance refers to the origin or source of a particular score, as well as the method or process used to determine it, helping to ensure that the score is reliable and transparent. It's important in various fields such as academics and sports, where understanding how a score was derived can impact decisions and perceptions."
+    },
+    {
+        "arxiv_id": "2403.04760v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "score provenance",
+        "definition_text": "Score provenance refers to the origin or source of a numerical score, especially in the context of explaining how the score was calculated or derived. This concept is often used to help understand and verify the reliability and accuracy of the score by tracking back to the data and methods used to produce it."
+    },
+    {
+        "arxiv_id": "2403.04760v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "iScore",
+        "definition_text": "iScore is a scoring function used in computational chemistry to evaluate how well a small molecule, such as a potential drug, fits and interacts with a protein target. It helps predict the effectiveness of the molecule in binding to the protein, aiding in the drug discovery process."
+    },
+    {
+        "arxiv_id": "2403.09308v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "expressive robot behavior",
+        "definition_text": "Expressive robot behavior refers to the way robots display emotions or intentions through movements, sounds, or changes in appearance. This helps humans understand and interact with robots more naturally, as it mimics the ways humans communicate with each other."
+    },
+    {
+        "arxiv_id": "2403.09308v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "skill generation",
+        "definition_text": "Skill generation refers to the process of acquiring new abilities or improving existing ones, typically through learning, training, or practice. This concept is applicable in various contexts, such as personal development, education, or workforce training, where individuals or groups enhance their capabilities to perform specific tasks more effectively."
+    },
+    {
+        "arxiv_id": "2403.09308v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "workspace understanding",
+        "definition_text": "Workspace understanding refers to the ability of a system, such as a robot or computer software, to recognize and comprehend the layout and objects within a specific area where tasks are performed. This understanding allows the system to interact effectively and safely in that environment, making appropriate decisions based on the configuration and presence of items around it."
+    },
+    {
+        "arxiv_id": "2403.09308v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "waypoint generation",
+        "definition_text": "Waypoint generation is the process of creating specific points along a route that help guide a vehicle or person from one location to another. These waypoints are like intermediate destinations that one must reach, which help in navigation, particularly in complex routes or when precise movements are required."
+    },
+    {
+        "arxiv_id": "2403.09308v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "pick-and-place task",
+        "definition_text": "A pick-and-place task involves moving objects from one location to another, commonly done by robotic systems or machinery in settings like manufacturing lines where items need to be assembled, packed, or sorted. This task is fundamental in automating repetitive processes which require precision and speed, helping increase efficiency and reduce human labor."
+    },
+    {
+        "arxiv_id": "2403.02928v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "feedback-driven adaptation",
+        "definition_text": "Feedback-driven adaptation refers to the process where a system or organism modifies its behavior or characteristics based on feedback from its environment. This enables it to better adapt and respond to changing conditions or challenges it encounters."
+    },
+    {
+        "arxiv_id": "2403.02928v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "dynamism",
+        "definition_text": "Dynamism refers to the quality of being constantly active, energetic, and changing. It describes phenomena that are characterized by continuous growth, movement, or progress."
+    },
+    {
+        "arxiv_id": "2403.02928v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "human-on-the-loop",
+        "definition_text": "\"Human-on-the-loop\" refers to a scenario where an autonomous system operates independently, but a human supervisor is available to oversee its performance and intervene if necessary. This approach ensures that decisions made by machines can still be monitored and controlled by humans, combining autonomy with human oversight."
+    },
+    {
+        "arxiv_id": "2403.07997v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "context-aware policies",
+        "definition_text": "Context-aware policies are rules or guidelines that adapt based on the situation or environment they are applied to. For example, a mobile phone might automatically silence itself in a movie theater or a security system might require stronger authentication when someone tries to access sensitive information from a new location."
+    },
+    {
+        "arxiv_id": "2403.07997v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "context-aware policies",
+        "definition_text": "Context-aware policies are rules or guidelines that adapt based on the situation or environment they are applied to. For example, a mobile phone might automatically silence itself in a movie theater or a security system might require stronger authentication when someone tries to access sensitive information from a new location."
+    },
+    {
+        "arxiv_id": "2403.07997v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Fast-Forward Reality",
+        "definition_text": "\"Fast-Forward Reality\" refers to a scenario or depiction where events or developments are shown to progress at a much quicker pace than they normally would in real life. This concept is often used in simulations, storytelling, or theoretical models to explore future possibilities and their impacts without being constrained by real-time progression."
+    },
+    {
+        "arxiv_id": "2403.07997v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Extended Reality",
+        "definition_text": "Extended Reality (XR) is a term that encompasses all environments and interactions that combine real and virtual worlds, including virtual reality (VR), augmented reality (AR), and mixed reality (MR). It refers to anything that enhances, simulates, or replaces the world around us through the use of digital technology, creating immersive experiences for users."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "robot task trajectories",
+        "definition_text": "Robot task trajectories refer to the planned paths or sequences of actions that a robot follows to complete specific tasks. These trajectories guide the robot's movements and interactions with its environment to achieve a designated goal efficiently and safely."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Preference-based learning",
+        "definition_text": "Preference-based learning is a type of machine learning where the system learns to make decisions based on examples of preferences (which options are better than others) rather than from direct answers. This method is particularly useful in situations where it's hard to define the best outcome, but relatively easy to compare which of two outcomes is preferred."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "non-salient",
+        "definition_text": "\"Non-salient\" refers to something that is not very noticeable or important in a particular context. It describes features or aspects that don't stand out or attract attention."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "FARPLS",
+        "definition_text": "FARPLS (Fuzzy Adaptive Resonance Theory Penalized Least Squares) is a type of data analysis technique that combines elements of fuzzy logic, which deals with reasoning that is approximate rather than fixed and exact, with adaptive resonance theory, a theory about how the brain processes information, to improve the way predictions and decisions are made from complex or uncertain data. It's particularly useful in scenarios where traditional data processing methods struggle due to noise and inconsistency in the data."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "trajectory pair",
+        "definition_text": "A trajectory pair refers to two paths taken by objects as they move through space, which can be analyzed to study their interactions or compare their movements. For example, scientists might examine the trajectory pair of two planets to understand how they influence each and every other's orbit."
+    },
+    {
+        "arxiv_id": "2403.06267v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "cognitive loads",
+        "definition_text": "Cognitive load refers to the amount of mental effort being used in the working memory. Imagine it as your brain's capacity to handle multiple tasks and information at once, like having a limited number of plates you can keep spinning without dropping any."
+    },
+    {
+        "arxiv_id": "2403.06823v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "5W1H framework",
+        "definition_text": "The 5W1H framework is a simple questioning technique used for gathering information, solving problems, or making decisions, by answering six key questions: Who, What, Where, When, Why, and How. This method helps in getting a complete understanding of a situation by addressing all aspects of it, ensuring nothing important is overlooked."
+    },
+    {
+        "arxiv_id": "2403.06823v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "European AI Act",
+        "definition_text": "The European AI Act is a proposed regulation by the European Union aimed at setting strict rules and standards for the development and use of artificial intelligence (AI) technologies within its member countries, ensuring that AI systems are safe and respect existing laws and human rights. This act is designed to minimize risks associated with AI, such as privacy breaches or discrimination, making AI more trustworthy and secure for users."
+    },
+    {
+        "arxiv_id": "2403.06823v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "5W1H framework",
+        "definition_text": "The 5W1H framework is a simple yet effective method used for gathering comprehensive information about a topic or problem. It involves answering six key questions: Who, What, When, Where, Why, and How, to ensure a thorough understanding of the subject being examined."
+    },
+    {
+        "arxiv_id": "2402.09494v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "mental-behavioral methodology",
+        "definition_text": "Mental-behavioral methodology refers to the techniques and procedures used in psychology to study and understand how people's thoughts and emotions influence their behaviors. This approach combines aspects of mental processes and observable actions to help assess and treat various psychological conditions."
+    },
+    {
+        "arxiv_id": "2403.06431v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Participatory machine learning",
+        "definition_text": "Participatory machine learning is a process where developers and users, as well as people impacted by the application, collaboratively work together to design, develop, and implement machine learning systems. This approach encourages a more inclusive and transparent interaction between technology creators and the community, ensuring that the technology is fair and meets the needs and concerns of all involved."
+    },
+    {
+        "arxiv_id": "2403.06034v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "retributive",
+        "definition_text": "\"Retributive\" refers to a concept of justice focused on punishment that is proportionate to the wrongdoing committed. It is based on the idea that offenders should suffer consequences that match the harm they have caused, as a form of moral repayment or vengeance for their actions."
+    },
+    {
+        "arxiv_id": "2403.06034v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "restorative moderation strategies",
+        "definition_text": "Restorative moderation strategies refer to approaches in managing online communities where the focus is not just on removing harmful content or banning users, but also on healing and repairing relationships. This means encouraging communication, understanding, and positive interactions among users to foster a healthier online environment."
+    },
+    {
+        "arxiv_id": "2403.06034v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "retributive versus restorative moderation strategies",
+        "definition_text": "Retributive moderation strategies in online communities focus on punishing users who break the rules, often by banning them or restricting their abilities to post. In contrast, restorative moderation strategies aim to resolve underlying conflicts and repair relationships by encouraging rule-breaking users to understand the impact of their actions and make amends, fostering a more harmonious community environment."
+    },
+    {
+        "arxiv_id": "2403.06651v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "multisensory feedback",
+        "definition_text": "Multisensory feedback refers to the process by which someone receives information through multiple senses, such as sight, touch, and hearing, to better understand what is happening around them. For example, in a video game, multisensory feedback can include visual animations, sound effects, and vibrations to make the experience feel more real and immersive."
+    },
+    {
+        "arxiv_id": "2403.06651v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "SoniWeight Shoes",
+        "definition_text": "SoniWeight Shoes are designed to help users monitor and manage their weight by using built-in sensors that measure the body\u2019s weight distribution and balance when standing or walking. This information can provide valuable feedback on a person's overall health and fitness progress."
+    },
+    {
+        "arxiv_id": "2403.08041v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Gamification",
+        "definition_text": "Gamification is the use of game-like elements in non-game contexts to make activities more engaging and rewarding. For example, it involves adding points, challenges, and rewards to tasks such as learning a new skill or completing daily chores, making them more fun and motivating."
+    },
+    {
+        "arxiv_id": "2403.08041v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Platonic and Aristotelian philosophies",
+        "definition_text": "Platonic philosophy, founded by Plato, suggests that beyond our physical reality there exists a realm of perfect, unchanging forms or ideas, which are the true essence of everything in the world. In contrast, Aristotelian philosophy, established by Aristotle, emphasizes the importance of observing the physical world and using that knowledge to understand how things exist and change, focusing more on practical aspects of nature rather than ideal forms."
+    },
+    {
+        "arxiv_id": "2403.08041v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "moderation",
+        "definition_text": "Moderation refers to the process of reducing the speed of neutrons in a nuclear reactor, making them more effective at sustaining a nuclear chain reaction. It is typically achieved by using materials such as water or graphite that slow down the fast neutrons released from fission, allowing them to more reliably cause further fission of nuclear fuel."
+    },
+    {
+        "arxiv_id": "2403.08041v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "eudaimonia",
+        "definition_text": "Eudaimonia is a term from ancient Greek philosophy that refers to the highest form of human happiness or well-being, often achieved by living a fulfilling and virtuous life. It's not just about feeling good, but about thriving and realizing your true potential."
+    },
+    {
+        "arxiv_id": "2403.08041v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "altruistic actions",
+        "definition_text": "Altruistic actions are behaviors or deeds done to help others without expecting anything in return. These actions are motivated purely by the desire to benefit someone else, rather than for any personal gain."
+    },
+    {
+        "arxiv_id": "2403.12344v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "ergonomic",
+        "definition_text": "\"Ergonomic\" refers to the design of products, systems, or processes that are tailored to fit the needs of people, making them more comfortable and efficient to use. The goal is to enhance performance while reducing discomfort and the risk of injury."
+    },
+    {
+        "arxiv_id": "2403.19436v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "gig economy",
+        "definition_text": "The gig economy is a labor market characterized by the prevalence of short-term contracts or freelance work, as opposed to permanent jobs. People in the gig economy typically work on individual tasks or projects for different employers, often facilitated by digital platforms or apps, like Uber or Freelancer."
+    },
+    {
+        "arxiv_id": "2403.19436v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "dearthneoliberalism",
+        "definition_text": "I'm sorry, but \"dearthneoliberalism\" does not seem to be a recognized term. It\u2019s possible there might be a typo or misunderstanding. If you meant \"neoliberalism,\" it refers to a political ideology which emphasizes free-market capitalism, deregulation of industries, and a reduction in government spending on social services. If you have a different term or concept in mind, feel free to clarify!"
+    },
+    {
+        "arxiv_id": "2401.10838v2",
+        "reader_id": "rid0",
+        "human_jargon_term": "gist-level manipulation",
+        "definition_text": "Gist-level manipulation refers to altering the general or overall meaning of a message or text, instead of tweaking its specific details. This approach might involve changing the core concept or summary, essentially modifying the main point that the receiver will take away."
+    },
+    {
+        "arxiv_id": "2401.10838v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Rambler",
+        "definition_text": "A rambler, in its most common usage, refers to a person who enjoys walking in the countryside for pleasure. The term can also refer to plants, such as certain types of roses, that grow long stems and spread horizontally over structures or other plants."
+    },
+    {
+        "arxiv_id": "2401.10838v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "gist-level manipulation",
+        "definition_text": "Gist-level manipulation refers to altering the general or overall meaning of a message or text, instead of tweaking specific details. This method focuses on changing the main ideas or key concepts to influence how the message is perceived or understood."
+    },
+    {
+        "arxiv_id": "2401.10838v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "gist extraction and macro revision",
+        "definition_text": "Gist extraction and macro revision refer to the process of summarizing the main idea (or \"gist\") of a text and then reviewing and revising that summary to ensure it captures the essential information clearly and accurately. This helps in making complex information more understandable and accessible."
+    },
+    {
+        "arxiv_id": "2403.16018v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Referents",
+        "definition_text": "Referents are the actual objects, events, or concepts in the real world that words or symbols represent or stand for. For example, when someone says \"dog,\" the referent is the actual animal that the word \"dog\" refers to."
+    },
+    {
+        "arxiv_id": "2403.16018v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "side-by-side",
+        "definition_text": "\"Side-by-side\" refers to two or more objects, people, or elements placed next to each other, facing the same direction, and usually being compared, contrasted, or functioning together. For example, in a side-by-side refrigerator, the freezer and refrigerator compartments are adjacent to each other, allowing for easy access and organization."
+    },
+    {
+        "arxiv_id": "2403.16018v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "in-situ",
+        "definition_text": "\"In-situ\" is a Latin term often used in science and engineering that means \"in the original place\" or \"on site.\" It describes observing, measuring, or analyzing something directly where it occurs, instead of in a laboratory or remote location."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "sequential multistep state transitions",
+        "definition_text": "Sequential multistep state transitions refer to a process where something goes through several distinct stages or changes in a specific, fixed order to reach a final state. This concept can be visualized as a set of steps on a staircase, where each step represents a different stage that must be taken one at a run time to reach the top."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "origin-destination analysis",
+        "definition_text": "Origin-destination analysis is a method often used in transportation and urban planning to examine and understand how and where people travel from one place (origin) to another (destination). This analysis helps planners improve traffic flow, public transport routes and infrastructure development by identifying popular routes and traffic patterns."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "auto-adaptive movement aggregation\nalgorithm",
+        "definition_text": "The term \"auto-adaptive movement aggregation algorithm\" refers to a computer program that automatically adjusts itself to efficiently gather and analyze data about movements (like the trajectory of a drone, the steps a person takes, or any other kind of physical motion). This allows the algorithm to adapt to different conditions or behaviors without needing manual adjustments, ensuring more accurate and useful results."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "H-Flow",
+        "definition_text": "H-Flow, or Hamiltonian flow, refers to the continuous and smooth motion in a system that follows the principles of Hamiltonian mechanics, a framework in physics used to describe the changing conditions of a system over time. This flow traces the path of particles or systems as they evolve in a way that their total energy, distributed between motion and position, remains constant."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "sequential multistep state transitions",
+        "definition_text": "Sequential multistep state transitions refer to a process where something goes through several distinct stages or changes in a specific, fixed order to reach a final state. Each step depends on the previous one, much like steps in a recipe, where completing one step is necessary before moving on to the next."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "origin-destination analysis",
+        "definition_text": "Origin-destination analysis is a method often used in transportation and urban planning to understand the start and end points of trips people make, like from home to work. This analysis helps in planning better transport routes, reducing travel time, and improving overall traffic management."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "first-order geospatial movement patterns",
+        "definition_text": "First-order geospatial movement patterns describe the simplest forms of how objects or individuals move in space. This includes basic movements like going straight, turning, or stopping."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "directed acyclic graph",
+        "definition_text": "A directed acyclic graph (DAG) is a type of diagram or graph with arrows that show the direction of connections between points, and it\u2019s designed so that it doesn\u2019t loop back on itself \u2014 meaning you can't start at one point, follow the connections, and return to the same point. This makes it useful for illustrating processes where certain steps must be completed before others can begin."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "sparse movements",
+        "definition_text": "Sparse movements refer to actions or physical maneuvers that are minimal and infrequent, involving only the necessary exertion or motion needed to accomplish a task. This concept can be applied to areas such as robotics, where machines are programmed to perform tasks using the least amount of movement required, improving efficiency and saving energy."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "temporal variants",
+        "definition_text": "Temporal variants refer to changes or differences that occur over time in some aspect of an object, situation, or phenomenon. These variations can be influenced by factors such as changes in the environment, different conditions, or the passage of time itself."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "HoLens",
+        "definition_text": "HoLens, likely referring to Microsoft's HoloLens, is a type of mixed reality headset that combines elements of the physical and digital worlds by overlaying 3D holographic images onto your real-world view. This technology allows users to interact with digital content and information in their physical surroundings through advanced sensors and holographic processing."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "temporal variability",
+        "definition_text": "Temporal variability refers to the way something changes over time. In other words, it's how the characteristics or features of anything\u2014like weather, temperature, economic data, or even wildlife populations\u2014can flucturallyxt normally at differenttimes, from hours to years."
+    },
+    {
+        "arxiv_id": "2403.03822v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "H-Flow",
+        "definition_text": "H-Flow, or Hamiltonian flow, refers to a continuous and smooth motion in a system that preserves its total energy throughout time. It describes how the state of the system evolves while always obeying the fundamental conservation laws of physics."
+    },
+    {
+        "arxiv_id": "2403.08057v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Extended Reality",
+        "definition_text": "Extended Reality (XR) is an umbrella term that covers various forms of immersive technology, including virtual reality (VR), augmented reality (AR), and mixed reality (MR). Essentially, XR blends the physical and digital worlds to create interactive virtual experiences, which can be accessed through devices like VR headsets or smartphones."
+    },
+    {
+        "arxiv_id": "2403.08057v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "MineXR",
+        "definition_text": "MineXR refers to the practice of using extended reality (XR), which encompasses virtual reality (VR), augmented reality (AR), and mixed reality (MR), in the mining industry. This technology is applied to improve safety, training, and operational efficiency by creating immersive and interactive environments that simulate real-life mining scenarios."
+    },
+    {
+        "arxiv_id": "2403.12730v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "sociotechnical systems",
+        "definition_text": "Sociotechnical systems refer to the complex interactions between society and technology, emphasizing that the design and performance of an organization or system depend on both the social aspects (like people, culture, and relationships) and the technical aspects (like tools, machines, and processes). This concept helps us understand and design systems that better meet human needs by ensuring that technological solutions do not overshadow the social factors that influence their success."
+    },
+    {
+        "arxiv_id": "2403.01697v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Tangshan beating incident",
+        "definition_text": "The Tangshan beating incident refers to a violent event that occurred in June 2022, in Tangshan, China, where a group of men brutally assaulted four women at a barbecue restaurant after one of the women rejected a man's advances. This incident was captured on video and widely shared online, sparking a national outcry and discussions about gender-based violence and public safety in China."
+    },
+    {
+        "arxiv_id": "2403.01697v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Weibo",
+        "definition_text": "Weibo is a popular social media platform in China that allows users to create, share, and discover content online, similar to how Twitter works in other countries. It enables users to post short messages, images, and videos, and interact with others through likes, comments, and reposts."
+    },
+    {
+        "arxiv_id": "2403.01697v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "grassroots feminist activism",
+        "definition_text": "Grassroots feminist activism refers to local or community-based efforts where individuals and groups work from the bottom up to promote gender equality and women's rights. This type of activism focuses on empowering individuals on a personal level to achieve broader societal change, often through education, advocacy, and local community projects."
+    },
+    {
+        "arxiv_id": "2403.01055v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Textfocals",
+        "definition_text": "Textfocals refer to specific words or phrases within a text that carry significant importance or emphasis, helping to guide the reader's attention to key themes or ideas. They act as focal points that underscore the main messages or concepts being conveyed."
+    },
+    {
+        "arxiv_id": "2305.11927v2",
+        "reader_id": "rid1",
+        "human_jargon_term": "Sprite",
+        "definition_text": "A sprite is a type of lightning that occurs above thunderstorms, high in the Earth's atmosphere. They appear as bright, reddish-orange flashes and can extend 30 to 55 miles into the sky."
+    },
+    {
+        "arxiv_id": "2403.00632v1",
+        "reader_id": "rid0",
+        "human_jargon_term": "affective interface",
+        "definition_text": "An affective interface is a type of technology designed to interact with humans by recognizing and responding to their emotions. This can be seen in devices like smartphones or virtual assistants that adjust their responses based on the user's mood, helping to create a more personalized and engaging experience."
+    },
+    {
+        "arxiv_id": "2403.00632v1",
+        "reader_id": "rid1",
+        "human_jargon_term": "Metamorpheus",
+        "definition_text": "Metamorpheus is a tool used in bioinformatics that helps researchers identify proteins and analyze their structures by examining mass spectrometry data. This software allows scientists to better understand the composition and function of proteins in biological samples."
+    }
+]

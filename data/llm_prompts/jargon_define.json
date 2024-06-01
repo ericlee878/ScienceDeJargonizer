@@ -1,0 +1,3 @@
+{
+    "jargon_definition_prompt": "Use 1-2 sentences to explain this term so that even a reader without deep scientific and technical knowledge can understand it easily: {jargon_term}."
+}

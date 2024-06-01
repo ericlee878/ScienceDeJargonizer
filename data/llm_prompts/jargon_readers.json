@@ -1,0 +1,12 @@
+[
+    {   
+        "reader_id": "rid0",
+        "reader_description": "PhD student or researcher in Human-Computer Interaction and Artificial Intelligence",
+        "reader_expertise": "4/5"
+    },
+    {   
+        "reader_id": "rid1",
+        "reader_description": "Sophomore in Computer Science, with experience in Software Engineering",
+        "reader_expertise": "2/5"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {   
+        "reader_id": "rid0",
+        "reader_description": "PhD student or researcher in Human-Computer Interaction and Artificial Intelligence. The reader has a few papers in top-tier conferences where they used their knowledge of Natural Language Processing, Machine Learning, HCI and software engineering to build and evaluate interactive systems."
+    },
+    {   
+        "reader_id": "rid1",
+        "reader_description": "Sophomore in Computer Science, with experience in Software Engineering. The reader has taken a few courses and worked on some class projects in Machine Learning and Software Engineering, and is interested in learning more about the fields."
+    }, 
+	{   
+        "reader_id": "rid2",
+        "reader_description": "A science and technology reporter who has writes about AI and its impacts on culture and society. The reader has written both shorter and feature stories for outlets like New Scientist, Scientific American, and others. They have some familiarity with basic ideas and concepts in AI, but do not necessarily know technical system details or inner functionings of most systems."
+    }
+]

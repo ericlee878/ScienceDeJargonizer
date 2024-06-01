@@ -1,0 +1,770 @@
+{
+    "0":{
+        "arxiv_id":"2403.16190v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"reject option strategy, formal guarantees, minimality of explanations",
+        "human_jargon_list":"correctness,minimality,Anchors"
+    },
+    "1":{
+        "arxiv_id":"2403.16190v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"linear classification problems, reject option strategy, logic-based approach, formal guarantees, minimality of explanations, heuristic algorithm",
+        "human_jargon_list":"reject option strategy,Anchors,heuristic algorithm"
+    },
+    "2":{
+        "arxiv_id":"2307.05300v4",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"cognitive synergist, fine-grained personas, factual hallucination",
+        "human_jargon_list":"multi-turn,persona"
+    },
+    "3":{
+        "arxiv_id":"2307.05300v4",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"cognitive synergy, cognitive synergist, multi-turn self-collaboration, dynamically identifying and simulating, fine-grained personas, factual hallucination",
+        "human_jargon_list":"Solo Performance Prompting,multi-turn,Chain-of-Thought,"
+    },
+    "4":{
+        "arxiv_id":"2403.16750v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Common Weakness Enumerations (CWEs), SystemVerilog, Regenerative Artificial Intelligence, Large Language Models (LLMs), formal verification, SystemVerilog Register Transfer Level (RTL) code",
+        "human_jargon_list":"common weakeness enumerations,SystemVerilog,Regenrative Artificial Intelligence,formal verification,Register Transfer Level (RTL) code,CWE-prone hardware designs"
+    },
+    "5":{
+        "arxiv_id":"2403.16750v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Common Weakness Enumerations (CWEs), formal verification, SystemVerilog, Regenerative Artificial Intelligence (AI), Large Language Models (LLMs), vulnerable, CWE-free, SystemVerilog Register Transfer Level (RTL) \u043a\u043e\u0434",
+        "human_jargon_list":"Common Weakness Enumerations,SystemVerilog,Regenerative Artificial\nIntelligence,SystemVerilog Register Transfer Level,"
+    },
+    "6":{
+        "arxiv_id":"2311.10112v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"temporal knowledge graphs, embedding-based, zero-shot relations, large language models, LLM-empowered representations, embedding space, TKGF models",
+        "human_jargon_list":"temporal knowledge graphs,embedding-based TKGF methods,TKG forecasting"
+    },
+    "7":{
+        "arxiv_id":"2311.10112v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"temporal knowledge graphs,embedding-based,hidden representations,zero-shot relations,large language models,LLM-empowered representations,embedding space,TKGF models",
+        "human_jargon_list":"temporal knowledge graphs,embedding-based,zero-shot relations,"
+    },
+    "8":{
+        "arxiv_id":"2310.08992v3",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"HumanEval, MBPP benchmarks, pass@1 improvements, APPS, CodeContests, WizardCoder",
+        "human_jargon_list":"pass@1,APPS,CodeContests"
+    },
+    "9":{
+        "arxiv_id":"2310.08992v3",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"HumanEval, MBPP benchmarks, monolithic code, modularized code, abstraction, CodeChain, inference, eliciting, chain-of-thought prompting, chain of self-revisions, cluster representatives, pass@1 improvements, APPS, CodeContests, ablation studies",
+        "human_jargon_list":"HumanEval,MBPP,monolithic,modularized code,"
+    },
+    "10":{
+        "arxiv_id":"2402.09565v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"target nodes, background nodes, Graph-Skeleton1 model, skeleton graph",
+        "human_jargon_list":"background nodes,massive background nodes compression,structural connectivity,taget-background local structures"
+    },
+    "11":{
+        "arxiv_id":"2402.09565v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"web graph mining, graph model design, target nodes, background nodes, massive background nodes compression, structural connectivity, feature correlation, Graph-Skeleton1 model, semantic and topological information, skeleton graph",
+        "human_jargon_list":"background nodes,MAG240M dataset,"
+    },
+    "12":{
+        "arxiv_id":"2007.00714v4",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"DAG, intrinsic information, structure-preserving interventions, Shapley based symmetrization, ANOVA, target metrics",
+        "human_jargon_list":"structure-preserving interventions,relabelling nodes,Shapley based symmetrization,"
+    },
+    "13":{
+        "arxiv_id":"2007.00714v4",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"DAG, structure-preserving interventions, Shapley based symmetrization, ANOVA, variance and entropy, gcm",
+        "human_jargon_list":"target node,DAG,upstream noise terms,structure-preserving interventions,perturb,joint distribution,Shapley based symmetrization,ANOVA,"
+    },
+    "14":{
+        "arxiv_id":"2311.02760v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"causality graph, Actor-Critic-based agent, large action spaces, sparse rewards, ablation study, binary causal questions, naive breadth-first search",
+        "human_jargon_list":"relations' provenance data,large action spaces,sparse rewards,"
+    },
+    "15":{
+        "arxiv_id":"2311.02760v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"causality graph, reinforcement learning, link prediction, fact-checking, Actor-Critic-based agent, supervised learning, large action spaces, sparse rewards, binary causal questions, ablation study, naive breadth-first search",
+        "human_jargon_list":"causality graph,provenance data,reinforcement learning,knowledge graph tasks,link prediction,supervised learning procedure,ablation study,"
+    },
+    "16":{
+        "arxiv_id":"2403.17358v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Lagrangian-guided Monte Carlo tree search, global dual ascent, constrained partially observable Markov decision processes, myopic action selection, history-dependent dual variables, recursive dual ascent, suboptimal decision making",
+        "human_jargon_list":"Lagrangian-guided Monte Carlo tree search,global dual ascent,large constrained partially observable Markov decision\nprocesses (CPOMDPs),myopic action selection,recursive dual ascent"
+    },
+    "17":{
+        "arxiv_id":"2403.17358v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Lagrangian-guided Monte Carlo tree search, global dual ascent, constrained partially observable Markov decision processes (CPOMDPs), myopic action selection, history-dependent dual variables, recursive dual ascent, suboptimal decision making, local action selection, motivating toy example, safer outcomes",
+        "human_jargon_list":"Lagrangian-guided Monte Carlo tree search,global dual ascent,Markov decision\nprocesses,myopic action selection,"
+    },
+    "18":{
+        "arxiv_id":"2403.04124v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"loss landscape, weight flatness, perturbation-aware min-max optimization, flatness-guided sparse prefix-tuning, weight knowledge distillation, black-box and white-box scenarios, DP characteristics, privacy budget $\\epsilon=3$",
+        "human_jargon_list":"generalization degradation,appropriate weight flatness,perturbation-aware\nmin-max optimization,flatness-guided sparse prefix-tuning,weight knowledge distillation,privacy budget"
+    },
+    "19":{
+        "arxiv_id":"2403.04124v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Differential Privacy, generalization degradation, flatness of DP-trained models' loss landscape, holistic framework, weight flatness, perturbation-aware min-max optimization, flatness-guided sparse prefix-tuning, weight knowledge distillation, black-box and white-box scenarios, DP characteristics, non-private full fine-tuning, privacy budget",
+        "human_jargon_list":"Differential Privacy,generalization degradation,flatness,coarse-to-grained,perturbation-aware,min-max optimization,prefix-tuning,weight knowledge distillation,black-box and white-box scenarios,QNLI,"
+    },
+    "20":{
+        "arxiv_id":"2402.07398v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Multi-Modal Language Models, zero-shot learning, In-Context Learning, visual feature extraction modules, FlanT5, Vicuna, TextVQA, HatefulMemes",
+        "human_jargon_list":"visual feature extraction modules,TextVQA,HatefulMemes"
+    },
+    "21":{
+        "arxiv_id":"2402.07398v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Multi-Modal Language Models, zero-shot learning, In-Context Learning, visual feature extraction modules, FlanT5, Vicuna, TextVQA, HatefulMemes",
+        "human_jargon_list":"Multi-Modal Language Models,zero-shot learning,zero-shot abilities,multi-modal,In-Context Learning,visual perception,linguistic\nexpression,FlanT5,Vicuna,TextVQA and HatefulMemes datasets"
+    },
+    "22":{
+        "arxiv_id":"2309.03685v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"schema, ontology, RDFS, OWL constructs, description logic (DL) reasoner, graph-based machine learning",
+        "human_jargon_list":"description logic (DL) reasoner"
+    },
+    "23":{
+        "arxiv_id":"2309.03685v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Knowledge graphs, schema, ontology, RDFS, OWL constructs, description logic (DL) reasoner, graph-based machine learning, KG processing",
+        "human_jargon_list":"Knowledge graphs,schema,PyGraft,domain-agnostic,RDFS and OWL constructs,description logic (DL) reasoner"
+    },
+    "24":{
+        "arxiv_id":"2301.13755v3",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"tree-shaped MDP, Planning with Dual Value Networks (PDVN), value networks",
+        "human_jargon_list":"single-step reaction predictors,multi-step planners,tree-shaped MDP,synthesizability,synthesis routes"
+    },
+    "25":{
+        "arxiv_id":"2301.13755v3",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Retrosynthesis, single-step reaction predictors, multi-step planners, tree-shaped MDP, Planning with Dual Value Networks (PDVN), value networks, synthesizability, two-branch network structure, USPTO dataset, Retro*, RetroGraph",
+        "human_jargon_list":"Retrosynthesis,single-step reaction predictors,multi-step planners,single-step accuracy,reinforcement learning,single-step predictor,tree-shaped MDP,Planning with Dual Value Networks,USPTO dataset,Retro*,RetroGraph"
+    },
+    "26":{
+        "arxiv_id":"2312.14106v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"representational alignment, value alignment, domain shifts, few-shot learning, multi-armed bandit setting, synthetic experiment, textual action descriptions, similarity judgments, model-agnostic, ethically relevant context",
+        "human_jargon_list":"domain shifts,moral acceptability,"
+    },
+    "27":{
+        "arxiv_id":"2312.14106v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"representational alignment, value alignment, domain shifts, few-shot learning, multi-armed bandit, synthetic experiment, textual action descriptions, similarity judgments, model-agnostic",
+        "human_jargon_list":"ML agents,multi-armed bandit setting,"
+    },
+    "28":{
+        "arxiv_id":"2312.00812v4",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"long-tail unforeseen driving scenarios, non-interpretability, out-of-distribution, Large Language Models, LLM-conditioned Model Predictive Control, LLM-enabled interactive behavior planning scheme, state machine",
+        "human_jargon_list":"safety verifier shield,contextual safety learning,Model Predictive Control (MPC),behavior planning scheme,"
+    },
+    "29":{
+        "arxiv_id":"2312.00812v4",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"long-tail unforeseen driving scenarios, non-interpretability, out-of-distribution, uncertain data, Large Language Models, behavioral planning, safety verifier shield, contextual safety learning, LLM-conditioned Model Predictive Control, LLM-enabled interactive behavior planning, state machine",
+        "human_jargon_list":"non-interpretability,generalization,deep neural networks,out-of-distribution,uncertain data,behavioral\nplanning,LLM-conditioned Model\nPredictive Control,LLM-enabled interactive behavior planning scheme,"
+    },
+    "30":{
+        "arxiv_id":"2403.04732v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"in-context learning, self-consistency, Chain-of-thoughts (CoT), multi-hop relational and deductive reasoning, confounding abstract patterns",
+        "human_jargon_list":"Raven's Progressiive Matrices (RPMs),multi-hop relational and deductive reasoning,self-consistency,"
+    },
+    "31":{
+        "arxiv_id":"2403.04732v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Vision-Language Models (VLMs), vision-based deductive reasoning, SOTA VLMs, Raven's Progressive Matrices (RPMs), multi-hop relational and deductive reasoning, in-context learning, self-consistency, Chain-of-thoughts (CoT), visual deductive reasoning, confounding abstract patterns",
+        "human_jargon_list":"Vision-Language Models,vision language,SOTA VLM,Raven's Progressive Matrices,multi-hop,Chain-of-thoughts,Mensa IQ test,IntelligenceTest,RAVEN,"
+    },
+    "32":{
+        "arxiv_id":"2307.03067v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"ontology engineering, ontology alignment, ontology completion, verbalisation, normalisation, taxonomy, projection, OWL API, Jena, pre-trained LMs, Digital Health Coaching, Bio-ML track of the Ontology Alignment Evaluation Initiative (OAEI)",
+        "human_jargon_list":"verbalisation,normalisation,projection"
+    },
+    "33":{
+        "arxiv_id":"2307.03067v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"deep learning techniques, language models, knowledge representation, ontologies, OWL API, Jena, ontology processing, downstream deep learning-based applications, ontology APIs, ontology engineering, core ontology unique module, reasoning, verbalisation, normalisation, taxonomy, projection, ontology alignment, pre-trained LMs, Digital Health Coaching, Bio-ML track, Ontology Alignment Evaluation Initiative (OAEI)",
+        "human_jargon_list":"ontologies,OWL API,Jena,ontology\nprocessing features,downstream deep\nlearning-based applications,ontology API,PyTorch,Tensorflow,DeepOnto,verbalisation,normalisation,taxonomy,projection,"
+    },
+    "34":{
+        "arxiv_id":"2403.17873v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Social Transparency, epistemic injustice, unwarranted trust",
+        "human_jargon_list":"Social Transparency (ST) framework,W-question"
+    },
+    "35":{
+        "arxiv_id":"2403.17873v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Human-centered explainable AI (HCXAI), Social Transparency (ST) framework, social misattributions, epistemic injustice, unwarranted trust",
+        "human_jargon_list":"Human-centered explainable AI,Social\nTransparency (ST) framework,social misattributions,epistemic injustice,"
+    },
+    "36":{
+        "arxiv_id":"2403.15875v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"zero-shot time series (TS) classification, univariate TS datasets, UCR archive, feature representation capacity, maximum input token threshold",
+        "human_jargon_list":"zero-shot time series (TS) classification,UCR archive,feature representation capacity,maximum input token threshold,PLMs"
+    },
+    "37":{
+        "arxiv_id":"2403.15875v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"pre-trained language models, zero-shot time series (TS) classification, univariate TS datasets, UCR archive, feature representation capacity, maximum input token threshold",
+        "human_jargon_list":"LanguAge Model with Prompt EngineeRing,pre-trained language models,zero-shot time series (TS) classification,univariate TS datasets,UCR archive,maximum input token threshold"
+    },
+    "38":{
+        "arxiv_id":"2403.16508v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"WL algorithm, lifted planning tasks, $h^{\\text{FF}}$ heuristic, LAMA, Description Logic Features for planning",
+        "human_jargon_list":"classical planners,lifted planning tasks,WL algorithm,FF heuristic,learning for planning model,Description Logic Features"
+    },
+    "39":{
+        "arxiv_id":"2403.16508v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"lifted planning tasks, WL algorithm, $h^{\\text{FF}}$ heuristic, LAMA, Description Logic Features for planning",
+        "human_jargon_list":"classical planners,graph representations,WL algorithm,magnitude,WL-GOOSE,LAMA,flavoured learning architectures,Description Logic Features"
+    },
+    "40":{
+        "arxiv_id":"2403.16289v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"SafetyOps, HARA, design science",
+        "human_jargon_list":"requirement artifacts,decomposing requirements,requirement dataset"
+    },
+    "41":{
+        "arxiv_id":"2403.16289v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"requirement artifacts, SafetyOps, Large Language Models (LLMs), refining and decomposing requirements, prototype of a pipeline of prompts and LLMs, item definition, safety requirements, requirement dataset, HARA, design science, case company",
+        "human_jargon_list":"SafetyOps,HARA,"
+    },
+    "42":{
+        "arxiv_id":"2403.17419v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"AI safety, digital footprint of AI safety, structural harm",
+        "human_jargon_list":""
+    },
+    "43":{
+        "arxiv_id":"2403.17419v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"AI safety, digital footprint of AI safety, structural harm",
+        "human_jargon_list":"AI safety,veneer"
+    },
+    "44":{
+        "arxiv_id":"2402.01786v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Courses of Action (COAs),in-context learning,military doctrine,domain expertise,state-of-the-art reinforcement learning algorithms,militarized version of the StarCraft II game,planning discrepancies,emergent windows of opportunities",
+        "human_jargon_list":"Courses of Action (COAs),"
+    },
+    "45":{
+        "arxiv_id":"2402.01786v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Courses of Action (COAs),in-context learning,military doctrine,domain expertise,reinforcement learning algorithms,military-relevant scenario,militarized version of the StarCraft II game,planning discrepancies,emergent windows of opportunities",
+        "human_jargon_list":"Courses of Action,COA-GPT,commander feedback"
+    },
+    "46":{
+        "arxiv_id":"2403.10112v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"active hypothesis testing, NeuroEvolution (NE), collaborative multi-agent tasks, single-agent NE, EAHT approaches",
+        "human_jargon_list":"centralized problem,legitimate agent,decentralized problem,NeuroEvolution (NE),collaborative multi-agent tasks,EAHT approaches,"
+    },
+    "47":{
+        "arxiv_id":"2403.10112v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"active hypothesis testing, eavesdropper, NeuroEvolution (NE), collaborative multi-agent tasks, EAHT approaches, anomaly detection, wireless sensor networks",
+        "human_jargon_list":"centralized and one decentralized problem,single legitimate agent,NeuroEvolution,multi-agent tasks,EAHT,wireless sensor networks"
+    },
+    "48":{
+        "arxiv_id":"2403.07131v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Capsule Attention policy model, Multihead Attention based decoders, LogNormal distribution matrix, bigraph matching approach, GRL-derived incentive",
+        "human_jargon_list":"Multi-Robot Task Allocation (MRTA) problems,Graph Reinforcement Learning (GRL) framework,bipartite graph matching approach,,Capsule Attention policy mode,robots' state graph,positive bigraph weights,learned incentive policy,expert-specified incentive"
+    },
+    "49":{
+        "arxiv_id":"2403.07131v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Multi-Robot Task Allocation, heuristics-aided methods, genetic algorithms, auction-based methods, bipartite graph matching methods, end-to-end (learnt) neural network based policy, Graph Reinforcement Learning, Capsule Attention policy model, Multihead Attention based decoders, LogNormal distribution matrix, bigraph weights, bigraph matching approach, expert-specified heuristics, learned incentive policy, expert-specified incentive",
+        "human_jargon_list":"Multi-Robot Task Allocation,heuristics-aided\nmethods,genetic algorithms,auction-based methods,bipartite graph matching methods,neural network based policy,Graph Reinforcement Learning (GRL) framework,bipartite graph matching approach,Capsule Attention policy model,original capsule attention network architecture,Multihead Attention based decoders,LogNormal distribution matrix,positive bigraph weights,GRL-derived incentive,expert-specified heuristics"
+    },
+    "50":{
+        "arxiv_id":"2403.05112v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"visual perimetry, light stimuli, visual field mapping, reinforcement learning-based approach, reward shaping techniques, convolutional kernels, spatial features",
+        "human_jargon_list":"reward shaping\ntechniques,initial stimulus values,"
+    },
+    "51":{
+        "arxiv_id":"2403.05112v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"visual perimetry, light stimuli, visual field mapping, RLPeri, reinforcement learning-based approach, reward shaping techniques, 3D matrices, convolutional kernels",
+        "human_jargon_list":"Visual perimetry,ocular or neurological conditions,RLPeri,convolutional kernels,spatial features,"
+    },
+    "52":{
+        "arxiv_id":"2403.00431v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"robotic process automation (RPA), environmental, social, and governance (ESG) factors, contingency table analysis, Pearson's Chi-square Test of Independence",
+        "human_jargon_list":"robotic process automation (RPA),contingency table analysis"
+    },
+    "53":{
+        "arxiv_id":"2403.00431v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"robotic process automation (RPA), environmental, social, and governance (ESG) factors, contingency table analysis, Pearson's Chi-square Test of Independence, p-value, significance level",
+        "human_jargon_list":"robotic process automation (RPA),Pearson's Chi-square Test of Independence,"
+    },
+    "54":{
+        "arxiv_id":"2403.17911v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"domain-specific strategies, model outputs, interaction, return on investments",
+        "human_jargon_list":""
+    },
+    "55":{
+        "arxiv_id":"2403.17911v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"domain-specific strategies, model outputs, interaction, return on investments, specialized metrics",
+        "human_jargon_list":""
+    },
+    "56":{
+        "arxiv_id":"2403.11952v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Open Government Data (OGD), OGD ecosystem, OGD portal, open data ecosystem, municipal OGD, open data ecosystem",
+        "human_jargon_list":""
+    },
+    "57":{
+        "arxiv_id":"2403.11952v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Open Government Data (OGD), OGD ecosystem, OGD portal, open data ecosystem, legislation amendments, municipal OGD",
+        "human_jargon_list":"Open Government Data (OGD),"
+    },
+    "58":{
+        "arxiv_id":"2403.08451v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"open government data (OGD) portals, data literacy, data quality metrics",
+        "human_jargon_list":""
+    },
+    "59":{
+        "arxiv_id":"2403.08451v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"open government data (OGD) portals, data literacy, OGD portal effectiveness, data quality metrics",
+        "human_jargon_list":"open government data (OGD),European Union and Gulf Cooperation Council (GCC) countries"
+    },
+    "60":{
+        "arxiv_id":"2403.14686v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Bayesian network analysis",
+        "human_jargon_list":"Bayesian network analysis,blended learning environments,"
+    },
+    "61":{
+        "arxiv_id":"2403.14686v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"pedagogical incentives, mixed methods approach, learning analytics, Bayesian network analysis, Moodle activity logs, resource interactions, longitudinal overview, interpretive and actionable model, blended learning environments",
+        "human_jargon_list":"pedagogical,Bayesian network analysis,Moodle activity logs,"
+    },
+    "62":{
+        "arxiv_id":"2403.07082v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"computer-supported collaborative learning (CSCL), asynchronous group brainstorming session, instantaneous question-answering agent",
+        "human_jargon_list":""
+    },
+    "63":{
+        "arxiv_id":"2403.07082v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"computer-supported collaborative learning (CSCL), asynchronous group brainstorming, instantaneous question-answering agent",
+        "human_jargon_list":"(CSCL) environment,asynchronous group brainstorming session,"
+    },
+    "64":{
+        "arxiv_id":"2401.09210v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"theoretical framework of moral narratives,semantic coherence",
+        "human_jargon_list":"moral narratives,"
+    },
+    "65":{
+        "arxiv_id":"2401.09210v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"social science theories, frameworks, empirical evaluation, pro-environmental action, operationalize, theoretical framework, moral narratives, text processing, narrative types, semantic coherence, collective action, communication strategies",
+        "human_jargon_list":"semantic\ncoherence"
+    },
+    "66":{
+        "arxiv_id":"2308.10148v3",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"No jargon found.",
+        "human_jargon_list":""
+    },
+    "67":{
+        "arxiv_id":"2308.10148v3",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Activity Controls,Web & App Activity,Location History,YouTube History",
+        "human_jargon_list":""
+    },
+    "68":{
+        "arxiv_id":"2403.02908v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"intangible cultural artifacts, digital preservation",
+        "human_jargon_list":""
+    },
+    "69":{
+        "arxiv_id":"2403.02908v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"No jargon terms identified.",
+        "human_jargon_list":""
+    },
+    "70":{
+        "arxiv_id":"2310.06155v3",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"breadth-first RQ generation, depth-first RQ generation",
+        "human_jargon_list":"breadth-first,depth-first RQ generation"
+    },
+    "71":{
+        "arxiv_id":"2310.06155v3",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"human-AI co-creation, Large Language Models (LLMs), LLM-based agent system, breadth-first and depth-first RQ generation, mental model for human-AI co-creation, biases and over-reliance on AI",
+        "human_jargon_list":"research questions,breadth-first and depth-first RQ generation,"
+    },
+    "72":{
+        "arxiv_id":"2403.01783v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"diffractive analysis, Stable Diffusion",
+        "human_jargon_list":"diffractice analysis"
+    },
+    "73":{
+        "arxiv_id":"2403.01783v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"prompt-based generative AI, generative imagery, CHI community, diffractive analysis, prompt-based interfaces, personalised instance, Stable Diffusion, fine-tuned, ethical design considerations",
+        "human_jargon_list":"CHI community,diffractive analysis,Stable Diffusion,ideation"
+    },
+    "74":{
+        "arxiv_id":"2403.08940v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Additive manufacturing, volumetric imaging, collaborative virtual reality, real-time synchronization, Nielsen's heuristics approach",
+        "human_jargon_list":"Additive manufacturing (AM),Nielsen's heuristics approach,"
+    },
+    "75":{
+        "arxiv_id":"2403.08940v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Additive manufacturing, volumetric imaging, X-ray CT, collaborative virtual reality, real-time synchronization, Nielsen's heuristics approach, exploratory and semi-structured interviews",
+        "human_jargon_list":"Additive manufacturing,volumetric imaging,collaborative virtual reality,Nielsen's heuristics approach"
+    },
+    "76":{
+        "arxiv_id":"2403.10851v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"gustosonic eating system, wireless earbuds for sensing different eating and drinking actions, machine learning algorithm, playful sounds, stimulation, hedonism, reflexivity, playful human-food interactions",
+        "human_jargon_list":"gustosonic eating system,stimulation,hedonism,reflexivity"
+    },
+    "77":{
+        "arxiv_id":"2403.10851v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"human-food interaction, gustosonic eating system, wireless earbuds for sensing different eating and drinking actions, machine learning algorithm, playful sounds, pleasurable eating experiences, stimulation, hedonism, reflexivity, playful human-food interactions",
+        "human_jargon_list":"GustosonicSense,hedonism,reflexivity"
+    },
+    "78":{
+        "arxiv_id":"2403.04760v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"score provenance",
+        "human_jargon_list":"score provenance"
+    },
+    "79":{
+        "arxiv_id":"2403.04760v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"large language models,unprecedented size,expanding number of parameters,aggregating large text inputs,score provenance,scaling LLM interpretability methods,interactive visual analytics tool,multiple levels of abstraction,qualitative interviews",
+        "human_jargon_list":"score provenance,iScore,"
+    },
+    "80":{
+        "arxiv_id":"2403.09308v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"large language models, prompt processing, waypoint generation, Augmented Reality, expressive robot behavior, skill generation",
+        "human_jargon_list":"expressive robot behavior,skill generation"
+    },
+    "81":{
+        "arxiv_id":"2403.09308v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"robot deployment, prompt processing, workspace understanding, waypoint generation, visual feedback, pick-and-place task, expressive robot behavior, skill generation, object grasping",
+        "human_jargon_list":"workspace understanding,waypoint generation,pick-and-place task"
+    },
+    "82":{
+        "arxiv_id":"2403.02928v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"dynamic user preferences, human-on-the-loop, feedback-driven adaptation, algorithm-driven adjustments",
+        "human_jargon_list":"feedback-driven adaptation"
+    },
+    "83":{
+        "arxiv_id":"2403.02928v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"dynamic user preferences, ``human-on-the-loop'', feedback-driven adaptation, algorithm-driven adjustments",
+        "human_jargon_list":"dynamism,human-on-the-loop,"
+    },
+    "84":{
+        "arxiv_id":"2403.07997v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"context-aware policies, Extended Reality, immersive visualizations, simulated unit test cases, computational approach",
+        "human_jargon_list":"context-aware policies"
+    },
+    "85":{
+        "arxiv_id":"2403.07997v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"context-aware policies, Extended Reality (XR), simulated unit test cases, computational approach, immersive visualizations, system usability",
+        "human_jargon_list":"context-aware policies,Fast-Forward Reality,Extended Reality"
+    },
+    "86":{
+        "arxiv_id":"2403.06267v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"pairwise comparisons of robot task trajectories, Feature-Augmented Robot trajectory Preference Labeling System, video keyframes, labeling order, trajectory pair, between-subjects study, robot pick-and-place trajectories",
+        "human_jargon_list":"robot task trajectories"
+    },
+    "87":{
+        "arxiv_id":"2403.06267v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"pairwise comparisons, robot task trajectories, preference labeling systems, labelers, non-salient task features, preference elicitation process, mental fatigue, Feature-Augmented Robot trajectory Preference Labeling System, outliers, task features, video keyframes, labeling order, disagreements, labelers' consistency, between-subjects study, robot pick-and-place trajectories, labeling consistency, preference elicitation, cognitive loads",
+        "human_jargon_list":"Preference-based learning,non-salient,FARPLS,trajectory pair,cognitive loads"
+    },
+    "88":{
+        "arxiv_id":"2403.06039v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"qualitative analysis",
+        "human_jargon_list":""
+    },
+    "89":{
+        "arxiv_id":"2403.06039v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"generative artificial intelligence, qualitative analysis, content domains, user-generated content",
+        "human_jargon_list":""
+    },
+    "90":{
+        "arxiv_id":"2403.06823v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"5W1H framework",
+        "human_jargon_list":"5W1H framework"
+    },
+    "91":{
+        "arxiv_id":"2403.06823v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Generative Artificial Intelligence, AI-generated media, European AI Act, Article 52's AI transparency obligations, participatory AI approach, 5W1H framework, disclosure transparency, human-centered AI lens",
+        "human_jargon_list":"European AI Act,5W1H framework"
+    },
+    "92":{
+        "arxiv_id":"2402.09494v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"mental-behavioral methodology,black-box algorithms,standard deep neural networks",
+        "human_jargon_list":""
+    },
+    "93":{
+        "arxiv_id":"2402.09494v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"mental-behavioral methodology, mental capacities, experimental paradigms, black-box algorithms",
+        "human_jargon_list":"mental-behavioral methodology"
+    },
+    "94":{
+        "arxiv_id":"2403.06431v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"participation brokers, ML artefact",
+        "human_jargon_list":""
+    },
+    "95":{
+        "arxiv_id":"2403.06431v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"participation brokers, messy contextual information, structured data formats, uneven power dynamics, indirect stakeholders",
+        "human_jargon_list":"Participatory machine learning,"
+    },
+    "96":{
+        "arxiv_id":"2403.06034v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"retributive moderation, restorative moderation",
+        "human_jargon_list":"retributive,restorative moderation strategies"
+    },
+    "97":{
+        "arxiv_id":"2403.06034v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"perceived justice, restorative moderation, retributive moderation, commercially moderated platforms, user-moderated platforms, moderation system design",
+        "human_jargon_list":"retributive versus restorative moderation strategies"
+    },
+    "98":{
+        "arxiv_id":"2403.06651v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"SoniWeight Shoes, multisensory feedback, manipulated footstep sounds, extensive body perception measures, personalized sonification strategies, body map quantification tools",
+        "human_jargon_list":""
+    },
+    "99":{
+        "arxiv_id":"2403.06651v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"multisensory feedback, auditory feedback, SoniWeight Shoes, manipulated footstep sounds, eating disorder symptomatology, physical activity levels, body concerns, mental imagery capacities, sound conditions, extensive body perception measures, demographic, behavioral, physiological, psychological, subjective, personalized sonification strategies, body map quantification tools",
+        "human_jargon_list":"multisensory feedback,SoniWeight Shoes"
+    },
+    "100":{
+        "arxiv_id":"2403.08041v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Plato's allegory of the cave, theory of forms, virtue ethics, eudaimonia",
+        "human_jargon_list":""
+    },
+    "101":{
+        "arxiv_id":"2403.08041v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Platonic, Aristotelian philosophies, Plato's allegory of the cave, theory of forms, Aristotle's virtue ethics, eudaimonia, hero's journey, altruistic actions, badge levels, user autonomy",
+        "human_jargon_list":"Gamification,Platonic and Aristotelian philosophies,moderation,eudaimonia,altruistic actions"
+    },
+    "102":{
+        "arxiv_id":"2403.12344v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"psychological, physiological, ergonomic factors, human performance, well-being",
+        "human_jargon_list":""
+    },
+    "103":{
+        "arxiv_id":"2403.12344v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"human factors, physiological, ergonomic, interdisciplinary collaboration, adaptation to the space environment",
+        "human_jargon_list":"ergonomic"
+    },
+    "104":{
+        "arxiv_id":"2403.19436v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"neoliberalism, entrepreneurial self, platformized self, semi-structured interviews, design implications",
+        "human_jargon_list":""
+    },
+    "105":{
+        "arxiv_id":"2403.19436v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"acceptance rate, punctuality, semi-structured interviews, accountabilities, entrepreneurial self, platformized self, neoliberalism, invisible labor, information and power asymmetries, design implications, multi-dimensional self-tracking",
+        "human_jargon_list":"gig economy,dearthneoliberalism,"
+    },
+    "106":{
+        "arxiv_id":"2401.10838v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"LLM-powered, gist-level manipulation, gist extraction, macro revision, LLM-assisted macro revisions, respeak, verbal composition tasks",
+        "human_jargon_list":"gist-level manipulation"
+    },
+    "107":{
+        "arxiv_id":"2401.10838v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"LLM-powered, gist-level manipulation, gist extraction, macro revision, LLM-assisted macro revisions, verbal composition tasks, iterative revisions",
+        "human_jargon_list":"Rambler,gist-level manipulation,gist extraction and macro revision,"
+    },
+    "108":{
+        "arxiv_id":"2403.16018v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"referent layout, in-situ, size-matching task, in-situ layouts, Linear regression analyses, data scale, immersive visualizations",
+        "human_jargon_list":""
+    },
+    "109":{
+        "arxiv_id":"2403.16018v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Referents, immersive visualizations, referent layout, referent size, controlled user study, scale perception, data scales, size-matching task, virtual environment, in-situ layouts, Linear regression analyses",
+        "human_jargon_list":"Referents,side-by-side,in-situ,"
+    },
+    "110":{
+        "arxiv_id":"2403.03822v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"higher-order patterns, origin-destination analysis, first-order geospatial movement patterns, directed acyclic graph (DAG), higher-order movement modeling, higher-order state sequence chart, auto-adaptive movement aggregation algorithm, interactive visual analytics interface, H-Flow",
+        "human_jargon_list":"sequential multistep state transitions,origin-destination analysis,auto-adaptive movement aggregation\nalgorithm,H-Flow"
+    },
+    "111":{
+        "arxiv_id":"2403.03822v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"higher-order patterns, sequential multistep state transitions, origin-destination analysis, first-order geospatial movement patterns, directed acyclic graph (DAG), higher-order movement modeling, identification of movement keypoints, temporal variants, auto-adaptive movement aggregation algorithm, interactive visual analytics interface, H-Flow, higher-order state sequence chart",
+        "human_jargon_list":"sequential multistep state transitions,origin-destination analysis,first-order geospatial movement patterns,directed acyclic graph,sparse movements,temporal variants,HoLens,temporal variability,H-Flow,"
+    },
+    "112":{
+        "arxiv_id":"2403.08057v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"MineXR, design mining workflow, personalized XR user interaction, XR widget functionalities, XR widget categories, XR widget clusters, UI element types",
+        "human_jargon_list":""
+    },
+    "113":{
+        "arxiv_id":"2403.08057v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Extended Reality (XR), design mining workflow, personalized XR user interaction and experience data, XR widgets, UI element types",
+        "human_jargon_list":"Extended Reality,MineXR,"
+    },
+    "114":{
+        "arxiv_id":"2403.12730v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"fine-grained validation framework, sociotechnical systems, technical building blocks, user-facing explanatory artefacts, social communication protocols, explanation generation mechanisms, predominantly algorithmic validation strategy, human-centred desiderata, sociotechnical utility-based evaluation framework",
+        "human_jargon_list":""
+    },
+    "115":{
+        "arxiv_id":"2403.12730v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"sociotechnical systems, explanatory artefacts, social communication protocols, explanation generation mechanisms, human-centred desiderata, sociotechnical utility-based evaluation framework",
+        "human_jargon_list":"sociotechnical systems,"
+    },
+    "116":{
+        "arxiv_id":"2403.18173v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Large Language Models (LLMs), GPT-3.5 (text-davinci-003), Llama-2-70b, mean absolute error",
+        "human_jargon_list":""
+    },
+    "117":{
+        "arxiv_id":"2403.18173v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Large Language Models,structured text analysis techniques,methodological validity,ethical guidelines",
+        "human_jargon_list":""
+    },
+    "118":{
+        "arxiv_id":"2403.01697v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"Tangshan beating incident, mixed methods, gender-blind sexism, grassroots feminist activism, Chinese cyberspace, digital feminist activism",
+        "human_jargon_list":""
+    },
+    "119":{
+        "arxiv_id":"2403.01697v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"dichotomized debate, gender-blind sexism, grassroots feminist activism, Chinese cyberspace, digital feminist activism",
+        "human_jargon_list":"Tangshan beating incident,Weibo,grassroots feminist activism"
+    },
+    "120":{
+        "arxiv_id":"2403.01055v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"LLM views, UI affordances, contextually adaptive views, scaffolding for prompt selection and customization, formative user study, interaction design challenges, prompt engineering, context management",
+        "human_jargon_list":""
+    },
+    "121":{
+        "arxiv_id":"2403.01055v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"UI affordances, contextually adaptive views, scaffolding, prompt engineering, context management",
+        "human_jargon_list":"Textfocals"
+    },
+    "122":{
+        "arxiv_id":"2305.11927v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"model opacity, teacher in the loop, CV classification and detection models, baseline condition",
+        "human_jargon_list":""
+    },
+    "123":{
+        "arxiv_id":"2305.11927v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"Computer Vision (CV) models, model opacity, Interactive ML perspectives, teacher in the loop, interactive visualizations, CV classification and detection models, baseline condition, query language",
+        "human_jargon_list":"Sprite"
+    },
+    "124":{
+        "arxiv_id":"2403.00632v1",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"affective mindfulness, emotional arc, visual metaphors, experience-centred evaluation",
+        "human_jargon_list":"affective interface"
+    },
+    "125":{
+        "arxiv_id":"2403.00632v1",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"affective interface, emotional arc, metaphorical images, experience-centred evaluation",
+        "human_jargon_list":"Metamorpheus"
+    },
+    "126":{
+        "arxiv_id":"2309.15723v2",
+        "reader_id":"rid0",
+        "gpt4_jargon_list":"data storytelling tools, storytelling workflow, creators, assistants, optimizers, reviewers, collaboration patterns",
+        "human_jargon_list":""
+    },
+    "127":{
+        "arxiv_id":"2309.15723v2",
+        "reader_id":"rid1",
+        "gpt4_jargon_list":"data storytelling tools, human-AI collaboration, storytelling workflow, collaboration patterns",
+        "human_jargon_list":""
+    }
+}
