@@ -12,27 +12,29 @@
 
 ## Project Structure
 The codebase is organized into files where some files are used to pull data from arXiv and other files are used to create the application. The file structure is as follows:
+## Project Structure
 
+```bash
 .
 ├── .ipynb_checkpoints
 ├── data
-│ ├── final
-│ ├── processed
-│ └── raw
+│   ├── final
+│   ├── processed
+│   └── raw
 ├── docs
 ├── logs
 ├── models
 ├── my-app
 ├── notebooks
 ├── src
-│ ├── init.py
-│ ├── process.py
-│ ├── train_model.py
-│ └── utils.py
+│   ├── __init__.py
+│   ├── process.py
+│   ├── train_model.py
+│   └── utils.py
 ├── tests
-│ ├── init.py
-│ ├── test_process.py
-│ └── test_train_model.py
+│   ├── __init__.py
+│   ├── test_process.py
+│   └── test_train_model.py
 ├── .DS_Store
 ├── .gitignore
 ├── 240508_rag_experiment.ipynb
@@ -44,13 +46,13 @@ The codebase is organized into files where some files are used to pull data from
 ├── pyproject.toml
 ├── requirements.txt
 └── config
-├── main.yaml
-├── model
-│ ├── model1.yaml
-│ └── model2.yaml
-└── process
-├── process1.yaml
-└── process2.yaml
+    ├── main.yaml
+    ├── model
+    │   ├── model1.yaml
+    │   └── model2.yaml
+    └── process
+        ├── process1.yaml
+        └── process2.yaml
 
 
 ## Contact
