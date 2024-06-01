@@ -243,9 +243,9 @@ u {
   padding: 10px;
   position: absolute;
   z-index: 1;
-  bottom: 150%; /* Position the tooltip above the text */
+  bottom: 150%;
   left: 50%;
-  margin-left: -125px; /* Use half of the tooltip width to center it */
+  margin-left: -125px;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 0.875rem;
@@ -266,6 +266,26 @@ u {
 u:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+.tooltip em {
+  font-weight: bold;
+  color: #ffeb3b; /* Bright yellow to highlight the term */
+}
+
+.toggle-jargon-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-jargon-button:hover {
+  background-color: #1258a5;
 }
 
 @media (max-width: 600px) {

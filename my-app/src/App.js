@@ -7,24 +7,16 @@ import SignUp from './SignUp';
 import UserInfo from './UserInfo';
 
 const JargonDefinitions = ({ terms }) => {
-  const [showAll, setShowAll] = useState(false);
-  const displayedTerms = showAll ? terms : terms.slice(0, 2);
-
   return (
     <div className="jargon-definitions">
-      <h3>Jargon Terms</h3>
+      <h3>Jargon List</h3>
       <ul>
-        {displayedTerms.map((term, index) => (
+        {terms.map((term, index) => (
           <li key={index}>
             <strong>{term.word}:</strong> {term.definition}
           </li>
         ))}
       </ul>
-      {terms.length > 2 && (
-        <button onClick={() => setShowAll(!showAll)}>
-          {showAll ? 'Show Less' : 'Show More'}
-        </button>
-      )}
     </div>
   );
 };
@@ -32,7 +24,7 @@ const JargonDefinitions = ({ terms }) => {
 const underlineJargonTerms = (summary, terms) => {
   let updatedSummary = summary;
   terms.forEach(term => {
-    const tooltip = `<span class="tooltip">${term.definition}</span>`;
+    const tooltip = `<span class="tooltip"><em>${term.word}</em>: ${term.definition}</span>`;
     const regex = new RegExp(`\\b${term.word}\\b`, 'gi');
     updatedSummary = updatedSummary.replace(regex, `<u>${term.word}${tooltip}</u>`);
   });
@@ -40,7 +32,9 @@ const underlineJargonTerms = (summary, terms) => {
 };
 
 const Article = ({ title, author, date, link, summary, terms, categories, comments }) => {
+  const [showJargonList, setShowJargonList] = useState(false);
   const updatedSummary = underlineJargonTerms(summary, terms);
+
   return (
     <div className="article">
       <h2>
@@ -56,7 +50,10 @@ const Article = ({ title, author, date, link, summary, terms, categories, commen
         </p>
         {comments && <p><strong>Comments:</strong> {comments}</p>}
       </div>
-      <JargonDefinitions terms={terms} />
+      <button onClick={() => setShowJargonList(!showJargonList)} className="toggle-jargon-button">
+        {showJargonList ? 'Hide Jargon List' : 'Show Jargon List'}
+      </button>
+      {showJargonList && <JargonDefinitions terms={terms} />}
       <div className="article-footer">
         <a href={link} target="_blank" rel="noopener noreferrer">Read more</a>
       </div>
