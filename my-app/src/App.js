@@ -191,8 +191,8 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1>Science Dejargonizer</h1>
-          <p className="app-description">The Science Dejargonizer simplifies complex scientific articles by identifying and defining technical terms, making research more accessible to non-experts. Utilizing natural language processing and advanced text analysis, this system parses article metadata, extracts jargon terms, and provides clear definitions.</p>
+          <h1>Science De-jargonizer</h1>
+          <p className="app-description">The Science De-jargonizer simplifies complex scientific articles by identifying and defining technical terms, making research more accessible to non-experts. Utilizing natural language processing and advanced text analysis, this system parses article metadata, extracts jargon terms, and provides clear definitions.</p>
         </header>
         <Routes>
           <Route path="/login" element={<Login />} />
